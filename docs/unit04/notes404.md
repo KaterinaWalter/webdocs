@@ -128,7 +128,9 @@ We did two things here:
 
 ### Changing CSS Properties with JavaScript
 
-Imagine you want not only to update the text for your Soccer Practice days, but also to visually highlight them by changing their styling. Perhaps you’d like to set a new background color, adjust the text color, add some padding, and even include a border to make the days stand out.
+Imagine you want not only to update the text for your Soccer Practice days, but also to visually highlight them by **changing the styling**. Perhaps you’d like to set a new background color, adjust the text color, add some padding, and even include a border to make the days stand out.
+
+By blending JavaScript instructions with **CSS properties**, you can create interactive, visually engaging webpages. This approach lets you adapt the look and feel of your content on the fly, just as you might annotate your calendar to better highlight important events.
 
 #### Step 1: Select the Elements Using CSS Selectors
 {:.no_toc}
@@ -184,9 +186,7 @@ Even though these changes are applied dynamically via JavaScript, if you inspect
 3. **Inline vs. Class-Based Styling:**  
    The styles applied here are added directly to the elements (inline). While this is powerful for immediate changes, consider using CSS classes for larger projects to keep your styling organized.
 
----
 
-By blending JavaScript with CSS, you can create interactive, visually engaging webpages. This approach lets you adapt the look and feel of your content on the fly—just as you might adjust your calendar to better highlight important events.
 ---
 
 #### Acknowledgement
