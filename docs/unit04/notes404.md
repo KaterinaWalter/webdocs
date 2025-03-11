@@ -136,6 +136,59 @@ We did two things here:
 1. Traverse the DOM – that means we used selectors to get the elements we need: the 4 ‘week’ divs
 2. Manipulate the DOM – we actually changed the text content within the HTML elements!
 
+---
+
+Both examples below will highlight how JavaScript can traverse and manipulate the DOM:
+
+1. **Traversal and Manipulation** - You can locate specific parts of your calendar (DOM) and update their content.
+2. **Dynamic Styling** - CSS properties can be altered on the fly, allowing you to visually differentiate parts of your schedule.
+
+
+#### Example 1: Updating Week Text with querySelector
+
+This example uses both an ID and a class selector to traverse the DOM and update the text content of each week in the January month. We update the text content to "Study session".
+
+```js
+// Select the 'year' div using its ID.
+let year2018 = document.querySelector('#2018');
+
+// Within that year, select the January month using its class.
+let january = year2018.querySelector('.january');
+
+// Select all week divs inside January.
+let weeks = january.querySelectorAll('.week');
+
+// Update the text content of each week div.
+weeks.forEach(week => {
+  week.textContent = "Study session";
+});
+```
+Step 1: `document.querySelector('#2018')` retrieves the div with `id = "2018"`.
+Step 2: `.querySelector('.january')` finds the January month within that year.
+Step 3: `.querySelectorAll('.week')` gets all the week divs inside January.
+Step 4: The loop iterates over each week and updates its text content.
+
+#### Example 2: Changing CSS Properties Dynamically
+
+In this example, we modify the CSS properties of the week divs in the March month. The background color is set to light blue and the text color to dark blue.
+
+```js
+// Select the March month using its class.
+let march = document.querySelector('.march');
+
+// Get all week divs inside the March month.
+let weeksInMarch = march.querySelectorAll('.week');
+
+// Update CSS properties for each week div.
+weeksInMarch.forEach(week => {
+  week.style.backgroundColor = "lightblue";  // Change background color.
+  week.style.color = "darkblue";             // Change text color.
+});
+```
+
+Selection: document.querySelector('.march') retrieves the March month container and .querySelectorAll('.week') grabs all week divs within it.
+Styling: The style property is used to directly set CSS properties (background and text color) for each week.
+
 
 ---
 
