@@ -154,12 +154,12 @@ const weeks = january.querySelectorAll('.week');
 With our target elements selected, we can now change their CSS properties using the `style` property in JavaScript. Here’s how you can do it:
 
 ```js
-weeks.forEach(week => {
+for (let week of weeks) {
   week.style.backgroundColor = 'lightblue';  // Change the background color
   week.style.color = 'darkblue';             // Set the text color
   week.style.padding = '10px';               // Add some padding for spacing
   week.style.border = '2px solid #ccc';       // Add a border around each week element
-});
+}
 ```
 
 In this snippet, each week element in January gets styled with:
