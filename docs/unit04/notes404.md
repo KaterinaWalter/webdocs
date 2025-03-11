@@ -180,15 +180,11 @@ Even though these changes are applied dynamically via JavaScript, if you inspect
 ```html
 <div class="week" style="background-color: lightblue; color: darkblue; padding: 10px; border: 2px solid #ccc;">Soccer Practice</div>
 ```
+> The styles applied here are added directly to the elements (inline). While this is powerful for immediate changes, consider using CSS classes for larger projects to keep your styling organized.
 
-1. **Direct Styling:**  
-   By using the `style` property on each element, you can immediately change its appearance. This is useful for dynamic updates based on user interactions or other events.
+---
 
-2. **Enhanced Visual Feedback:**  
-   Changing the background color, text color, padding, and border helps make the updated Soccer Practice days stand out, much like highlighting a special event on your personal calendar.
-
-3. **Inline vs. Class-Based Styling:**  
-   The styles applied here are added directly to the elements (inline). While this is powerful for immediate changes, consider using CSS classes for larger projects to keep your styling organized.
+## Events & Event Listeners
 
 
 ---
