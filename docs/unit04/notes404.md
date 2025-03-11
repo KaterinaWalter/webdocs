@@ -22,26 +22,20 @@ nav_order: 4
 
 ## The DOM (Document Object Model)
 
-The DOM is an API (Application Programming Interface) that allows you to use JavaScript to **make changes to an HTML document**. It is the key to building _dynamic_ websites and linking JS and HTML on the front-end.
+The DOM is an API (Application Programming Interface) that allows you to use JavaScript to **make changes to an HTML document**. It’s the key to building _dynamic_ websites by linking JavaScript with HTML on the front-end.
 
-Usually, the DOM is called the _DOM tree_. This sort of works to explain the basic idea since people understand the idea of tree branches and an infinite hierarchy of these branches:
+You might have heard the DOM referred to as the _DOM tree_. That analogy hints at the hierarchical structure of an HTML document, but it can be a bit limiting when you’re learning how to navigate and manipulate it. 
 
 ![image](domtree.webp)
 
-But, the analogy is still so basic that you will struggle to understand the different relationships between elements in the DOM. There are two key concepts about the DOM:
+There are two key concepts about the DOM:
 
-1. **Containment** - _PARENT_ elements contain _CHILDREN_ elements. And those children contain their children elements.
-2. **Order** - DOM elements have a definite order that you can _manipulate_.
+1. **Containment** – _PARENT_ elements contain other elements (_CHILDREN_), and those children can contain their own children.
+2. **Order** – DOM elements follow a specific order, which you can manipulate with JavaScript.
 
-The concept of a **personal calendar** demonstrates the complex relationships between elements in the DOM. 
+🗓️ Think of a **personal calendar**. In a calendar, the year contains months, and each month contains weeks. The same idea appears in HTML.
 
-![image]()
-
-Here is a quick diagram of the first three months of 2018:
-
-![image]()
-
-In this case, the year contains three months, which each contain 4 weeks. Here is the exact same concept in HTML.
+Consider this HTML:
 
 ```html
 <div class="year" id="2018">
@@ -66,129 +60,69 @@ In this case, the year contains three months, which each contain 4 weeks. Here i
 </div>
 ```
 
-Each month is a div that not only has the class of “month”, but also a class with a specific name of the month. This is because there are a nearly infinite number of years, so there are many cases of each class. The same structure is used on the div with class `year` on line 1.
-
-So what is the difference between the DOM and actual HTML, you might be asking?
-
-Well, think of the way you use a personal calendar. It is just a _record_ of the things that you do during your days. It is _not the actual activity_! In other words, it is a **model** of the stuff that goes on during the day.
+Each month is a `div` with the class `"month"` plus an additional class naming the month (like `"january"`). We also give the year a unique id (`"2018"`), making it easier to pinpoint specific sections of our document using CSS selectors.
 
 {:.highlight}
-The HTML is the actual content of your day. HTML elements make up the webpage, while the DOM is an accessible interface to direct changes.
+So what’s the difference between the **JavaScript DOM** and the **HTML document**? Think of your calendar as a _record_ of your day-to-day activities – _not the actual events_. The HTML is the _raw content_ of your page, while the DOM is a _model_ that lets you interact with and change that content.
 
-Here are a few examples that will show these concepts in action.
+### Updating Text Content
 
-#### Example: Playing Soccer Once A Week
+Let’s say you want to represent a real-world habit in your calendar: playing soccer once a week during January. In HTML terms, you want to update each of the four week `div`s inside the January `div` to say “Soccer Practice.”
+
+```html
+<div class="month january">
+    <div class="week"></div>
+    <div class="week"></div>
+    <div class="week"></div>
+    <div class="week"></div>
+</div>
+```
+
+💬 **DISCUSS:** Do you know what those 4 divs with class “week” have in common?
+> They are all **children** of the div with class “january”!
+
+#### Step 1: Select Elements Using CSS Selectors
 {:.no_toc}
 
-Okay, we are going to show how you would represent some real world habits in the DOM. Here’s the scenario: You want to play soccer once a week for the month of January.
+1. Select the year element by its id:
+    ```js
+    let year = document.querySelector('#2018');
+    ```
+2. Within that year, select the January month by its class:
+    ```js
+    let jan = year.querySelector('.january');
+    ```
+3. Finally, select ALL the week elements within January:
+    ```js
+    let weeks = jan.querySelectorAll('.week');
+    ```
 
-In HTML terms, that means we need to get each of the 4 weeks in January, and change their content to: “Play soccer”.
+#### Step 2: Manipulate the DOM
+{:.no_toc}
 
-Do you know what those 4 divs with class “week” have in common?
-
-The answer: They are all children of the div with class “january”!
-
-```html
-<div class="month january">
-    <div class="week"></div>
-    <div class="week"></div>
-    <div class="week"></div>
-    <div class="week"></div>
-</div>
-```
-
-![image](parentchildrenbasic.webp)
-
-So, we can use the following statement in JavaScript to get the div with class ‘january’.
+The function `.querySelectorAll` returns a **list** of elements - there are _multiple elements_ that meet the selection criteria. Now that we have the list of `week` elements, we **loop** through each element and update its `textContent` property:
 
 ```js
-document.getElementsByClassName('january');
-```
-
-Then, we need all children of that div. We can update the previous statement with the childNodes property.
-
-```js
-document.getElementsByClassName('january').childNodes;
-```
-
-Finally, we need to use the nodeValue property to change the text for every element. And, we need to use a for loop to access element withing childNodes, since that returns an array of elements. So we need to iterate through that list.
-
-```js
-let weeks = document.getElementsByClassName('january').childNodes;
- 
-for(let i = 0; i < weeks.length; i++){
-  weeks[i].nodeValue = "Play soccer";
+for (let week of weeks) {
+  week.textContent = "Soccer Practice";
 }
-``` 
+```
 
-Here is the final result in HTML:
+After running the script, your HTML will look like this:
 
 ```html
 <div class="month january">
-    <div class="week">Play soccer</div>
-    <div class="week">Play soccer</div>
-    <div class="week">Play soccer</div>
-    <div class="week">Play soccer</div>
+    <div class="week">Soccer Practice</div>
+    <div class="week">Soccer Practice</div>
+    <div class="week">Soccer Practice</div>
+    <div class="week">Soccer Practice</div>
 </div>
 ```
+
 We did two things here:
 
-1. Traverse the DOM – that means we used selectors to get the elements we need: the 4 ‘week’ divs
-2. Manipulate the DOM – we actually changed the text content within the HTML elements!
-
----
-
-Both examples below will highlight how JavaScript can traverse and manipulate the DOM:
-
-1. **Traversal and Manipulation** - You can locate specific parts of your calendar (DOM) and update their content.
-2. **Dynamic Styling** - CSS properties can be altered on the fly, allowing you to visually differentiate parts of your schedule.
-
-
-#### Example 1: Updating Week Text with querySelector
-
-This example uses both an ID and a class selector to traverse the DOM and update the text content of each week in the January month. We update the text content to "Study session".
-
-```js
-// Select the 'year' div using its ID.
-let year2018 = document.querySelector('#2018');
-
-// Within that year, select the January month using its class.
-let january = year2018.querySelector('.january');
-
-// Select all week divs inside January.
-let weeks = january.querySelectorAll('.week');
-
-// Update the text content of each week div.
-weeks.forEach(week => {
-  week.textContent = "Study session";
-});
-```
-Step 1: `document.querySelector('#2018')` retrieves the div with `id = "2018"`.
-Step 2: `.querySelector('.january')` finds the January month within that year.
-Step 3: `.querySelectorAll('.week')` gets all the week divs inside January.
-Step 4: The loop iterates over each week and updates its text content.
-
-#### Example 2: Changing CSS Properties Dynamically
-
-In this example, we modify the CSS properties of the week divs in the March month. The background color is set to light blue and the text color to dark blue.
-
-```js
-// Select the March month using its class.
-let march = document.querySelector('.march');
-
-// Get all week divs inside the March month.
-let weeksInMarch = march.querySelectorAll('.week');
-
-// Update CSS properties for each week div.
-weeksInMarch.forEach(week => {
-  week.style.backgroundColor = "lightblue";  // Change background color.
-  week.style.color = "darkblue";             // Change text color.
-});
-```
-
-Selection: document.querySelector('.march') retrieves the March month container and .querySelectorAll('.week') grabs all week divs within it.
-Styling: The style property is used to directly set CSS properties (background and text color) for each week.
-
+1. **Traverse the DOM** – that means we used selectors to get the elements we need: the 4 ‘week’ divs
+2. **Manipulate the DOM** – we actually changed the text content within the HTML elements!
 
 ---
 
