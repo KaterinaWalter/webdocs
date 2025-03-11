@@ -124,10 +124,6 @@ We did two things here:
 1. **Traverse the DOM** – that means we used selectors to get the elements we need: the 4 ‘week’ divs
 2. **Manipulate the DOM** – we actually changed the text content within the HTML elements!
 
-###
-
-Below is a new section that demonstrates how to change various CSS properties through JavaScript using the same calendar analogy. This section maintains the same tone and structure as before.
-
 ---
 
 ### Changing CSS Properties with JavaScript
