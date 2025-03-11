@@ -117,7 +117,7 @@ Finally, we need to use the nodeValue property to change the text for every elem
 let weeks = document.getElementsByClassName('january').childNodes;
  
 for(let i = 0; i < weeks.length; i++){
-  weeks[i].nodeValue = &quot;Play soccer&quot;;
+  weeks[i].nodeValue = "Play soccer";
 }
 ``` 
 
