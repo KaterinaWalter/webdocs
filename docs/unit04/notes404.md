@@ -35,6 +35,8 @@ There are two key concepts about the DOM:
 
 🗓️ Think of a **personal calendar**. In a calendar, the year contains months, and each month contains weeks. The same idea appears in HTML.
 
+![image](basicstraversingdom.webp)
+
 Consider this HTML:
 
 ```html
@@ -80,6 +82,8 @@ Let’s say you want to represent a real-world habit in your calendar: playing s
 
 💬 **DISCUSS:** Do you know what those 4 divs with class “week” have in common?
 > They are all **children** of the div with class “january”!
+
+![image](parentchildrenbasic.webp)
 
 #### Step 1: Select Elements Using CSS Selectors
 {:.no_toc}
