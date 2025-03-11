@@ -124,6 +124,73 @@ We did two things here:
 1. **Traverse the DOM** – that means we used selectors to get the elements we need: the 4 ‘week’ divs
 2. **Manipulate the DOM** – we actually changed the text content within the HTML elements!
 
+###
+
+Below is a new section that demonstrates how to change various CSS properties through JavaScript using the same calendar analogy. This section maintains the same tone and structure as before.
+
+---
+
+### Changing CSS Properties with JavaScript
+
+Imagine you want not only to update the text for your Soccer Practice days, but also to visually highlight them by changing their styling. Perhaps you’d like to set a new background color, adjust the text color, add some padding, and even include a border to make the days stand out.
+
+#### Step 1: Select the Elements Using CSS Selectors
+{:.no_toc}
+
+Just like before, we begin by selecting the elements we want to style. We break down our selectors into three clear steps:
+
+```js
+// Select the year element by its id
+const year = document.querySelector('#2018');
+
+// Within that year, select the January month by its class
+const january = year.querySelector('.january');
+
+// Finally, select all the week elements within January
+const weeks = january.querySelectorAll('.week');
+```
+
+#### Step 2: Update CSS Properties
+{:.no_toc}
+
+With our target elements selected, we can now change their CSS properties using the `style` property in JavaScript. Here’s how you can do it:
+
+```js
+weeks.forEach(week => {
+  week.style.backgroundColor = 'lightblue';  // Change the background color
+  week.style.color = 'darkblue';             // Set the text color
+  week.style.padding = '10px';               // Add some padding for spacing
+  week.style.border = '2px solid #ccc';       // Add a border around each week element
+});
+```
+
+In this snippet, each week element in January gets styled with:
+- **Background color** set to light blue
+- **Text color** set to dark blue
+- **Padding** of 10 pixels to give some space inside the element
+- **A border** of 2 pixels in a light gray color to visually frame the content
+
+#### The Result in the Browser
+{:.no_toc}
+
+Even though these changes are applied dynamically via JavaScript, if you inspect one of the week `div`s with your browser's developer tools, you'll see inline styles like this:
+
+```html
+<div class="week" style="background-color: lightblue; color: darkblue; padding: 10px; border: 2px solid #ccc;">Soccer Practice</div>
+```
+
+1. **Direct Styling:**  
+   By using the `style` property on each element, you can immediately change its appearance. This is useful for dynamic updates based on user interactions or other events.
+
+2. **Enhanced Visual Feedback:**  
+   Changing the background color, text color, padding, and border helps make the updated Soccer Practice days stand out, much like highlighting a special event on your personal calendar.
+
+3. **Inline vs. Class-Based Styling:**  
+   The styles applied here are added directly to the elements (inline). While this is powerful for immediate changes, consider using CSS classes for larger projects to keep your styling organized.
+
+---
+
+By blending JavaScript with CSS, you can create interactive, visually engaging webpages. This approach lets you adapt the look and feel of your content on the fly—just as you might adjust your calendar to better highlight important events.
 ---
 
 #### Acknowledgement
