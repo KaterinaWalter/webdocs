@@ -330,6 +330,42 @@ As seen above with the `console.log();` example, a function can be **CALLED** (_
 
 If we ever need to change the message or the way it is shown, it's enough to modify the code in one place: the **function** which handles it.
 
+#### RECIPE ANALOGY FOR FUNCTIONS
+{:.no_toc}
+
+Functions can be **visualized** as _recipes_ for different actions/processes in your script.
+
+Let's think about the general concept of **cooking with a recipe** first. Using a recipe means that:
+
+1. You start with a specific set of ingredients
+2. You perform a specific procedure using those ingredients
+3. You will get a reliable product at the end
+
+{:.highlight}
+A **FUNCTION** can be considered a *reusable recipe* that reliably performs the same set of actions, over and over again, on a set of ingredients. Those *ingredients* are the **PARAMETERS**. 
+
+- Some functions **RETURN** a value, which means that they ***give you a new value*** that you can then use throughout your script: 
+
+![image](function-nonvoid.png)
+
+- Other functions **do not return** a value and are missing a `return` directive in the function body. Instead, the process might just ***change a value that already exists*** in your script or carry out an action, like `console.log()`.
+    - Think of this like chopping onions. There is no "new" product, just the same product in a different format.
+    - Boiling water to make pasta is another example of a function that just “does/changes something” but doesn’t necessarily give you something new in return:
+    
+![image](function-void.png)
+    
+- Check out the example below to review the general layout of a function. In this example, we are **DEFINING** a function (“documenting the recipe”) called `makeSandwich`:
+    
+![image](function-example.png)
+
+> 💬 **DISCUSS:**
+> - Does this recipe's process produce something new? 
+> - Why is a recipe useful in _real life_? Why is this useful in _code_?
+
+{:.highlight}
+For a more in-depth description of the **recipe analogy** above, check out this blog post: [JavaScript Functions Explained by Making a Recipe](https://www.codeanalogies.com/javascript-functions-explained#javascript)
+    
+
 #### Function Naming
 {:.no_toc}
 
@@ -388,42 +424,6 @@ console.log( result );
 
 {:.warning}
 🚫 Never add a new line between `return` and the **value**!!! For a long expression in `return`, it might be tempting to put it on a separate line, but it doesn't work.
-
-#### RECIPE ANALOGY FOR FUNCTIONS
-{:.no_toc}
-
-Functions can be **visualized** as _recipes_ for different actions/processes in your script.
-
-Let's think about the general concept of **cooking with a recipe** first. Using a recipe means that:
-
-1. You start with a specific set of ingredients
-2. You perform a specific procedure using those ingredients
-3. You will get a reliable product at the end
-
-{:.highlight}
-A **FUNCTION** can be considered a *reusable recipe* that reliably performs the same set of actions, over and over again, on a set of ingredients. Those *ingredients* are the **PARAMETERS**. 
-
-- Some functions **RETURN** a value, which means that they ***give you a new value*** that you can then use throughout your script: 
-
-![image](function-nonvoid.png)
-
-- Other functions **do not return** a value and are missing a `return` directive in the function body. Instead, the process might just ***change a value that already exists*** in your script or carry out an action, like `console.log()`.
-    - Think of this like chopping onions. There is no "new" product, just the same product in a different format.
-    - Boiling water to make pasta is another example of a function that just “does/changes something” but doesn’t necessarily give you something new in return:
-    
-![image](function-void.png)
-    
-- Check out the example below to review the general layout of a function. In this example, we are **DEFINING** a function (“documenting the recipe”) called `makeSandwich`:
-    
-![image](function-example.png)
-
-> 💬 **DISCUSS:**
-> - Does this recipe's process produce something new? 
-> - Why is a recipe useful in _real life_? Why is this useful in _code_?
-
-{:.highlight}
-For a more in-depth description of the **recipe analogy** above, check out this blog post: [JavaScript Functions Explained by Making a Recipe](https://www.codeanalogies.com/javascript-functions-explained#javascript)
-      
 
 <div class="task" markdown="block">
 
