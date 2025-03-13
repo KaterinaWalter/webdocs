@@ -344,15 +344,15 @@ Let's think about the general concept of **cooking with a recipe** first. Using 
 {:.highlight}
 A **FUNCTION** can be considered a *reusable recipe* that reliably performs the same set of actions, over and over again, on a set of ingredients. Those *ingredients* are the **PARAMETERS**. 
 
-- Some functions **RETURN** a value, which means that they ***give you a new value*** that you can then use throughout your script: 
-
-![image](function-nonvoid.png)
-
-- Other functions **do not return** a value and are missing a `return` directive in the function body. Instead, the process might just ***change a value that already exists*** in your script or carry out an action, like `console.log()`.
+- Some functions **do not return** a value as output. Instead, the process might just ***change a value that already exists*** in your script or carry out an action, like `console.log()`.
     - Think of this like chopping onions. There is no "new" product, just the same product in a different format.
     - Boiling water to make pasta is another example of a function that just “does/changes something” but doesn’t necessarily give you something new in return:
     
 ![image](function-void.png)
+
+- Other functions **RETURN** data, which means that they ***provide a new value*** as output that you can then use throughout your script. Include a `return` directive in the function body: 
+
+![image](function-nonvoid.png)
     
 - Check out the example below to review the general layout of a function. In this example, we are **DEFINING** a function (“documenting the recipe”) called `makeSandwich`:
     
