@@ -41,7 +41,7 @@ Sometimes, we need to _perform different actions_ based on different **condition
 
 <div class="imp" markdown="block">
  
-❓ A **CONDITION** in code is like a _question_...
+❓ A **CONDITIONAL EXPRESSION** in code is like a _question_...
 ❕ Where **BOOLEAN** values are the possible _answers_:
 - `true` - means "yes", "correct" or "the truth".
 - `false` - means "no", "wrong" or "not the truth".
@@ -84,6 +84,20 @@ console.log( 'Z' > 'A' );
 console.log( 'Glow' > 'Glee' ); 
 console.log( 'Bee' > 'Be' ); 
 ```
+
+#### Practice Activity
+{:.no_toc}
+
+<div class="task" markdown="block">
+
+📝 Write down a **CONDITIONAL EXPRESSION** that can be evaluated to either `true` or `false`. 
+> Think of a statement with a **yes-or-no answer**, for example:
+> * _Your birthday is in the winter_ 
+> * _You have more than 1 sibling_
+> * _You are gluten-free_
+> * _You like video games_
+
+</div>
 
 ### `if` Statements
 
