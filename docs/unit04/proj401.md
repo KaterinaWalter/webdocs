@@ -168,9 +168,11 @@ You are required to attempt _at least TWO_ of the **creative features** suggeste
   - Refine the base styles in `style.css` by setting more **properties** (`border`, `text-shadow`, `box-shadow`, `font-family`, etc.) 
   - Or add statements in the `script.js` toggle function to make even more visual differences between the two themes. Refer here: [HTML DOM Style Object Properties](https://www.w3schools.com/jsref/dom_obj_style.asp) to see what else you can change. 
   - Decorate with **emojis/icons**, for example, you could replace text with 🌞 and 🌙 icons for a fun visual toggle. _BONUS:_ Animate the icons using CSS `@keyframes`.
-  - Make the background color changes **fade smoothly** by adding this `transition` to the `body` selector in your CSS:
+  - Make the background and text color changes **fade smoothly** by adding this `transition`:
   ```css
-  transition: background-color 0.4s ease, color 0.4s ease;
+  body {
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
   ```
 
 2. **Provide Multiple Color Themes**
