@@ -85,7 +85,7 @@ button {
 ```
 > - Leave out the **colors** so we can set them via JavaScript!
 
-#### 💡 Part C: Write JavaScript for Toggling the Color Mode
+#### 💡 Part C: Write JavaScript for Theme Toggling
 
 1. Before you can change anything on the page, you need to *select* the **HTML elements** you want to work with.
   ```javascript
@@ -103,35 +103,50 @@ button {
   let isDarkMode = false;
   ```
 
-3. Write the **function** that toggles the mode:
+3. Define a **function** that toggles the color theme mode:
   ```javascript
   function toggleMode() {
-    // Flip the boolean with the NOT (!) operator
-    isDarkMode = !isDarkMode; 
-  
-    if (isDarkMode) {
-      // DARK MODE styles and text
-      body.style.backgroundColor = '#121212';
-      body.style.color = '#ffffff';
-      heading.style.color = '#ffcc00';
-      description.textContent = 'Dark mode is now enabled!';
-      toggleButton.textContent = 'Switch to Light Mode';
-    }
-    else {
-      // LIGHT MODE styles and text
-      body.style.backgroundColor = '#ffffff';
-      body.style.color = '#000000';
-      heading.style.color = '#003366';
-      description.textContent = 'Light mode is now enabled!';
-      toggleButton.textContent = 'Switch to Dark Mode';
-    }
+    // Code statements that change the page for each mode
   }
   ```
-  > - Flip the `isDarkMode` value
-  > - Change the page’s appearance using `.style`
-  > - Update the text on the page
 
-4. When the user clicks the button, we want to run the `toggleMode()` function. Add an **EVENT LISTENER** to "listen" for clicks on the button:
+4. Inside the function, start by flipping the value of `isDarkMode`:
+  ```javascript
+  // Flip the boolean with the NOT (!) operator
+  isDarkMode = !isDarkMode; 
+  ```
+
+5. Next inside the function, add **conditional statements** to handle each mode depending on whether `isDarkMode` is `true` or not:
+  ```javascript
+  if (isDarkMode) {
+    // Apply DARK MODE styles and text
+  }
+  else {
+    // Apply LIGHT MODE styles and text
+  }
+  ```
+
+6. In the `if (isDarkMode)` block, change the **style properties** and **text content** of the elements we selected earlier:
+  ```javascript
+  // Apply DARK MODE styles and text
+  body.style.backgroundColor = 'black';
+  body.style.color = 'white';
+  heading.style.color = '#ffcc00';
+  description.textContent = 'Dark mode is now enabled!';
+  toggleButton.textContent = 'Switch to Light Mode';
+  ```
+
+7. In the `else` block, change the **style properties** and **text content** for light mode:
+  ```javascript
+  // Apply LIGHT MODE styles and text
+  body.style.backgroundColor = 'white';
+  body.style.color = 'black';
+  heading.style.color = '#003366';
+  description.textContent = 'Light mode is now enabled!';
+  toggleButton.textContent = 'Switch to Dark Mode';
+  ```
+
+8. When the user clicks on the button, we want to trigger the `toggleMode()` function. AFTER the function definition, include this statement that adds an **event listener** to register button clicks:
   ```javascript
   toggleButton.addEventListener('click', toggleMode);
   ```
