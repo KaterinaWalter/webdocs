@@ -106,7 +106,7 @@ button {
 3. Define a **function** that toggles the color theme mode:
   ```javascript
   function toggleMode() {
-    // Code statements that change the page for each mode
+    // Code statements that modify the page for each mode
   }
   ```
 
@@ -162,20 +162,18 @@ You are required to attempt _at least TWO_ of the **creative features** suggeste
 
 1. **Customize the Page's Appearance**
   - 🎨 If you loved the CSS unit, dive back into it and enhance the overall **style** of your page!
-    - Improve the base styles in `style.css` by setting more **properties** (`border`, `text-shadow`, `box-shadow`, `font-family`, etc.) 
-    - Or add statements in the `script.js` toggle function to make even more visual differences between the two themes.
-    - Decorate with **emojis/icons**, for example, you could replace text with 🌞 and 🌙 icons for a fun visual toggle. _BONUS:_ Animate the icons using CSS `@keyframes`.
-    - Make the background color changes **fade smoothly** by adding this `transition` to your CSS:
-    ```css
-    body {
-      transition: background-color 0.4s ease, color 0.4s ease;
-    }
-    ```
+  - Improve the base styles in `style.css` by setting more **properties** (`border`, `text-shadow`, `box-shadow`, `font-family`, etc.) 
+  - Or add statements in the `script.js` toggle function to make even more visual differences between the two themes.
+  - Decorate with **emojis/icons**, for example, you could replace text with 🌞 and 🌙 icons for a fun visual toggle. _BONUS:_ Animate the icons using CSS `@keyframes`.
+  - Make the background color changes **fade smoothly** by adding this `transition` to the `body` selector in your CSS:
+  ```css
+  transition: background-color 0.4s ease, color 0.4s ease;
+  ```
 
 2. **Provide Multiple Color Themes**
   - Design and enable more than two color theme options. ⚠️ Note that every additional theme will _require its own_ HTML `<button>` and JavaScript `function`!
-    - Check out trending **color palettes** on [Coolors.co](https://coolors.co/palettes/trending) to use as inspiration.
-    - Pick **gradients** from [SheCodes.io](https://www.shecodes.io/gradients) to use for `background` instead of a plain color.  
+  - Check out trending **color palettes** on [Coolors.co](https://coolors.co/palettes/trending) to use as inspiration.
+  - Pick **gradients** from [SheCodes.io](https://www.shecodes.io/gradients) to use for `background` instead of a plain color.  
 
 4. **Change Images Based on the Mode**
   - 🖼️ Add an image of a sunny landscape to the HTML:
