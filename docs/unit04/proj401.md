@@ -48,6 +48,7 @@ Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM](ht
 #### 🧱 Part A: Build a Simple HTML Page
 
 1. In `index.html` add the following starter code inside the `<body>` section:
+  
   ```html
   <div class="container">
     <h1 id="main-heading">Welcome to My Page</h1>
