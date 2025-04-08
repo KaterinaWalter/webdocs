@@ -7,10 +7,14 @@ nav_order: 5
 ---
 
 
-### Overview & Setup
+### Overview
 
 To demonstrate how **JavaScript** can be implemented in HTML/CSS webpages, we will create a usable **light/dark mode toggle** button using _variables_, _functions_, _conditionals_, and JavaScript's [DOM (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) library. 
 
+<html>
+<details>
+<summary>📥<strong>PROGRAM SETUP & SUBMISSION INSTRUCTIONS</strong></summary>
+  
 <div class="setup" markdown="block">
 
 1. Go to the `CS1 Project 4.1` assignment on **Blackbaud** and follow the provided **GitHub Classroom** link.
@@ -21,7 +25,11 @@ To demonstrate how **JavaScript** can be implemented in HTML/CSS webpages, we wi
 
 </div>
 
-#### 🧠 New JavaScript Skills
+</div>   
+</details>
+</html>
+
+#### 🆕 JavaScript Skills
 
 | Concept                | Example                              | What It Does                                      |
 |------------------------|---------------------------------------|---------------------------------------------------|
@@ -31,9 +39,12 @@ To demonstrate how **JavaScript** can be implemented in HTML/CSS webpages, we wi
 | `.textContent`         | `element.textContent = 'Hello!'`      | Changes what **text** is displayed in an element     |
 | Boolean Toggle         | `isDarkMode = !isDarkMode;`           | Switches `true` ↔ `false`                          |
 
+{:.highlight}
+Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM](https://coderina.dev/webdocs/docs/unit04/notes404.html)
+
 --- 
 
-### Tutorial Instruction
+### Tutorial Instructions
 
 #### 🧱 Part A: Build a Simple HTML Page
 
@@ -78,54 +89,55 @@ button {
 #### 💡 Part C: Write JavaScript for Toggling the Color Mode
 
 1. Before you can change anything on the page, you need to *select* the **HTML elements** you want to work with.
-```javascript
-const toggleButton = document.querySelector('#toggle-button');
-const body = document.querySelector('body');
-const heading = document.querySelector('#main-heading');
-const description = document.querySelector('#description');
-```
-> - The `querySelector()` function lets you grab any element using its **tag**, `class`, or `id`.
-> - We’re grabbing the button, the body (for background), the heading, and the paragraph.
-> - `const` (_constant_) is used as the keyword to **declare variables** here instead of `let`, because `querySelector` returns just a _REFERENCE_ to the element's **location**, which does not change. 
+  ```javascript
+  const toggleButton = document.querySelector('#toggle-button');
+  const body = document.querySelector('body');
+  const heading = document.querySelector('#main-heading');
+  const description = document.querySelector('#description');
+  ```
+  > - The `querySelector()` function lets you grab any element using its **tag**, `class`, or `id`.
+  > - We’re grabbing the button, the body (for background), the heading, and the paragraph.
+  > - `const` (_constant_) is used as the keyword to **declare variables** here instead of `let`, because `querySelector` returns just a _REFERENCE_ to the element's **location**, which does not change. 
 
 2. Use a **boolean** (`true`/`false`) to remember if we’re in dark mode or not:
-```javascript
-let isDarkMode = false;
-```
-3. Write the **function** that toggles the mode:
-```javascript
-function toggleMode() {
-  // Flip the boolean with the NOT (!) operator
-  isDarkMode = !isDarkMode; 
+  ```javascript
+  let isDarkMode = false;
+  ```
 
-  if (isDarkMode) {
-    // DARK MODE styles and text
-    body.style.backgroundColor = '#121212';
-    body.style.color = '#ffffff';
-    heading.style.color = '#ffcc00';
-    description.textContent = 'Dark mode is now enabled!';
-    toggleButton.textContent = 'Switch to Light Mode';
+3. Write the **function** that toggles the mode:
+  ```javascript
+  function toggleMode() {
+    // Flip the boolean with the NOT (!) operator
+    isDarkMode = !isDarkMode; 
+  
+    if (isDarkMode) {
+      // DARK MODE styles and text
+      body.style.backgroundColor = '#121212';
+      body.style.color = '#ffffff';
+      heading.style.color = '#ffcc00';
+      description.textContent = 'Dark mode is now enabled!';
+      toggleButton.textContent = 'Switch to Light Mode';
+    }
+    else {
+      // LIGHT MODE styles and text
+      body.style.backgroundColor = '#ffffff';
+      body.style.color = '#000000';
+      heading.style.color = '#003366';
+      description.textContent = 'Light mode is now enabled!';
+      toggleButton.textContent = 'Switch to Dark Mode';
+    }
   }
-  else {
-    // LIGHT MODE styles and text
-    body.style.backgroundColor = '#ffffff';
-    body.style.color = '#000000';
-    heading.style.color = '#003366';
-    description.textContent = 'Light mode is now enabled!';
-    toggleButton.textContent = 'Switch to Dark Mode';
-  }
-}
-```
-> - Flip the `isDarkMode` value
-> - Change the page’s appearance using `.style`
-> - Update the text on the page
+  ```
+  > - Flip the `isDarkMode` value
+  > - Change the page’s appearance using `.style`
+  > - Update the text on the page
 
 4. When the user clicks the button, we want to run the `toggleMode()` function. Add an **EVENT LISTENER** to "listen" for clicks on the button:
-```javascript
-toggleButton.addEventListener('click', toggleMode);
-```
-> - This tells the browser: _"When the button is clicked, call the `toggleMode()` function."_
-> - We don’t use parentheses here (`toggleMode()` → ❌). Just pass the function name so it runs when clicked.
+  ```javascript
+  toggleButton.addEventListener('click', toggleMode);
+  ```
+  > - This tells the browser: _"When the button is clicked, call the `toggleMode()` function."_
+  > - We don’t use parentheses here (`toggleMode()` → ❌). Just pass the function name so it runs when clicked.
 
 ---
 
