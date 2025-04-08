@@ -74,17 +74,17 @@ Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM](ht
 2. Center the div that contains the main content: 
   ```css
   .container {
-    width: 60%;
-    margin: auto;
-    text-align: center;
+      width: 60%;
+      margin: auto;
+      text-align: center;
   }
   ```
 3. Style the button:
   ```css
   button {
-    padding: 2px;
-    margin-top: 5px;
-    font-size: 24px;
+      padding: 2px;
+      margin-top: 5px;
+      font-size: 24px;
   }
   ```
 
@@ -109,7 +109,7 @@ Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM](ht
 3. Define a **function** that toggles the color theme mode:
   ```javascript
   function toggleMode() {
-    // Code statements that modify the page for each mode
+      // Code statements that modify the page for each mode
   }
   ```
 
@@ -122,10 +122,10 @@ Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM](ht
 5. Next inside the function, add **conditional statements** to handle each mode depending on whether `isDarkMode` is `true` or not:
   ```javascript
   if (isDarkMode) {
-    // Apply DARK MODE styles and text
+      // Apply DARK MODE styles and text
   }
   else {
-    // Apply LIGHT MODE styles and text
+      // Apply LIGHT MODE styles and text
   }
   ```
 
@@ -171,7 +171,7 @@ You are required to attempt _at least TWO_ of the **creative features** suggeste
   - Make the background and text color changes **fade smoothly** by adding this `transition`:
   ```css
   body {
-    transition: background-color 0.4s ease, color 0.4s ease;
+      transition: background-color 0.4s ease, color 0.4s ease;
   }
   ```
 
@@ -201,7 +201,7 @@ You are required to attempt _at least TWO_ of the **creative features** suggeste
     ```javascript
     function handleKeydown(event) {
       if (event.key == 't') {
-        toggleMode();
+          toggleMode();
       }
     }
     document.addEventListener('keydown', handleKeydown);
