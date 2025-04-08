@@ -164,9 +164,8 @@ You are required to attempt _at least TWO_ of the **creative features** suggeste
   - 🎨 If you loved the CSS unit, dive back into it and enhance the overall **style** of your page!
     - Improve the base styles in `style.css` by setting more **properties** (`border`, `text-shadow`, `box-shadow`, `font-family`, etc.) 
     - Or add statements in the `script.js` toggle function to make even more visual differences between the two themes.
-    - Decorate with **emojis/icons**, for example, you could replace text with 🌞 and 🌙 icons for a fun visual toggle.
-      - _BONUS:_ Animate the icons using CSS `@keyframes`.
-  - Make the background color changes **fade smoothly** by adding this `transition` to your CSS:
+    - Decorate with **emojis/icons**, for example, you could replace text with 🌞 and 🌙 icons for a fun visual toggle. _BONUS:_ Animate the icons using CSS `@keyframes`.
+    - Make the background color changes **fade smoothly** by adding this `transition` to your CSS:
     ```css
     body {
       transition: background-color 0.4s ease, color 0.4s ease;
