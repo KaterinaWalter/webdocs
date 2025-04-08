@@ -47,43 +47,45 @@ Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM](ht
 
 #### 🧱 Part A: Build a Simple HTML Page
 
-Create a file called `index.html` and add the following starter code inside the `<body>` section:
-
-```html
-<div class="container">
-  <h1 id="main-heading">Welcome to My Page</h1>
-  <p id="description">This page supports light and dark mode!</p>
-  <button id="toggle-button">Switch to Dark Mode</button>
-</div>
-```
-> - We give the `<div>` a `class` called `container` so we can _select_ it in **CSS**.
-> - There’s a `<button>` element with an `id` called `toggle-button` so we can _target_ it in **JavaScript**.
-> - Note that the other elements have their own `id` values as well...
+1. In `index.html` add the following starter code inside the `<body>` section:
+  ```html
+  <div class="container">
+    <h1 id="main-heading">Welcome to My Page</h1>
+    <p id="description">This page supports light and dark mode!</p>
+    <button id="toggle-button">Switch to Dark Mode</button>
+  </div>
+  ```
+  > - We give the `<div>` a `class` called `container` so we can _select_ it in **CSS**.
+  > - There’s a `<button>` element with an `id` called `toggle-button` so we can _target_ it in **JavaScript**.
+  > - Note that the other elements have their own `id` values as well...
 
 #### 🎨 Part B: Add Basic Styles in CSS
 
-In the file called `styles.css` add the following basic styling:
-
-```css
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 5px;
-}
-
-.container {
-  max-width: 600px;
-  margin: auto;
-  text-align: center;
-}
-
-button {
-  padding: 2px;
-  margin-top: 5px;
-  font-size: 24px;
-}
-```
-> - Leave out the **colors** so we can set them via JavaScript!
+1. In `styles.css` apply the following styling rules to the whole page:
+  ```css
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 5px;
+  }
+  ```
+  > - Leave out the **colors** so we can set them via JavaScript!
+2. Center the div that contains the main content: 
+  ```css
+  .container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+  ```
+3. Style the button:
+  ```css
+  button {
+    padding: 2px;
+    margin-top: 5px;
+    font-size: 24px;
+  }
+  ```
 
 #### 💡 Part C: Write JavaScript for Theme Toggling
 
@@ -162,8 +164,8 @@ You are required to attempt _at least TWO_ of the **creative features** suggeste
 
 1. **Customize the Page's Appearance**
   - 🎨 If you loved the CSS unit, dive back into it and enhance the overall **style** of your page!
-  - Improve the base styles in `style.css` by setting more **properties** (`border`, `text-shadow`, `box-shadow`, `font-family`, etc.) 
-  - Or add statements in the `script.js` toggle function to make even more visual differences between the two themes.
+  - Refine the base styles in `style.css` by setting more **properties** (`border`, `text-shadow`, `box-shadow`, `font-family`, etc.) 
+  - Or add statements in the `script.js` toggle function to make even more visual differences between the two themes. Refer here: [HTML DOM Style Object Properties](https://www.w3schools.com/jsref/dom_obj_style.asp) to see what else you can change. 
   - Decorate with **emojis/icons**, for example, you could replace text with 🌞 and 🌙 icons for a fun visual toggle. _BONUS:_ Animate the icons using CSS `@keyframes`.
   - Make the background color changes **fade smoothly** by adding this `transition` to the `body` selector in your CSS:
   ```css
