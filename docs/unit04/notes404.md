@@ -1,6 +1,6 @@
 ---
 layout: notes
-title: "📓NOTES 4.4: JS for Web" 
+title: "📓NOTES 4.4: HTML DOM" 
 parent: "4️⃣ JavaScript"
 nav_order: 4
 ---
