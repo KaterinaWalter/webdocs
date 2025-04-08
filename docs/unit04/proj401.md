@@ -146,12 +146,12 @@ button {
 You are required to attempt _at least TWO_ of the **creative features** suggested below to earn full credit on this project! 
 
 1. **Customize the Page's Appearance**
-  - If you loved the CSS unit, dive back into it and enhance the **style** of your page!
+  - 🎨 If you loved the CSS unit, dive back into it and enhance the overall **style** of your page!
     - Improve the base styles in `style.css` by setting more **properties** (`border`, `text-shadow`, `box-shadow`, `font-family`, etc.) 
-    - Or add statements in the `script.js` toggle function to make even more visual differences between the color modes.
-  - Decorate with **emojis/icons**, for example, you could replace text with 🌞 and 🌙 icons for a fun visual toggle.
-    - _BONUS:_ Animate the icons using CSS `@keyframes`.
-  - Make the background and text color changes **fade smoothly** by adding this `transition` to your CSS:
+    - Or add statements in the `script.js` toggle function to make even more visual differences between the two themes.
+    - Decorate with **emojis/icons**, for example, you could replace text with 🌞 and 🌙 icons for a fun visual toggle.
+      - _BONUS:_ Animate the icons using CSS `@keyframes`.
+  - Make the background color changes **fade smoothly** by adding this `transition` to your CSS:
     ```css
     body {
       transition: background-color 0.4s ease, color 0.4s ease;
@@ -160,10 +160,12 @@ You are required to attempt _at least TWO_ of the **creative features** suggeste
 
 2. **Provide Multiple Color Themes**
    - Repeat the appropriate steps from the tutorial section to enable more than two color themes.
-   - Note that **every additional theme** will need its own HTML `<button>` and JavaScript `function`!
+     - Check out trending **color palettes** on [Coolors.co](https://coolors.co/palettes/trending) to use as inspiration.
+     - Pick **gradients** from [SheCodes.io](https://www.shecodes.io/gradients) to use for `background` instead of a plain color.  
+   - ⚠️ Note that **every additional theme** will require its own HTML `<button>` and JavaScript `function`!
 
 4. **Change Images Based on the Mode**
-  - Add an image of a sunny landscape to the HTML:
+  - 🖼️ Add an image of a sunny landscape to the HTML:
     ```html
     <img id="image" src="day.jpg">
     ```
@@ -179,7 +181,7 @@ You are required to attempt _at least TWO_ of the **creative features** suggeste
     > Don't forget to _select_ your `imageElement` first! 
 
 4. **Keyboard Shortcut to Toggle Theme**
-  - Add an event listener for _keyboard input_:
+  - ⌨️ Add an event listener for _keyboard input_:
     ```javascript
     function handleKeydown(event) {
       if (event.key == 't') {
@@ -190,7 +192,7 @@ You are required to attempt _at least TWO_ of the **creative features** suggeste
     ```
     
 5. **Save User’s Preference with `localStorage`**
-  - When a user selects dark mode, _save their preference_ so it stays even after a refresh.
+  - 📥 When a user selects dark mode, _save their preference_ so it stays even after a refresh.
   - Try this:
     ```javascript
     localStorage.setItem('theme', 'dark'); // or 'light'
