@@ -159,10 +159,9 @@ You are required to attempt _at least TWO_ of the **creative features** suggeste
     ```
 
 2. **Provide Multiple Color Themes**
-   - Repeat the appropriate steps from the tutorial section to enable more than two color themes.
+   - Design and enable more than two color theme options. ⚠️ Note that every additional theme will _require its own_ HTML `<button>` and JavaScript `function`! 
      - Check out trending **color palettes** on [Coolors.co](https://coolors.co/palettes/trending) to use as inspiration.
      - Pick **gradients** from [SheCodes.io](https://www.shecodes.io/gradients) to use for `background` instead of a plain color.  
-   - ⚠️ Note that **every additional theme** will require its own HTML `<button>` and JavaScript `function`!
 
 4. **Change Images Based on the Mode**
   - 🖼️ Add an image of a sunny landscape to the HTML:
