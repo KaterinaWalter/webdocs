@@ -65,9 +65,9 @@ Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM](ht
 1. In `styles.css` apply the following styling rules to the whole page:
   ```css
   body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 5px;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 5px;
   }
   ```
   > - Leave out the **colors** so we can set them via JavaScript!
