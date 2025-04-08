@@ -24,8 +24,7 @@ To demonstrate how **JavaScript** can be implemented in HTML/CSS webpages, we wi
 3. When your project is complete, **submit the link to your repository** in the `CS1 Project 4.1` assignment on Blackbaud.
 
 </div>
-
-</div>   
+ 
 </details>
 </html>
 
@@ -53,7 +52,7 @@ Create a file called `index.html` and add the following starter code inside the 
 ```html
 <div class="container">
   <h1 id="main-heading">Welcome to My Page</h1>
-  <p id="description">This page supports light & dark mode!</p>
+  <p id="description">This page supports light and dark mode!</p>
   <button id="toggle-button">Switch to Dark Mode</button>
 </div>
 ```
@@ -146,7 +145,24 @@ button {
 {:.important}
 You are required to attempt _at least TWO_ of the **creative features** suggested below to earn full credit on this project! 
 
-- **Change Images Based on the Mode**
+1. **Customize the Page's Appearance**
+  - If you loved the CSS unit, dive back into it and enhance the **style** of your page!
+    - Improve the base styles in `style.css` by setting more **properties** (`border`, `text-shadow`, `box-shadow`, `font-family`, etc.) 
+    - Or add statements in the `script.js` toggle function to make even more visual differences between the color modes.
+  - Decorate with **emojis/icons**, for example, you could replace text with 🌞 and 🌙 icons for a fun visual toggle.
+    - _BONUS:_ Animate the icons using CSS `@keyframes`.
+  - Make the background and text color changes **fade smoothly** by adding this `transition` to your CSS:
+    ```css
+    body {
+      transition: background-color 0.4s ease, color 0.4s ease;
+    }
+    ```
+
+2. **Provide Multiple Color Themes**
+   - Repeat the appropriate steps from the tutorial section to enable more than two color themes.
+   - Note that **every additional theme** will need its own HTML `<button>` and JavaScript `function`!
+
+4. **Change Images Based on the Mode**
   - Add an image of a sunny landscape to the HTML:
     ```html
     <img id="image" src="day.jpg">
@@ -162,19 +178,7 @@ You are required to attempt _at least TWO_ of the **creative features** suggeste
     ```
     > Don't forget to _select_ your `imageElement` first! 
 
-- **Decorate with Emojis or Icons**
-  - Replace text with 🌞 and 🌙 icons for a fun visual toggle.
-    - _BONUS:_ Animate the icons using CSS `@keyframes`.
-
-- **Add Smooth Transitions**
-  - Make the background and text color changes fade smoothly by adding this to your CSS:
-      ```css
-      body {
-        transition: background-color 0.4s ease, color 0.4s ease;
-      }
-      ```
-
-- **Keyboard Shortcut to Toggle Theme**
+4. **Keyboard Shortcut to Toggle Theme**
   - Add an event listener for _keyboard input_:
     ```javascript
     function handleKeydown(event) {
@@ -185,7 +189,7 @@ You are required to attempt _at least TWO_ of the **creative features** suggeste
     document.addEventListener('keydown', handleKeydown);
     ```
     
-- **Save User’s Preference with `localStorage`**
+5. **Save User’s Preference with `localStorage`**
   - When a user selects dark mode, _save their preference_ so it stays even after a refresh.
   - Try this:
     ```javascript
