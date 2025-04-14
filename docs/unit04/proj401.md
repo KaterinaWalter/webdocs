@@ -77,7 +77,12 @@ To demonstrate how **JavaScript** can be implemented in HTML/CSS webpages, we wi
 
 #### 💡 Part C: Write JavaScript for Theme Toggling
 
-1. Before you can change anything on the page, you need to *select* the **HTML elements** you want to work with.
+1. Create a **boolean** (`true`/`false`) variable to remember if we’re in dark mode or not:
+  ```javascript
+  let isDarkMode = false;
+  ```
+
+2. Before you can change anything on the page, you need to *select* the **HTML elements** you want to work with.
   ```javascript
   const body = document.querySelector('body');
   const heading = document.querySelector('#main-heading');
@@ -87,11 +92,6 @@ To demonstrate how **JavaScript** can be implemented in HTML/CSS webpages, we wi
   > - The `querySelector()` function lets you grab any element using its **tag**, `class`, or `id`.
   > - We’re grabbing the button, the body (for background), the heading, and the paragraph.
   > - `const` (_constant_) is used as the keyword to **declare variables** here instead of `let`, because `querySelector` returns just a _REFERENCE_ to the element's **location**, which does not change. 
-
-2. Use a **boolean** (`true`/`false`) to remember if we’re in dark mode or not:
-  ```javascript
-  let isDarkMode = false;
-  ```
 
 3. Define a **function** that toggles the color theme mode:
   ```javascript
