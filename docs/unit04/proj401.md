@@ -143,7 +143,9 @@ To demonstrate how **JavaScript** can be implemented in HTML/CSS webpages, we wi
   > - This tells the browser: _"When the button is clicked, call the `toggleMode()` function."_
   > - We don’t use parentheses here (`toggleMode()` → ❌). Just pass the **function name** so it runs when clicked.
 
-##### 🆕 JavaScript Skills
+---
+
+#### 🆕 JavaScript Skills
 
 | Concept                | Example                              | What It Does                                      |
 |------------------------|---------------------------------------|---------------------------------------------------|
