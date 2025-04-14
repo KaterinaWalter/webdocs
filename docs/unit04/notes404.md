@@ -90,15 +90,15 @@ Let’s say you want to represent a real-world habit in your calendar: playing s
 
 1. Select the year element by its id:
     ```js
-    let year = document.querySelector('#2018');
+    const year = document.querySelector('#2018');
     ```
 2. Within that year, select the January month by its class:
     ```js
-    let jan = year.querySelector('.january');
+    const jan = year.querySelector('.january');
     ```
 3. Finally, select ALL the week elements within January:
     ```js
-    let weeks = jan.querySelectorAll('.week');
+    const weeks = jan.querySelectorAll('.week');
     ```
 
 #### Step 2: Manipulate the DOM
