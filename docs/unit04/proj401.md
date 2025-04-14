@@ -28,19 +28,6 @@ To demonstrate how **JavaScript** can be implemented in HTML/CSS webpages, we wi
 </details>
 </html>
 
-#### 🆕 JavaScript Skills
-
-| Concept                | Example                              | What It Does                                      |
-|------------------------|---------------------------------------|---------------------------------------------------|
-| `querySelector()`      | `document.querySelector('#btn')`      | Function that _selects_ an **HTML element**                          |
-| Event Listener         | `addEventListener('click', fn)`       | Runs a **function** when something is clicked        |
-| `.style.property`      | `element.style.color = 'red'`         | Changes a **CSS property** with JavaScript           |
-| `.textContent`         | `element.textContent = 'Hello!'`      | Changes what **text** is displayed in an element     |
-| Boolean Toggle         | `isDarkMode = !isDarkMode;`           | Switches `true` ↔ `false`                          |
-
-{:.highlight}
-Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM](https://coderina.dev/webdocs/docs/unit04/notes404.html)
-
 --- 
 
 ### Tutorial Instructions
@@ -154,7 +141,20 @@ Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM](ht
   toggleButton.addEventListener('click', toggleMode);
   ```
   > - This tells the browser: _"When the button is clicked, call the `toggleMode()` function."_
-  > - We don’t use parentheses here (`toggleMode()` → ❌). Just pass the function name so it runs when clicked.
+  > - We don’t use parentheses here (`toggleMode()` → ❌). Just pass the **function name** so it runs when clicked.
+
+##### 🆕 JavaScript Skills
+
+| Concept                | Example                              | What It Does                                      |
+|------------------------|---------------------------------------|---------------------------------------------------|
+| `querySelector()`      | `const element = document.querySelector('#btn');`      | Function that _selects_ an **HTML element**                          |
+| Event Listener         | `element.addEventListener('click', function);`       | Runs a **function** when something is clicked        |
+| `.style.property`      | `element.style.color = 'red';`         | Changes a **CSS property** with JavaScript           |
+| `.textContent`         | `element.textContent = 'Hello!';`      | Changes what **text** is displayed in an element     |
+| Boolean Toggle         | `isDarkMode = !isDarkMode;`           | Switches `true` ↔ `false`                          |
+
+{:.highlight}
+Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM](https://coderina.dev/webdocs/docs/unit04/notes404.html)
 
 ---
 
