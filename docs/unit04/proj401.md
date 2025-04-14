@@ -95,7 +95,7 @@ Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM](ht
   const body = document.querySelector('body');
   const heading = document.querySelector('#main-heading');
   const description = document.querySelector('#description');
-  const toggleButton = document.querySelector('#toggle-button');
+  const toggleButton = document.querySelector('#toggle');
   ```
   > - The `querySelector()` function lets you grab any element using its **tag**, `class`, or `id`.
   > - We’re grabbing the button, the body (for background), the heading, and the paragraph.
