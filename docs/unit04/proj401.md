@@ -145,7 +145,7 @@ To demonstrate how **JavaScript** can be implemented in HTML/CSS webpages, we wi
 
 ---
 
-#### 🆕 JavaScript Skills
+### 🆕 JavaScript Skills
 
 | Concept                | Example                              | What It Does                                      |
 |------------------------|---------------------------------------|---------------------------------------------------|
