@@ -44,7 +44,7 @@ To demonstrate how **JavaScript** can be implemented in HTML/CSS webpages, we wi
   </div>
   ```
   > - We give the `<div>` a `class` called `container` so we can _select_ it in **CSS**.
-  > - There’s a `<button>` element with an `id` called `toggle-button` so we can _target_ it in **JavaScript**.
+  > - There’s a `<button>` element with an `id` called `toggle` so we can _target_ it in **JavaScript**.
   > - Note that the other elements have their own `id` values as well...
 
 #### 🎨 Part B: Add Basic Styles in CSS
