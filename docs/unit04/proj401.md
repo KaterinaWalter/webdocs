@@ -40,7 +40,7 @@ To demonstrate how **JavaScript** can be implemented in HTML/CSS webpages, we wi
   <div class="container">
     <h1 id="main-heading">Welcome to My Page</h1>
     <p id="description">This page supports light and dark mode!</p>
-    <button id="toggle-button">Switch to Dark Mode</button>
+    <button id="toggle">Switch to Dark Mode</button>
   </div>
   ```
   > - We give the `<div>` a `class` called `container` so we can _select_ it in **CSS**.
