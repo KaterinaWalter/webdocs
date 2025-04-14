@@ -89,8 +89,8 @@ To demonstrate how **JavaScript** can be implemented in HTML/CSS webpages, we wi
   const description = document.querySelector('#description');
   const toggleButton = document.querySelector('#toggle');
   ```
-  > - The `querySelector()` function lets you grab any element using its **tag**, `class`, or `id`.
-  > - We’re grabbing the button, the body (for background), the heading, and the paragraph.
+  > - The `querySelector()` function lets you select any element using its **tag**, `class`, or `id`.
+  > - We’re selecting the button, the body (for background), the heading, and the paragraph. All of these "_selections_" are stored in named **variables** to be accessed later.
   > - `const` (_constant_) is used as the keyword to **declare variables** here instead of `let`, because `querySelector` returns just a _REFERENCE_ to the element's **location**, which does not change. 
 
 3. Define a **function** that toggles the color theme mode:
