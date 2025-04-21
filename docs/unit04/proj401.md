@@ -165,7 +165,25 @@ Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM](ht
 {:.important}
 You are required to attempt _at least TWO_ of the **creative features** suggested below to earn full credit on this project! 
 
-1. **Customize the Page's Appearance**
+1. **Change Images Based on the Mode**
+  - 🖼️ Add an image of a sunny landscape to the HTML:
+    ```html
+    <img id="image" src="day.jpg">
+    ```
+  - Since you added a **new HTML element** to the document, you should create a JavaScript **named variable** for it as well. Call it `imageElement` and **select** it from the `document` the same way we selected the `heading`, `toggleButton`, etc. at the top of your script.
+    > _HINT:_ Scroll up and look for all the `const` declarations. Follow the same pattern to select your image!
+  - Inside your `toggleMode` function, switch the image's `src` attribute:
+    ```javascript
+    if (isDarkMode) {
+      imageElement.src = 'night.jpg';
+    }
+    else {
+      imageElement.src = 'day.jpg';
+    }
+    ```
+    > _HINT:_ You already have an `if` and `else` block, so do not just copy-paste the code above. Figure out where you need to add the specific line that changes the `src` for each mode.
+
+2. **Customize the Page's Appearance**
   - 🎨 If you loved the CSS unit, dive back into it and enhance the overall **style** of your page!
   - Refine the base styles in `style.css` by setting more **properties** (`border`, `text-shadow`, `box-shadow`, `font-family`, etc.) 
   - Or add statements in the `script.js` toggle function to make even more visual differences between the two themes. Refer here: [HTML DOM Style Object Properties](https://www.w3schools.com/jsref/dom_obj_style.asp) to see what else you can change. 
@@ -177,26 +195,10 @@ You are required to attempt _at least TWO_ of the **creative features** suggeste
   }
   ```
 
-2. **Provide Multiple Color Themes**
+3. **Provide Multiple Color Themes**
   - Design and enable more than two color theme options. ⚠️ Note that every additional theme will _require its own_ HTML `<button>` and JavaScript `function`!
   - Check out trending **color palettes** on [Coolors.co](https://coolors.co/palettes/trending) to use as inspiration.
   - Pick **gradients** from [SheCodes.io](https://www.shecodes.io/gradients) to use for `background` instead of a plain color.  
-
-4. **Change Images Based on the Mode**
-  - 🖼️ Add an image of a sunny landscape to the HTML:
-    ```html
-    <img id="image" src="day.jpg">
-    ```
-  - Use JavaScript to switch the image to a nighttime scene:
-    ```javascript
-    if (isDarkMode) {
-      imageElement.src = 'night.jpg';
-    }
-    else {
-      imageElement.src = 'day.jpg';
-    }
-    ```
-    > Don't forget to _select_ your `imageElement` first! 
 
 4. **Keyboard Shortcut to Toggle Theme**
   - ⌨️ Add an event listener for _keyboard input_:
