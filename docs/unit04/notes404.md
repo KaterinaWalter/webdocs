@@ -14,13 +14,7 @@ nav_order: 4
 
 ---
 
-## JavaScript for Webpage Interactions
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KShnPYN-voI?si=CweLbdCfRuLw3JYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
-
----
-
-## The DOM (Document Object Model)
+## JavaScript DOM (Document Object Model) for Webpage Interaction
 
 The DOM is an API (Application Programming Interface) that allows you to use JavaScript to **make changes to an HTML document**. It’s the key to building _dynamic_ websites by linking JavaScript with HTML on the front-end.
 
