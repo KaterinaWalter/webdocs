@@ -1,9 +1,9 @@
 ---
 layout: project
-title: "💻PROJECT #4.1"
+title: "💻PROJECT #4.2"
 projectname: "Light & Dark Mode"
 parent: "4️⃣ JavaScript"
-nav_order: 5
+nav_order: 6
 ---
 
 
