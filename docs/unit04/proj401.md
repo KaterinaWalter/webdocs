@@ -185,8 +185,8 @@ You are required to attempt _at least TWO_ of the **creative features** suggeste
 
 2. **Customize the Page's Appearance**
   - 🎨 If you loved the CSS unit, dive back into it and enhance the overall **style** of your page!
-  - Refine the base styles in `style.css` by setting more **properties** (`border`, `text-shadow`, `box-shadow`, `font-family`, etc.) 
-  - Or add statements in the `script.js` toggle function to make even more visual differences between the two themes. Refer here: [HTML DOM Style Object Properties](https://www.w3schools.com/jsref/dom_obj_style.asp) to see what else you can change. 
+  - First, refine the base styles in `style.css` by setting more **properties** (`border`, `text-shadow`, `box-shadow`, `font-family`, etc.) 
+  - Next, add **JavaScript statements** in the `script.js` toggle function to make even _more visual differences_ between the two themes. Refer here: [HTML DOM Style Object Properties](https://www.w3schools.com/jsref/dom_obj_style.asp) to see what else you can change inside your `toggleMode` function. 
   - Decorate with **emojis/icons**, for example, you could replace text with 🌞 and 🌙 icons for a fun visual toggle. _BONUS:_ Animate the icons using CSS `@keyframes`.
   - Make the background and text color changes **fade smoothly** by adding this `transition`:
   ```css
