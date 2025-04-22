@@ -13,6 +13,7 @@ nav_order: 1
 {:toc}
 
 ---
+
 ## Introduction to Web Development
 What do web developers do? In short, they **build and maintain websites**.
 
