@@ -51,6 +51,8 @@ Today, JavaScript can execute not only in the **browser**, but also on the serve
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gT0Lh1eYk78?si=nXbuPeJMd8GCFsv7&amp;start=30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6bUyjuFyjeA?si=0yP6FECJhZR2v-2n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### What can in-browser JavaScript do?
 {:.no_toc}
 
