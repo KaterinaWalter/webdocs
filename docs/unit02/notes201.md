@@ -41,6 +41,8 @@ Many resources put it near the end of their curriculum because it is somewhat ne
 - You will learn about `flex containers` and `flex items`.
 - You will learn how to create useful components and layouts that go beyond just stacking and centering items.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rPlwsRJZ_EM?si=XRVUsEBuHuEEjwvZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Let's flex!
 {: .no_toc }
 
