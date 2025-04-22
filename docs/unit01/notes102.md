@@ -19,7 +19,7 @@ nav_order: 2
 
 HTML and CSS are two languages that work together to create everything that you see when you look at something on the internet. HTML is the raw data and content that a webpage is built out of. All the text, links, cards, lists, and buttons are created in HTML. CSS is what adds *style* to those plain elements. HTML puts information on a webpage, and CSS positions that information, gives it color, changes the font, and makes it look great!
 
-![image](figures/structure-vs-presentation)
+![image](figures/structure-vs-presentation.png)
 
 Many great resources out there keep referring to HTML and CSS as *programming languages*, but if you want to get technical, labeling them as such is not quite accurate, because they are only concerned with presenting information. They are not used to program any logic. JavaScript, which you will be learning in the next section, is a programming language because it's used to make webpages do things. 
 
@@ -31,6 +31,8 @@ Many great resources out there keep referring to HTML and CSS as *programming la
 </div>
 
 <iframe src="https://blog.codeanalogies.com/wp-admin/admin-ajax.php?action=h5p_embed&id=1" width="726" height="478" frameborder="0" allowfullscreen="allowfullscreen" title="House to Page Structure- HTML, CSS, JS"></iframe><script src="https://blog.codeanalogies.com/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yY88PZ4o9AE?si=57GTAJ623sLGfQ84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 ## Elements and Tags
