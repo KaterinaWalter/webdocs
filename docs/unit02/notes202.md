@@ -51,6 +51,8 @@ This section contains a general overview of topics that you will learn in this l
 
 ![image](figures/positioned-elements-terminology.png)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sm1ORyc2Qao?si=8KWBw7jWXsXrtqbe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Relative Positioning
 
 The default positioning mode that you've gotten used to is **static**. The difference between static and relative is fairly simple:
