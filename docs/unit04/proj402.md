@@ -58,41 +58,23 @@ Create a simple HTML page with:
 - At least **three buttons** that trigger different actions
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Drink Maker Simulation</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <h1>Make Your Own Drink!</h1>
-
-  <div id="cup-display">[ Empty Cup ]</div>
-
-  <button id="add-milk">Add Milk</button>
-  <button id="add-caramel">Add Caramel Syrup</button>
-  <button id="add-ice">Add Ice</button>
-
-  <script src="script.js"></script>
-</body>
-</html>
+  <h1>Wk31 CodeCollab</h1>
+  <div id="cup-display"></div>
+  <hr> 
+  <div class="container text-center m-auto">
+    <button id="add-milk">Add Milk</button>
+    <button id="add-ice">Add Ice</button>
+    <button id="reset">Reset</button>
+  </div>
 ```
 
 ### **Step 3: Style Your Display (`style.css`)**
 
-Use CSS to create your starting display area. For example:
+Use CSS to format your starting display area. For example:
 
 ```css
 #cup-display {
-  width: 200px;
-  height: 300px;
-  background-color: #e0c9a6;
-  border: 2px solid #5b3a29;
-  margin-bottom: 20px;
-  text-align: center;
-  padding-top: 120px;
-  font-size: 18px;
+
 }
 ```
 
@@ -104,12 +86,6 @@ You can also create “layer” classes to add visual effects:
 
 .caramel {
   border-top: 10px solid #c68e17;
-}
-
-.ice::after {
-  content: "❄️";
-  display: block;
-  font-size: 24px;
 }
 ```
 
@@ -123,23 +99,7 @@ Now, make the buttons actually do something! Use:
 - (Optional) `createElement` and `appendChild`
 
 ```js
-const cup = document.querySelector("#cup-display");
 
-document.querySelector("#add-milk").addEventListener("click", function () {
-  cup.classList.add("milk");
-  cup.textContent = "Milk added!";
-});
-
-document.querySelector("#add-caramel").addEventListener("click", function () {
-  cup.classList.add("caramel");
-  cup.textContent = "Caramel syrup added!";
-});
-
-document.querySelector("#add-ice").addEventListener("click", function () {
-  const snowflake = document.createElement("div");
-  snowflake.textContent = "❄️ Ice added!";
-  cup.appendChild(snowflake);
-});
 ```
 
 ### **Step 5: Customize Your Simulation**
