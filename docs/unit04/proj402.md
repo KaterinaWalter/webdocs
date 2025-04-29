@@ -38,68 +38,91 @@ Imagine a blank coffee cup on the screen. The user can click buttons like "Add M
 
 ### **Step 1: Plan Your Simulation**
 
-Start by choosing a theme. Here are some ideas:
+🧠 Start by choosing a theme. Here are some ideas:
 - **Build a Sandwich** (add bread, cheese, lettuce, meat…)
 - **Dress a Character** (change outfit colors, add hats, accessories…)
 - **Assemble a Pizza** (choose toppings and watch them appear…)
 - **Weather Simulator** (toggle between sunny, rainy, snowy visuals…)
-- **Garden Grower** (plant seeds, grow flowers, change the background…)
+- **Tiny Garden** (plant seeds, grow flowers, change the background…)
 
-Sketch or list:
-- What elements are on screen when the page loads?
-- What buttons or controls can the user interact with?
-- What changes will happen on screen?
+📝 Sketch or list:
+- What _elements_ are on screen when the page loads?
+- What _buttons_ (or keyboard controls) can the user interact with?
+- What _changes_ will happen on screen?
 
 ### **Step 2: Set Up Your HTML**
 
-Create a simple HTML page with:
-- A title/header
-- A display area (like a `div` or `section`) to show your simulation
+🏗️ Create a simple HTML page with:
+- A descriptive title/header (in an `h1` element)
+- A **display area** (like a `div` or `section`) to show your simulation
+  ```html
+  <div id="cup-display" class="coffee">[ Coffee ]</div>
+  ```
 - At least **three buttons** that trigger different actions
-
-```html
-  <h1>Wk31 CodeCollab</h1>
-  <div id="cup-display"></div>
-  <hr> 
+  ```html
   <div class="container text-center m-auto">
     <button id="add-milk">Add Milk</button>
     <button id="add-ice">Add Ice</button>
     <button id="reset">Reset</button>
   </div>
-```
+  ```
 
 ### **Step 3: Style Your Display (`style.css`)**
 
-Use CSS to format your starting display area. For example:
+🎨 Use CSS to format your starting display area. For example:
 
 ```css
 #cup-display {
-
+  width: 200px;
+  height: 250px;
+  text-align: center;
+  font-size: 22px;
+  margin: auto;
+  border: 10px solid black;
 }
 ```
 
-You can also create “layer” classes to add visual effects:
+➕ You can also create “layer” classes to add visual effects:
 ```css
-.milk {
-  background-color: #fffdd0;
+.coffee {
+  background: #6F4E37;
 }
 
-.caramel {
-  border-top: 10px solid #c68e17;
+.milk {
+  background: #b89d8a;
 }
 ```
+> The intention here is to _switch_ between the **class** names! 
 
 ### **Step 4: Add Interactivity with JavaScript (`script.js`)**
 
 Now, make the buttons actually do something! Use:
-- `document.querySelector`
-- `addEventListener`
+- `const element = document.querySelector("selector");`
+- `element.addEventListener("click", function);`
 - `.style` or `.classList.add()`
-- `.textContent`
-- (Optional) `createElement` and `appendChild`
+- `.textContent` or `.innerHTML`
+- `createElement` and `appendChild`
 
 ```js
+const cup = document.querySelector("#cup-display");
 
+const milkBtn = document.querySelector("#add-milk");
+milkBtn.addEventListener("click", addMilk);
+
+function addMilk() {
+  cup.classList.remove("coffee");
+  cup.classList.add("milk");
+  cup.textContent = "[ Coffee with Milk ]";
+}
+
+const iceBtn = document.querySelector("#add-ice");
+iceBtn.addEventListener("click", addIce);
+
+function addIce() {
+  const iceCube = document.createElement("span");
+  iceCube.textContent = "🧊";
+  cup.appendChild(iceCube);
+}
 ```
 
 ### **Step 5: Customize Your Simulation**
