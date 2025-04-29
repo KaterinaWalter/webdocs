@@ -97,6 +97,8 @@ Imagine a blank coffee cup on the screen. The user can click buttons like "Add M
 ### **Step 4: Add Interactivity with JavaScript (`script.js`)**
 
 Now, make the buttons actually do something! Here are the JavaScript tools we have so far:
+
+<!--
 | Concept                | Example                              | What It Does                                      |
 |------------------------|---------------------------------------|---------------------------------------------------|
 | `.querySelector()`      | `const element = document.querySelector('#btn');`      | Function that _selects_ an **HTML element**                          |
@@ -106,6 +108,8 @@ Now, make the buttons actually do something! Here are the JavaScript tools we ha
 
 {:.highlight}
 Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM](https://coderina.dev/webdocs/docs/unit04/notes404.html)
+
+-->
 
 ```js
 const cup = document.querySelector("#cup-display");
