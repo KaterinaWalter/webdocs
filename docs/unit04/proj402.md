@@ -13,7 +13,7 @@ nav_order: 6
 Create a fun and interactive **simulation of a real-life process** using JavaScript and the DOM. Your simulation should allow users to interact with buttons or other inputs on a webpage and see changes appear on screen. This is your chance to turn your code into a mini-world where things come to life when clicked!
 
 #### **Example Project: Coffee Drink Maker**
-Imagine a blank coffee cup on the screen. The user can click buttons like "Add Milk," "Add Caramel Syrup," or "Add Ice." Each click changes how the drink looks or adds a new visual layer. You’ll use **DOM methods** like `querySelector`, `style`, `textContent`, `addEventListener`, and possibly `createElement` and `appendChild` to make this happen.
+Imagine a blank coffee cup on the screen. The user can click buttons like "Add Milk" or "Add Ice." Each click changes how the drink looks or adds a new visual layer. You’ll use **DOM methods** like `querySelector`, `style`, `textContent`, `addEventListener`, and possibly `createElement` and `appendChild` to make this happen.
 
 <html>
 <details>
@@ -96,12 +96,16 @@ Imagine a blank coffee cup on the screen. The user can click buttons like "Add M
 
 ### **Step 4: Add Interactivity with JavaScript (`script.js`)**
 
-Now, make the buttons actually do something! Use:
-- `const element = document.querySelector("selector");`
-- `element.addEventListener("click", function);`
-- `.style` or `.classList.add()`
-- `.textContent` or `.innerHTML`
-- `createElement` and `appendChild`
+Now, make the buttons actually do something! Here are the JavaScript tools we have so far:
+| Concept                | Example                              | What It Does                                      |
+|------------------------|---------------------------------------|---------------------------------------------------|
+| `.querySelector()`      | `const element = document.querySelector('#btn');`      | Function that _selects_ an **HTML element**                          |
+| Event Listener         | `element.addEventListener('click', function);`       | Runs a **function** when something is clicked        |
+| `.style.property`      | `element.style.color = 'red';`         | Changes a **CSS property** with JavaScript           |
+| `.textContent`         | `element.textContent = 'Hello!';`      | Changes what **text** is displayed in an element     |
+
+{:.highlight}
+Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM](https://coderina.dev/webdocs/docs/unit04/notes404.html)
 
 ```js
 const cup = document.querySelector("#cup-display");
@@ -150,7 +154,7 @@ function addIce() {
 
 </div>
 
-#### Extension Ideas
+#### Extension Ideas:
 
 _"Done"?_ Nope... we've only just scratched the surface of what JavaScript can do! 
 
@@ -160,18 +164,4 @@ _"Done"?_ Nope... we've only just scratched the surface of what JavaScript can d
 - Use `setTimeout` to create a **delay** before a change happens
 - Add **sound effects** using the `<audio>` tag and `.play()`
 - Use **checkboxes** instead of buttons (🔍 search _"HTML Form Checkbox"_)
-
----
-
-### 📚 Resources & JS Cheatsheet
-
-| Concept                | Example                              | What It Does                                      |
-|------------------------|---------------------------------------|---------------------------------------------------|
-| `.querySelector()`      | `const element = document.querySelector('#btn');`      | Function that _selects_ an **HTML element**                          |
-| Event Listener         | `element.addEventListener('click', function);`       | Runs a **function** when something is clicked        |
-| `.style.property`      | `element.style.color = 'red';`         | Changes a **CSS property** with JavaScript           |
-| `.textContent`         | `element.textContent = 'Hello!';`      | Changes what **text** is displayed in an element     |
-
-{:.highlight}
-Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM](https://coderina.dev/webdocs/docs/unit04/notes404.html)
 
