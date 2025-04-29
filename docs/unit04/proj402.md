@@ -63,7 +63,6 @@ Imagine a blank coffee cup on the screen. The user can click buttons like "Add M
   <div class="container text-center m-auto">
     <button id="add-milk">Add Milk</button>
     <button id="add-ice">Add Ice</button>
-    <button id="reset">Reset</button>
   </div>
   ```
 
