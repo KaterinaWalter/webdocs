@@ -68,7 +68,7 @@ Imagine a blank coffee cup on the screen. The user can click buttons like "Add M
 
 ### **Step 3: Style Your Display (`style.css`)**
 
-🎨 Use CSS to format your starting display area. For example:
+🎨 Use CSS to format the **initial appearance** of your display area. For example:
 
 ```css
 #cup-display {
@@ -80,8 +80,9 @@ Imagine a blank coffee cup on the screen. The user can click buttons like "Add M
   border: 10px solid black;
 }
 ```
+> Here, setting some general styles that will NOT change later on. 
 
-➕ You can also create “layer” classes to add visual effects:
+➕ You can also define **classes** for certain visual effects:
 ```css
 .coffee {
   background: #6F4E37;
@@ -124,32 +125,41 @@ function addIce() {
 }
 ```
 
-### **Step 5: Customize Your Simulation**
+### Customize Your Simulation
 
-Replace the coffee drink example with your own theme and style! You must include:
-- A **display area**
-- At least **3 buttons or interactive elements**
-- At least **3 visible DOM changes**, such as:
-  - Changing styles or background colors
-  - Changing text on screen
-  - Adding new elements to the display (`createElement`, `appendChild`)
+<div class="task" markdown="block">
+  
+🎯 Replace the example with a simulation of your own unique **theme** and style! 
 
-### Extension Challenges (Optional)
+#### REQUIREMENTS:
+- [ ] One **display area** (or more) that can change with user interaction
+  - Include appropriate HTML elements to _build the scene_ of your simulation
+    > _Examples:_ `<p>`, `<div>`, `<span>`, `<img>`
+  - Design the initial layout/appearance of the elements with CSS rules
+- [ ] At least **3 buttons** (or other interactive controls, like key presses)
+  - Use `document.querySelector` to select the button elements in JavaScript
+  - Use `addEventListener` to connect each button element to a function
+  - Define a `function` for each button that handles changes in your simulation
+- [ ] At least **10 visible DOM changes** handled in JavaScript, such as:
+  - Changing individual `style` properties
+    > _Reference:_ [HTML DOM Style Object Properties](https://www.w3schools.com/jsref/dom_obj_style.asp))
+  - Apply **class names** dynamically (`classList.add`, `classList.remove`)
+  - Changing the `textContent` of **text elements**
+  - Modifying the `src` attribute of **image elements**
+  - Adding **new elements** to the display area (`createElement`, `appendChild`)
 
-Try adding one or more:
-- A **Reset** button that clears the display area
-- Use `setTimeout` to create a delay before a change happens
-- Add sound effects using the `<audio>` tag and `.play()`
-- Use a **dropdown menu** or **checkboxes** instead of buttons
+</div>
 
-### ✅ Project Checklist
+#### Extension Ideas
 
-Before you submit:
-- [ ] My simulation has a clear theme
-- [ ] I used at least 3 types of DOM operations (`style`, textContent, createElement, etc.)
-- [ ] I included at least 3 user interactions (buttons or controls)
-- [ ] My HTML, CSS, and JS are organized into separate files
-- [ ] I had fun and made something cool!
+_"Done"?_ Nope... we've only just scratched the surface of what JavaScript can do! 
+
+🎯 Try to implement one or more of the following features:
+
+- A **reset** button that clears the display area back to the starting appearance
+- Use `setTimeout` to create a **delay** before a change happens
+- Add **sound effects** using the `<audio>` tag and `.play()`
+- Use **checkboxes** instead of buttons (🔍 search _"HTML Form Checkbox"_)
 
 ---
 
@@ -157,7 +167,7 @@ Before you submit:
 
 | Concept                | Example                              | What It Does                                      |
 |------------------------|---------------------------------------|---------------------------------------------------|
-| `querySelector()`      | `const element = document.querySelector('#btn');`      | Function that _selects_ an **HTML element**                          |
+| `.querySelector()`      | `const element = document.querySelector('#btn');`      | Function that _selects_ an **HTML element**                          |
 | Event Listener         | `element.addEventListener('click', function);`       | Runs a **function** when something is clicked        |
 | `.style.property`      | `element.style.color = 'red';`         | Changes a **CSS property** with JavaScript           |
 | `.textContent`         | `element.textContent = 'Hello!';`      | Changes what **text** is displayed in an element     |
