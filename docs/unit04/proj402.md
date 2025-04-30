@@ -16,8 +16,8 @@ Create a fun and interactive **simulation of a real-life process** using JavaScr
 Imagine a blank coffee cup on the screen. The user can click buttons like "Add Milk" or "Add Ice." Each click changes how the drink looks or adds a new visual layer. You’ll use **DOM methods** like `querySelector`, `style`, `textContent`, `addEventListener`, and possibly `createElement` and `appendChild` to make this happen.
 
 <html>
-<p class="codepen" data-width="300" data-theme-id="light" data-default-tab="result" data-slug-hash="RNNjeOW" data-pen-title="Covfefe" data-user="katerinawalter" style="width: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/katerinawalter/pen/RNNjeOW">
+<p class="codepen" data-height="300" data-theme-id="light" data-default-tab="result" data-slug-hash="vEEWVMO" data-pen-title="Covfefe" data-user="katerinawalter" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/katerinawalter/pen/vEEWVMO">
   Covfefe</a> by Katerina Walter (<a href="https://codepen.io/katerinawalter">@katerinawalter</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
