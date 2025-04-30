@@ -12,18 +12,6 @@ nav_order: 6
 ### **Project Goal**
 Create a fun and interactive **simulation of a real-life process** using JavaScript and the DOM. Your simulation should allow users to interact with buttons or other inputs on a webpage and see changes appear on screen. This is your chance to turn your code into a mini-world where things come to life when clicked!
 
-#### **Example Project: Coffee Drink Maker**
-Imagine a blank coffee cup on the screen. The user can click buttons like "Add Milk" or "Add Ice." Each click changes how the drink looks or adds a new visual layer. You’ll use **DOM methods** like `querySelector`, `style`, `textContent`, `addEventListener`, and possibly `createElement` and `appendChild` to make this happen.
-
-<html>
-<p class="codepen" data-height="300" data-theme-id="light" data-default-tab="result" data-slug-hash="vEEWVMO" data-pen-title="Covfefe" data-user="katerinawalter" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/katerinawalter/pen/vEEWVMO">
-  Covfefe</a> by Katerina Walter (<a href="https://codepen.io/katerinawalter">@katerinawalter</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
-</html>
-
 <html>
 <details>
 <summary>📥<strong>PROGRAM SETUP & SUBMISSION INSTRUCTIONS</strong></summary>
@@ -39,6 +27,18 @@ Imagine a blank coffee cup on the screen. The user can click buttons like "Add M
 </div>
  
 </details>
+</html>
+
+#### **Example Project: Coffee Drink Maker**
+Imagine a blank cup on the screen. The user can click buttons like "Add Coffee" or "Add Milk." Each click changes how the drink looks or adds a new visual layer. You’ll use **DOM methods** like `querySelector`, `style`, `textContent`, `addEventListener`, and possibly `createElement` and `appendChild` to make this happen.
+
+<html>
+<p class="codepen" data-height="300" data-theme-id="light" data-default-tab="result" data-slug-hash="vEEWVMO" data-pen-title="Covfefe" data-user="katerinawalter" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/katerinawalter/pen/vEEWVMO">
+  Covfefe</a> by Katerina Walter (<a href="https://codepen.io/katerinawalter">@katerinawalter</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 </html>
 
 --- 
