@@ -149,22 +149,24 @@ function addIce() {
   
 🎯 Replace the example with a simulation of your own unique **theme** and style! 
 
-#### CHEATSHEET:
-# JavaScript DOM Operations Reference
+#### JS CHEATSHEET:
 
-| Syntax Example                                | Description                                                                                          |
-|-----------------------------------------------|------------------------------------------------------------------------------------------------------|
-| `const element = document.querySelector()`    | Selects the first element that matches the provided CSS selector.                                    |
-| `element.style.cssProperty`                   | Changes the inline style of the selected element by setting a CSS property (e.g., `element.style.color = "red";`). |
-| `element.textContent`                         | Sets or gets the text content inside an element, ignoring any inner HTML tags.                        |
-| `element.src`                                 | Sets or gets the `src` attribute of an `<img>` or similar media element.                              |
-| `element.addEventListener()`                  | Attaches an event listener to the element to respond to user actions (e.g., clicks, key presses).     |
-| `document.createElement()`                   | Creates a new DOM element (e.g., `document.createElement("div")`).                                    |
-| `parentElement.appendChild()`                | Adds a new child element to a parent element in the DOM tree.                                         |
-| `element.classList.add("className")`         | Adds a CSS class to the element.                                                                     |
-| `element.classList.remove("className")`      | Removes a CSS class from the element.                                                                |
-| `element.remove()`                           | Removes the element from the DOM entirely.                                                           |
+| Syntax Example                                | Description |
+|-----------------------------------------------|----------------|
+| `const element = document.querySelector("selector");`    | Selects the first element that matches the provided **CSS selector** (`tag`, `.class`, or `#id`) |
+| `element.textContent = "new text";`                      | Sets the **text content** inside an element like `<h1>`, `<p>`, or `<span>` |
+| `element.src = "new URL";`                               | Sets the **source attribute** of an `<img>` or similar media element |
+| `element.style.cssProperty = "new value";`               | Changes the **inline style** of the selected element by setting a [CSS property](https://www.w3schools.com/jsref/dom_obj_style.asp) (EX: `element.style.backgroundColor = "red";` or `element.style.border = "2px solid black";`) |
+| `element.classList.add("className");`          | **Adds a class** (set of _styling rules_ defined in CSS) to the element. |
+| `element.classList.remove("className");`       | **Removes a class** from the element. |
+| `element.addEventListener("click", functionName);` | Attaches an event listener to an element (usually a `<button>`) to **trigger a function** in response to **user actions** (clicks, key presses). |
+| `function functionName() {}` | Defines a new **function** (process) that executes a set of JavaScript **statements** (instructions) |
+| `document.createElement();`                    | Creates a **new HTML element** in the DOM (e.g., `document.createElement("span");`). |
+| `element.appendChild();`                 | Adds a new child element to a parent element (usually a `<div>`) in the DOM tree. |
+| `element.remove();`                            | Removes the element from the DOM entirely. |
 
+> * Refer to the official docs: [📖 JavaScript Document Object Model](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting)
+> * Refer to the notes page for more detailed explanations: [📓 Notes 4.4: HTML DOM](https://coderina.dev/webdocs/docs/unit04/notes404.html)
 
 #### REQUIREMENTS:
 - [ ] One **display area** (or more) that can change with user interaction
