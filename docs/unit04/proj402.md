@@ -172,10 +172,10 @@ Replace the example with a simulation of your own unique **theme** and style! Us
 - [ ] At least **3 buttons** (or other interactive controls, like key presses)
   - Use `document.querySelector` to select the button elements in JavaScript
   - Use `addEventListener` to connect each button element to a function
-  - Define a `function` for each button that handles changes in your simulation
+  - Define a `function` for each button that handles **changes** in your simulation
 - [ ] At least **10 visible DOM changes** handled in JavaScript, such as:
-  - Changing individual `style` properties
-    > _Reference:_ [HTML DOM Style Object Properties](https://www.w3schools.com/jsref/dom_obj_style.asp))
+  - Changing individual `style` properties 
+    > _Reference:_ [HTML DOM Style Object Properties](https://www.w3schools.com/jsref/dom_obj_style.asp)
   - Apply **class names** dynamically for larger sets of styling rules (`classList.add`, `classList.remove`)
   - Changing the `textContent` of **text elements**
   - Modifying the `src` attribute of **image elements**
