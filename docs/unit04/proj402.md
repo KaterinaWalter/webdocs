@@ -149,6 +149,23 @@ function addIce() {
   
 🎯 Replace the example with a simulation of your own unique **theme** and style! 
 
+#### CHEATSHEET:
+# JavaScript DOM Operations Reference
+
+| Syntax Example                                | Description                                                                                          |
+|-----------------------------------------------|------------------------------------------------------------------------------------------------------|
+| `const element = document.querySelector()`    | Selects the first element that matches the provided CSS selector.                                    |
+| `element.style.cssProperty`                   | Changes the inline style of the selected element by setting a CSS property (e.g., `element.style.color = "red";`). |
+| `element.textContent`                         | Sets or gets the text content inside an element, ignoring any inner HTML tags.                        |
+| `element.src`                                 | Sets or gets the `src` attribute of an `<img>` or similar media element.                              |
+| `element.addEventListener()`                  | Attaches an event listener to the element to respond to user actions (e.g., clicks, key presses).     |
+| `document.createElement()`                   | Creates a new DOM element (e.g., `document.createElement("div")`).                                    |
+| `parentElement.appendChild()`                | Adds a new child element to a parent element in the DOM tree.                                         |
+| `element.classList.add("className")`         | Adds a CSS class to the element.                                                                     |
+| `element.classList.remove("className")`      | Removes a CSS class from the element.                                                                |
+| `element.remove()`                           | Removes the element from the DOM entirely.                                                           |
+
+
 #### REQUIREMENTS:
 - [ ] One **display area** (or more) that can change with user interaction
   - Include appropriate HTML elements to _build the scene_ of your simulation
