@@ -153,10 +153,10 @@ Replace the example with a simulation of your own unique **theme** and style! Us
 
 | Syntax Example                                | Description |
 |-----------------------------------------------|----------------|
-| `const element = document.querySelector("selector");`    | Selects the first element that matches the provided **CSS selector** (`tag`, `.class`, or `#id`) |
+| `const element = document.querySelector("selector");`    | Selects the first **HTML element** that matches the provided **CSS selector** (`tag`, `.class`, or `#id`) |
 | `element.textContent = "new text";`                      | Sets the **text content** inside an element like `<h1>`, `<p>`, or `<span>` |
 | `element.src = "new URL";`                               | Sets the **source attribute** of an `<img>` or similar media element |
-| `element.style.cssProperty = "new value";`               | Changes an individual **inline style** of the selected element by setting a [CSS property](https://www.w3schools.com/jsref/dom_obj_style.asp) (EX: `element.style.backgroundColor = "red";` or `element.style.border = "2px solid black";`) |
+| `element.style.cssProperty = "new value";`               | Changes an **inline style** of the selected element by setting an individual [CSS property](https://www.w3schools.com/jsref/dom_obj_style.asp) (e.g., `element.style.backgroundColor = "red";` or `element.style.border = "2px solid black";`) |
 | `element.classList.add("className");`          | **Adds a class** (set of _styling rules_ defined in CSS) to the element |
 | `element.classList.remove("className");`       | **Removes a class** from the element (therefore removing that set of _styling rules_) |
 | `element.addEventListener("click", functionName);` | Attaches an event listener to an element (usually a `<button>`) to **trigger a function** in response to **user actions** (_clicks_, _key presses_, etc.) |
