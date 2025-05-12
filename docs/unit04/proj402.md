@@ -143,7 +143,7 @@ function addIce() {
 }
 ```
 
-### Customize Your Simulation
+### **Step 5: Customize Your Simulation**
 
 <div class="task" markdown="block">
   
