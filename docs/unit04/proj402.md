@@ -147,28 +147,24 @@ function addIce() {
 
 <div class="task" markdown="block">
   
-🎯 Replace the example with a simulation of your own unique **theme** and style! 
+Replace the example with a simulation of your own unique **theme** and style! Use [JavaScript DOM operations](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting) to manipulate the **HTML and CSS** of the document.
 
-#### JS CHEATSHEET:
+#### 📖 JS CHEATSHEET:
 
 | Syntax Example                                | Description |
 |-----------------------------------------------|----------------|
 | `const element = document.querySelector("selector");`    | Selects the first element that matches the provided **CSS selector** (`tag`, `.class`, or `#id`) |
 | `element.textContent = "new text";`                      | Sets the **text content** inside an element like `<h1>`, `<p>`, or `<span>` |
 | `element.src = "new URL";`                               | Sets the **source attribute** of an `<img>` or similar media element |
-| `element.style.cssProperty = "new value";`               | Changes the **inline style** of the selected element by setting a [CSS property](https://www.w3schools.com/jsref/dom_obj_style.asp) (EX: `element.style.backgroundColor = "red";` or `element.style.border = "2px solid black";`) |
-| `element.classList.add("className");`          | **Adds a class** (set of _styling rules_ defined in CSS) to the element. |
-| `element.classList.remove("className");`       | **Removes a class** from the element. |
-| `element.addEventListener("click", functionName);` | Attaches an event listener to an element (usually a `<button>`) to **trigger a function** in response to **user actions** (clicks, key presses). |
-| `function functionName() {}` | Defines a new **function** (process) that executes a set of JavaScript **statements** (instructions) |
-| `document.createElement();`                    | Creates a **new HTML element** in the DOM (e.g., `document.createElement("span");`). |
-| `element.appendChild();`                 | Adds a new child element to a parent element (usually a `<div>`) in the DOM tree. |
-| `element.remove();`                            | Removes the element from the DOM entirely. |
+| `element.style.cssProperty = "new value";`               | Changes an individual **inline style** of the selected element by setting a [CSS property](https://www.w3schools.com/jsref/dom_obj_style.asp) (EX: `element.style.backgroundColor = "red";` or `element.style.border = "2px solid black";`) |
+| `element.classList.add("className");`          | **Adds a class** (set of _styling rules_ defined in CSS) to the element |
+| `element.classList.remove("className");`       | **Removes a class** from the element (therefore removing that set of _styling rules_) |
+| `element.addEventListener("click", functionName);` | Attaches an event listener to an element (usually a `<button>`) to **trigger a function** in response to **user actions** (_clicks_, _key presses_, etc.) |
+| `function functionName() {}` | Defines a new **function** (_process_) that executes a set of JavaScript **statements** (_instructions_) when activated |
+| `const newElement = document.createElement("tag");` | Creates a **new HTML element** in the DOM (e.g., `document.createElement("span");`) |
+| `element.appendChild(newElement);`                 | Adds a new _child element_ to a _parent element_ (usually a `<div>`) in the document |
 
-> * Refer to the official docs: [📖 JavaScript Document Object Model](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting)
-> * Refer to the notes page for more detailed explanations: [📓 Notes 4.4: HTML DOM](https://coderina.dev/webdocs/docs/unit04/notes404.html)
-
-#### REQUIREMENTS:
+#### 🎯 REQUIREMENTS:
 - [ ] One **display area** (or more) that can change with user interaction
   - Include appropriate HTML elements to _build the scene_ of your simulation
     > _Examples:_ `<p>`, `<div>`, `<span>`, `<img>`
@@ -180,10 +176,11 @@ function addIce() {
 - [ ] At least **10 visible DOM changes** handled in JavaScript, such as:
   - Changing individual `style` properties
     > _Reference:_ [HTML DOM Style Object Properties](https://www.w3schools.com/jsref/dom_obj_style.asp))
-  - Apply **class names** dynamically (`classList.add`, `classList.remove`)
+  - Apply **class names** dynamically for larger sets of styling rules (`classList.add`, `classList.remove`)
   - Changing the `textContent` of **text elements**
   - Modifying the `src` attribute of **image elements**
   - Adding **new elements** to the display area (`createElement`, `appendChild`)
+    > _Reference:_ [JavaScript Document Object Model](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting)
 
 </div>
 
