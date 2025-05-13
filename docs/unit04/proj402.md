@@ -152,7 +152,7 @@ Replace the example with a simulation of your own unique **theme** and style! Us
 | `element.classList.remove("class-name");`       | **Removes a class** from the element (therefore removing that set of _styling rules_) |
 | `element.addEventListener("click", functionName);` | Attaches an event listener to an element (usually a `<button>`) to **trigger a function** in response to **user actions** |
 | `function functionName() {}` | Defines a new **function** (_process_) that executes a set of JavaScript **statements** (_instructions_) when activated |
-| `const newElement = document.createElement("tag");` | Creates a **new HTML element** in the DOM (e.g., `document.createElement("span");`) |
+| `const newElement = document.createElement("tag");` | Creates a **new HTML element** in the DOM |
 | `element.appendChild(newElement);`                 | Adds a new _child element_ to a _parent element_ (usually a `<div>`) in the document |
 
 #### 🎯 REQUIREMENTS:
