@@ -144,15 +144,15 @@ Replace the example with a simulation of your own unique **theme** and style! Us
 
 | Syntax Example                                | Description |
 |-----------------------------------------------|----------------|
-| `const element = document.querySelector("selector");`    | Selects the first **HTML element** that matches the provided **CSS selector** (`tag`, `.class`, or `#id`) |
+| `const element = document.querySelector();`    | Selects the first **HTML element** that matches the provided **CSS selector** (`tag`, `.class`, or `#id`) |
 | `element.textContent = "text";`                      | Sets the **text** inside an element like `<h1>`, `<p>`, or `<span>` |
 | `element.src = "source";`                               | Sets the **source attribute** of an `<img>` or similar media element |
 | `element.style.property = "value";`               | Changes an **inline style** of the selected element by setting a [CSS property](https://www.w3schools.com/jsref/dom_obj_style.asp) (_ex:_ `element.style.border = "2px solid black";`) |
-| `element.classList.add("");`          | **Adds a class name** (set of _styling rules_ defined in CSS) to the element |
-| `element.classList.remove("");`       | **Removes a class name** from the element (therefore removing that set of _styling rules_) |
-| `element.addEventListener("click", functionName);` | Attaches an _event listener_ to an element (usually a `<button>`) to **trigger a function** in response to **user actions** |
+| `element.classList.add();`          | **Adds a class name** (set of _styling rules_ defined in CSS) to the element |
+| `element.classList.remove();`       | **Removes a class name** from the element (therefore removing that set of _styling rules_) |
+| `element.addEventListener('click', functionName);` | Attaches an _event listener_ to an element (usually a `<button>`) to **trigger a function** in response to **user actions** |
 | `function functionName() {}` | Defines a new **function** (_process_) that executes a set of JavaScript **statements** (_instructions_) when activated |
-| `const newElement = document.createElement("tag");` | Creates a **new HTML element** in the DOM |
+| `const newElement = document.createElement('tag');` | Creates a **new HTML element** in the DOM |
 | `element.appendChild(newElement);`                 | Adds a new _child element_ to a _parent element_ (usually a `<div>`) in the document |
 
 #### 🎯 REQUIREMENTS:
