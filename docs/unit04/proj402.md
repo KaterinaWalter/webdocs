@@ -106,42 +106,33 @@ Imagine a blank cup on the screen. The user can click buttons like "Add Coffee" 
 
 ### **Step 4: Add Interactivity with JavaScript (`script.js`)**
 
-Now, make the buttons actually do something! Here are the JavaScript tools we have so far:
+Now, make the buttons actually _do something_! Use the last project to help you. Here are two additional ways to use **JavaScript to change the page**:
 
-<!--
-| Concept                | Example                              | What It Does                                      |
-|------------------------|---------------------------------------|---------------------------------------------------|
-| `.querySelector()`      | `const element = document.querySelector('#btn');`      | Function that _selects_ an **HTML element**                          |
-| Event Listener         | `element.addEventListener('click', function);`       | Runs a **function** when something is clicked        |
-| `.style.property`      | `element.style.color = 'red';`         | Changes a **CSS property** with JavaScript           |
-| `.textContent`         | `element.textContent = 'Hello!';`      | Changes what **text** is displayed in an element     |
-
-{:.highlight}
-Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM](https://coderina.dev/webdocs/docs/unit04/notes404.html)
-
--->
-
-```js
-const cup = document.querySelector("#cup-display");
-
-const milkBtn = document.querySelector("#add-milk");
-milkBtn.addEventListener("click", addMilk);
-
-function addMilk() {
-  cup.classList.remove("coffee");
-  cup.classList.add("milk");
-  cup.textContent = "[ Coffee with Milk ]";
-}
-
-const iceBtn = document.querySelector("#add-ice");
-iceBtn.addEventListener("click", addIce);
-
-function addIce() {
-  const iceCube = document.createElement("span");
-  iceCube.textContent = "🧊";
-  cup.appendChild(iceCube);
-}
-```
+* Button that changes the **CLASS NAME** attached to an element:
+  ```js
+  const cup = document.querySelector("#cup-display");
+  
+  const milkBtn = document.querySelector("#add-milk");
+  milkBtn.addEventListener("click", addMilk);
+  
+  function addMilk() {
+    cup.classList.remove("coffee");
+    cup.classList.add("milk");
+    cup.textContent = "[ Coffee with Milk ]";
+  }
+  ```
+  > This strategy is useful for applying larger _sets of styling rules_, as an alternative to setting individual style properties like we did in the last project with `element.style.cssProperty = "value"`.
+* Button that **CREATES** and **ADDS** a new HTML element to the document: 
+  ```
+  const iceBtn = document.querySelector("#add-ice");
+  iceBtn.addEventListener("click", addIce);
+  
+  function addIce() {
+    const iceCube = document.createElement("span");
+    iceCube.textContent = "🧊";
+    cup.appendChild(iceCube);
+  }
+  ```
 
 ### **Step 5: Customize Your Simulation**
 
@@ -153,13 +144,13 @@ Replace the example with a simulation of your own unique **theme** and style! Us
 
 | Syntax Example                                | Description |
 |-----------------------------------------------|----------------|
-| `const element = document.querySelector("");`    | Selects the first **HTML element** that matches the provided **CSS selector** (`tag`, `.class`, or `#id`) |
-| `element.textContent = "";`                      | Sets the **text** inside an element like `<h1>`, `<p>`, or `<span>` |
-| `element.src = "";`                               | Sets the **source attribute** of an `<img>` or similar media element |
-| `element.style.cssProperty = "value";`               | Changes an **inline style** of the selected element by setting an individual [CSS property](https://www.w3schools.com/jsref/dom_obj_style.asp) (e.g., `element.style.border = "2px solid black";`) |
-| `element.classList.add("");`          | **Adds a class name** (set of _styling rules_ defined in CSS) to the element |
-| `element.classList.remove("");`       | **Removes a class name** from the element (therefore removing that set of _styling rules_) |
-| `element.addEventListener("click", functionName);` | Attaches an event listener to an element (usually a `<button>`) to **trigger a function** in response to **user actions** (_clicks_, _key presses_, etc.) |
+| `const element = document.querySelector("selector");`    | Selects the first **HTML element** that matches the provided **CSS selector** (`tag`, `.class`, or `#id`) |
+| `element.textContent = "text";`                      | Sets the **text** inside an element like `<h1>`, `<p>`, or `<span>` |
+| `element.src = "source";`                               | Sets the **source attribute** of an `<img>` or similar media element |
+| `element.style.cssProperty = "value";`               | Changes an **inline style** of the selected element by setting a [CSS property](https://www.w3schools.com/jsref/dom_obj_style.asp) (_ex:_ `element.style.border = "2px solid black";`) |
+| `element.classList.add("class-name");`          | **Adds a class** (set of _styling rules_ defined in CSS) to the element |
+| `element.classList.remove("class-name");`       | **Removes a class** from the element (therefore removing that set of _styling rules_) |
+| `element.addEventListener("click", functionName);` | Attaches an event listener to an element (usually a `<button>`) to **trigger a function** in response to **user actions** |
 | `function functionName() {}` | Defines a new **function** (_process_) that executes a set of JavaScript **statements** (_instructions_) when activated |
 | `const newElement = document.createElement("tag");` | Creates a **new HTML element** in the DOM (e.g., `document.createElement("span");`) |
 | `element.appendChild(newElement);`                 | Adds a new _child element_ to a _parent element_ (usually a `<div>`) in the document |
