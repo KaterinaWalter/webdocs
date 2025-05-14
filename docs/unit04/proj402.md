@@ -177,12 +177,15 @@ Replace the example with a simulation of your own unique **theme** and style! Us
 
 #### Extension Ideas:
 
-_"Done"?_ Nope... we've only just scratched the surface of what JavaScript can do! 
+We have only just scratched the surface of what JavaScript can do! Try to implement one or more of the following features:
 
-🎯 Try to implement one or more of the following features:
-
-- A **reset** button that clears the display area back to the starting appearance
-- Use `setTimeout` to create a **delay** before a change happens
-- Add **sound effects** using the `<audio>` tag and `.play()`
-- Use **checkboxes** instead of buttons (🔍 search _"HTML Form Checkbox"_)
-
+- A **RESET** button that clears the display area _back to the starting appearance_.
+  > See the JavaScript code for `resetBtn` and `resetCup()` in my example here: [Wk32 CodeCollab](https://github.com/BWL-CS/cs1-wk32-codecollab)
+- Use the `classList.add()` function to attach an **ANIMATION** to an element.
+  > See the CSS code for `.milk-animation` and `@keyframes pour-milk`, and the JavaScript code for `addMilk()` in my example here: [Wk32 CodeCollab](https://github.com/BWL-CS/cs1-wk32-codecollab)
+- Use `.setTimeout()` to create a **delay** before a change happens
+  > _Reference:_ [W3 Schools - Window setTimeout Method](https://www.w3schools.com/jsref/met_win_settimeout.asp)
+- Add **sound effects** using the `<audio>` tag in HTML and `.play()` in JS
+  > _Reference:_ [HTML Audio](https://www.w3schools.com/html/html5_audio.asp) and [JavaScript play Method](https://www.w3schools.com/tags/av_met_play.asp)
+- Use **checkboxes** or other types of **HTML form input** instead of buttons
+  > _Reference:_ [How to Submit a Form with JavaScript](https://www.freecodecamp.org/news/how-to-submit-a-form-with-javascript/)
