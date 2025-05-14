@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "🔤 Custom Fonts" 
+title: "🔤 Custom Fonts Tutorial" 
 parent: References
 nav_order: 2
 ---
