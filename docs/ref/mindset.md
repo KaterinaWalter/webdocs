@@ -2,7 +2,7 @@
 layout: default
 title: "🧠 Mindset Tips" 
 parent: References
-nav_order: 3
+nav_order: 6
 ---
 
 # 🧠 Mindset & Motivation for Programmers
