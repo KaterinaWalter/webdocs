@@ -16,12 +16,12 @@ There are multiple ways to load custom fonts into your webpage, but the simplest
 2. Browse or search for the font you want to use.
 3. **Click** on a font to view its details.
 4. Add it to your "shopping cart"  🛒 by clicking <button class="btn btn-blue">Get Font</button>.
-   ![image](font-step-1.png)
+   ![image-small](font-step-1.png)
    > You can still go back and pick more **font families** before importing them in the steps below!
 6. After selecting your fonts, click on the <button class="btn btn-blue">View Selected Families</button> (shopping bag icon 🛍️) button at the top-right corner of the page.
-   ![image](font-step-2.png)
+   ![image-small](font-step-2.png)
 8. Find and select the `@import` option under <button class="btn btn-blue">Get Embed Code</button>.
-   ![image](font-step-3.png)
+   ![image-small](font-step-3.png)
 9. Copy the generated statement only from `@import` until the semicolon `;`.
    <div class="warn" markdown="block">
      🚫 **DO NOT INCLUDE** the {% raw %}`<style></style>`{% endraw %} tags around the statement! Those are for if you're loading the font via a HTML method, not the CSS way.
