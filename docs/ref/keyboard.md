@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "🔣 Keyboard Symbol Guide" 
+title: "🔣 Keyboard Symbols" 
 parent: References
 nav_order: 1
 ---
