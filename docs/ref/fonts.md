@@ -8,7 +8,7 @@ nav_order: 2
 # 🔤 How to Import Custom Fonts
 {:.no_toc}
 
-### Google Fonts CSS method with `@import`
+### Google Fonts: `@import` via CSS
 
 There are multiple ways to load custom fonts into your webpage, but the simplest method involves keeping everything style-related in the **CSS file**. 
 
