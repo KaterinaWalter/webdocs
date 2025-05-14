@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "🔣 Keyboard Symbols" 
+title: "🔣 Keyboard Symbol Guide" 
 parent: References
 nav_order: 1
 ---
 
-# 🔣 Keyboard Symbols
+# 🔣 Guide to Keyboard Symbols
 
 ## ⌨️  Keyboard Symbols on the Top Row
 
