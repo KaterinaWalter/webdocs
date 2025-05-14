@@ -40,9 +40,9 @@ There are multiple ways to load custom fonts into your webpage, but the simplest
    }
    ```
    > Make sure to **SPELL** the font name correctly and put it in `" "` quotes!!!
-   
-{.highlight}
-Put the `font-family` CSS rule inside a **more specific selector**, like `h1` or `.class-name`, to apply a certain font more sparingly. _See below for examples._
+
+   {:.highlight}
+   Put the `font-family` CSS rule inside a **more specific selector**, like `h1` or `.class-name`, to apply a certain font more sparingly. _See below for examples._
 
 #### Full Example (with multiple fonts):
 ```css
