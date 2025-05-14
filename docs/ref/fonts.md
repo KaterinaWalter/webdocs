@@ -18,11 +18,11 @@ There are multiple ways to load custom fonts into your webpage, but the simplest
 4. Add it to your "shopping bag" 🛍️ by clicking <span class="fs-3"><button class="btn btn-blue">Get Font</button></span>
    ![image-small](font-step-1.png)
    > You can still go back and pick more **font families** before importing them in the steps below!
-6. After selecting your fonts, click on the <span class="fs-3"><button class="btn btn-blue">View Selected Families</button></span> (the bag icon 🛍️) button at the TOP-RIGHT CORNER of the page:
+6. After selecting your fonts, click on the <span class="fs-3"><button class="btn btn-blue">View Selected Families</button></span> (the bag icon 🛍️) button at the TOP-RIGHT CORNER of the page.
+8. Click <span class="fs-3"><button class="btn btn-blue">Get Embed Code</button></span> then select the `@import` option:
    ![image-small](font-step-2.png)
-8. Find and select the `@import` option under <span class="fs-3"><button class="btn btn-blue">Get Embed Code</button></span> 
+9. Copy the generated statement only from `@import` until the semicolon `;`
    ![image-small](font-step-3.png)
-9. Copy the generated statement only from `@import` until the semicolon `;`.
    <div class="warn" markdown="block">
       
    🚫 **DO NOT INCLUDE** the {% raw %}`<style></style>`{% endraw %} tags around the statement! Those are for if you're loading the font via a HTML method, not the CSS way.
