@@ -8,6 +8,8 @@ nav_order: 4
 # 🧱 HTML Cheatsheet
 {:.no_toc}
 
+### Syntax Structure of an Element
+
 ![image](html-element.png)
 
 ### Inline Elements
