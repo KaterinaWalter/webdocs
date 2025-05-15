@@ -15,10 +15,10 @@ By default, **inline elements** appear next to one another in a webpage. They _t
 
 | Usage | Tag | Example |
 | :---: | :---: | :--- |
-| 📦 Inline Container | `<span>` | Used to **group** parts of text, often for styling:<br>`<span style="color:purple;">Special text</span>` |
-| _Emphasized Text_ | `<em>` | `<em>I am in italics</em>` |
-| **Important Text** | `<strong>` | `<strong>I am bold!</strong>` |
-| 🔗 Link | `<a>` | `<a href="https://example.org">Go somewhere</a>` |
+| 📦 Inline Container | `<span>` | Used to **group** parts of text, often for styling:<br>`<span class="purple"> Styled text </span>` |
+| _Emphasized Text_ | `<em>` | `<em> I am in italics </em>` |
+| **Important Text** | `<strong>` | `<strong> I am bold! </strong>` |
+| 🔗 Link | `<a>` | `<a href="https://example.org"> Go somewhere </a>` |
 | 🖼️ Image | `<img>` | _Self-closing_ tag, but the `src` **attribute** is required:<br>`<img src="profile-pic.png" width="50px">` |
 
 ### Block Elements
@@ -26,9 +26,9 @@ By default, **inline elements** appear next to one another in a webpage. They _t
 
 | Usage | Tag | Example |
 | :---: | :---: | :--- |
-| 📦 Block Container | `<div>` | Used to **group** elements for organization/layout:<br>`<div id="section-1" class="container"></div>` |
-| 💬 Paragraph Text | `<p>` | `<p>I am a paragraph of text</p>` |
-| 📣 Heading Text | `<h1>`...`<h6>` | `<h1>Primary heading</h1>`<br>`<h2>Secondary heading</h2>`<br>... |
+| 📦 Block Container | `<div>` | Used to **group** elements for organization/layout:<br>`<div id="section-1"> </div>` |
+| 💬 Paragraph Text | `<p>` | `<p> I am a paragraph of text. </p>` |
+| 📣 Heading Text | `<h1>`...`<h6>` | `<h1> Primary heading </h1>`<br>`<h2> Secondary heading </h2>`<br>... |
 | ➖ Horizontal Rule | `<hr>` | _Self-closing_ tag, just insert `<hr>` anywhere for a line break with a **horizontal border** |
 | ↩ Line Break | `<br>` | _Self-closing_ tag, just insert `<br>` anywhere for a **blank space** break |
 
