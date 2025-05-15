@@ -26,8 +26,6 @@ Web development could be a good profession for you if you like **solving logical
 ### Types of Web Developers
 Earlier, we mentioned that web development work could be in the front end, the back end, or the full stack. What exactly do these terms mean?
 
-![image](https://www.toptal.com/custom-software-development/wp-content/uploads/2016/08/front-end-vs-back-end-750x375.jpg)
-
 * The `front end` is the stuff you see on the website in your browser, including the presentation of content and user interface elements like the navigation bar. Front-end developers use HTML, CSS, JavaScript, and their relevant frameworks to ensure that content is presented effectively and that users have an excellent experience.
 
 * The `back end` refers to the guts of the application, which live on the server. The back end stores and serves program data to ensure that the front end has what it needs. This process can become very complicated when a website has millions of users. Back-end developers use programming languages like Java, Python, Ruby, and JavaScript to work with data.
