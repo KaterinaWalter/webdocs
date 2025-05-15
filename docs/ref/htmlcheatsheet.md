@@ -8,4 +8,5 @@ nav_order: 4
 # 🧱 HTML Cheatsheet
 {:.no_toc}
 
-#### COMING SOON!
+![image](html-element.png)
+
