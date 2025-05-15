@@ -31,7 +31,7 @@ By default, **inline elements** appear next to one another in a webpage. They _t
 | 📦 Block Container | `<div>` | Used to **group** elements for organization/layout:<br>`<div id="section-1"> </div>` |
 | 💬 Paragraph Text | `<p>` | `<p> I am a paragraph of text. </p>` |
 | 📣 Heading Text | `<h1>`...`<h6>` | `<h1> Primary heading </h1>`<br>`<h2> Secondary heading </h2>`<br>... |
-| ➖ Horizontal Rule (Line) | `<hr>` | _Self-closing_ tag, just insert `<hr>` anywhere for a break with a **border** line |
+| ➖ Horizontal Rule | `<hr>` | _Self-closing_ tag, just insert `<hr>` anywhere for a break with a **border line** |
 | ↩ Line Break | `<br>` | _Self-closing_ tag, just insert `<br>` anywhere for a **blank space** break |
 
 <div class="imp" markdown="block">
