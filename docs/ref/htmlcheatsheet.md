@@ -17,8 +17,8 @@ By default, **inline elements** appear next to one another in a webpage. They _t
 | :---: | :---: | :--- |
 | 📦 Inline Container | `<span>` | Used to group text or elements: for example, to  `<span style="color:blue">style text</span>` uniquely from other parts |
 | 🔗 Link | `<a>` | `<a href="https://example.org">A link to example.org</a>` |
-| 🖼️ Image | `<img>` | `<img src="profile-pic.png" width="50px">` |
-| ↩ Line Break | `<br>` | `before<br>after` |
+| 🖼️ Image | `<img>` | No closing tag, but `src` attribute is required: `<img src="profile-pic.png" width="50px">` |
+| ↩ Line Break | `<br>` | No closing tag, just insert anywhere for a break with blank space |
 | _Emphasize Text_ | `<em>` | `<em>I am in italics</em>` |
 | **Important Text** | `<strong>` | `<strong>I am bold!</strong>` |
 
@@ -29,6 +29,6 @@ By default, **inline elements** appear next to one another in a webpage. They _t
 | Usage | Tag | Example |
 | :---: | :---: | :--- |
 | 📦 Block Container | `<div>` | Used to group elements:  `<div class="container"></div>` |
-| Paragraph | `<p>` | `<p>I am a paragraph</p>` |
-| Heading Text | `<h1>`-`<h6>` | `<h2>Secondary heading</h2>` |
-| Horizontal Line | `<hr>` | `before<hr>after` |
+| 💬 Paragraph | `<p>` | `<p>I am a paragraph</p>` |
+| 📣 Heading Text | `<h1>`-`<h6>` | `<h2>Secondary heading</h2>` |
+| ➖ Horizontal Line | `<hr>` | No closing tag, just insert anywhere for a break with a horizontal border |
