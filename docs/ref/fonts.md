@@ -2,7 +2,7 @@
 layout: default
 title: "🔤 Custom Fonts Tutorial" 
 parent: References
-nav_order: 2
+nav_order: 6
 ---
 
 # 🔤 How to Import Custom Fonts
