@@ -2,10 +2,10 @@
 layout: default
 title: "🔤 Custom Fonts Tutorial" 
 parent: References
-nav_order: 6
+nav_order: 7
 ---
 
-# 🔤 How to Import Custom Fonts
+# 🔤 TUTORIAL: How to Import Custom Fonts
 {:.no_toc}
 
 ### Google Fonts: `@import` via CSS
