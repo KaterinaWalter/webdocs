@@ -2,7 +2,7 @@
 layout: project
 title: "💻PROJECT #2.1"
 projectname: "Landing Page"
-parent: "2️⃣ Advanced CSS"
+parent: "2️⃣ Advanced HTML & CSS"
 nav_order: 5
 ---
 
