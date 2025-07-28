@@ -1,6 +1,6 @@
 ---
 layout: notes
-title: "📓NOTES 4.2: Variables & Functions" 
+title: "📓4.2: Variables & Functions" 
 parent: "4️⃣ JavaScript"
 nav_order: 2
 ---
