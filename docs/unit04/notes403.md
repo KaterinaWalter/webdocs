@@ -1,6 +1,6 @@
 ---
 layout: notes
-title: "📓NOTES 4.3: Conditionals & Loops" 
+title: "📓4.3: Conditionals & Loops" 
 parent: "4️⃣ JavaScript"
 nav_order: 3
 ---
