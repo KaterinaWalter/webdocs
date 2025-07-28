@@ -5,7 +5,7 @@ nav_exclude: true
 ---
 
 # Pre-AP Computer Science: Web Development
-<strong class="text-purple-000">Welcome, coders!</strong> Everything for our class can be found on this website, including: 
+<strong class="text-purple-000">Welcome, coders!</strong> This website has everything you need for our class this year, including: 
 * 📓 **Notes** for every lesson
 * 💻 **Project** instructions 
 * 📚 **Reference** materials (_tutorials, cheatsheets, etc._)
