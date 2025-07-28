@@ -1,7 +1,7 @@
 ---
 layout: notes
 title: "📓2.1: Flexbox Layouts" 
-parent: "2️⃣ Advanced CSS"
+parent: "2️⃣ Advanced HTML & CSS"
 nav_order: 1
 ---
 
