@@ -2,7 +2,7 @@
 layout: project
 title: "💻PROJECT #3.1"
 projectname: "Responsive Personal Website"
-parent: "3️⃣ Bootstrap Framework"
+parent: "3️⃣ Bootstrap"
 nav_order: 5
 ---
 
