@@ -1,7 +1,7 @@
 ---
 layout: notes
 title: "📓2.3: Animations" 
-parent: "2️⃣ Advanced CSS"
+parent: "2️⃣ Advanced HTML & CSS"
 nav_order: 3
 ---
 
