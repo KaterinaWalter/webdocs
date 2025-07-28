@@ -1,6 +1,6 @@
 ---
 layout: notes
-title: "📓NOTES 4.1: JavaScript Basics" 
+title: "📓4.1: JavaScript Basics" 
 parent: "4️⃣ JavaScript"
 nav_order: 1
 ---
