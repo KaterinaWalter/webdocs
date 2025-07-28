@@ -1,7 +1,7 @@
 ---
 layout: notes
 title: "📓3.2: UI Components" 
-parent: "3️⃣ Bootstrap Framework"
+parent: "3️⃣ Bootstrap"
 nav_order: 2
 ---
 
