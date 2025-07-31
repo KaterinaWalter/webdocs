@@ -1,15 +1,17 @@
 ---
 layout: project
-title: "💻PROJECT #1.2"
-projectname: "Stylish Recipes"
+title: "💻Unit 1 Project"
+projectname: "Recipe Blog"
 parent: "1️⃣ Web Dev Foundations"
 nav_order: 6
 ---
 
 
-### Overview & Setup
+### Overview
 
-
+<html>
+<details>
+<summary>📥<strong>PROGRAM SETUP & SUBMISSION INSTRUCTIONS</strong></summary>
 
 <div class="setup" markdown="block">
 
@@ -20,11 +22,14 @@ nav_order: 6
 
 </div>
 
+</details>
+</html>
+
 ### Instructions & Requirements
 
 <div class="task" markdown="1">
 
-🎨 Remember the Recipe page you created for `Project #1.1` to practice the HTML topics? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS styling to it!
+🎨 Remember the Recipe page you created to practice the HTML topics? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS styling to it!
 
 - How you actually style it is completely open, but you should use the **external CSS method** (for this practice and moving forward).
 - You should also try to use several of the properties mentioned in the previous section (**color**, **background color**, **typography** properties, etc).
