@@ -7,9 +7,9 @@ nav_order: 6
 ---
 
 
-## Overview
+### Overview
 
-### **Project Goal**
+#### **Project Goal**
 Create a fun and interactive **simulation of a real-life process** using JavaScript and the DOM. Your simulation should allow users to interact with buttons or other inputs on a webpage and see changes appear on screen. This is your chance to turn your code into a mini-world where things come to life when clicked!
 
 <html>
