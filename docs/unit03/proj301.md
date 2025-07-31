@@ -1,28 +1,35 @@
 ---
 layout: project
-title: "💻PROJECT #3.1"
+title: "💻Unit 3 Project"
 projectname: "Responsive Personal Website"
 parent: "3️⃣ Bootstrap"
 nav_order: 5
 ---
 
 
-### Overview & Setup
+### Overview
 
 In this project, you will create a **responsive one-page personal website** that demonstrates your mastery of Bootstrap and the concepts covered in the tutorials. The project is open-ended to encourage creativity while giving you the opportunity to practice building a responsive and visually appealing website.
 
 #### Project Goal
 Design and develop a **one-page personal website** using Bootstrap classes and UI components. Your website should reflect your _personality_, _interests_, or _goals_ and include well-organized sections with responsive layouts.
 
+<html>
+<details>
+<summary>📥<strong>PROGRAM SETUP & SUBMISSION INSTRUCTIONS</strong></summary>
+  
 <div class="setup" markdown="block">
 
-1. Go to the `CS1 Project 3.1` assignment on **Blackbaud** and follow the provided **GitHub Classroom** link.
+1. Go to the `CS1 Unit 3 Project` assignment on **Blackbaud** and follow the provided **GitHub Classroom** link.
   > 📁 Clicking the link generates a **private repository** for your project with the appropriate starter code. Note that **projects** are stored within the [BWL-CS Organization](https://github.com/BWL-CS), so you _cannot_ access it from the "Your Repositories" page!
 2. Open the repository in a **Codespace** whenever you spend time working on the program, in class or at home. 
   > ⚠️ Always remember to `commit changes` after every coding session!
-3. When your project is complete, **submit the link to your repository** in the `CS1 Project 3.1` assignment on Blackbaud.
+3. When your project is complete, **submit the link to your repository** in the `CS1 Unit 3 Project` assignment on Blackbaud.
 
 </div>
+
+</details>
+</html>
 
 --- 
 
