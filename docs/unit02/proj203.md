@@ -1,13 +1,13 @@
 ---
 layout: project
-title: "💻PROJECT #2.3"
-projectname: "Animated Scene"
+title: "💻Unit 2 Project"
+projectname: "Animated Movie Scene"
 parent: "2️⃣ Advanced HTML & CSS"
 nav_order: 7
 ---
 
 
-### Overview & Setup
+### Overview
 
 CSS **animations** and **transforms** are powerful tools that bring life to web pages. With **animations**, we can create smooth transitions, moving objects, or even complex _sequences_ of changes, making websites more interactive and visually appealing. **Transforms** allow us to _manipulate elements_ by rotating, scaling, or repositioning them, enabling unique and dynamic designs.
 
@@ -15,15 +15,22 @@ In this project, you'll practice these techniques by building an **animated scen
 
 > 🧠 **BRAINSTORM:** Look up on Google Images: _"iconic scenes from..."_ + the title of your favorite **movie**, **show**, or **book**. 
 
+<html>
+<details>
+<summary>📥<strong>PROGRAM SETUP & SUBMISSION INSTRUCTIONS</strong></summary>
+  
 <div class="setup" markdown="block">
 
-1. Go to the `CS1 Project 2.3` assignment on **Blackbaud** and follow the provided **GitHub Classroom** link.
+1. Go to the `CS1 Unit 2 Project` assignment on **Blackbaud** and follow the provided **GitHub Classroom** link.
   > 📁 Clicking the link generates a **private repository** for your project with the appropriate starter code. Note that **projects** are stored within the [BWL-CS Organization](https://github.com/BWL-CS), so you _cannot_ access it from the "Your Repositories" page!
 2. Open the repository in a **Codespace** whenever you spend time working on the program, in class or at home. 
   > ⚠️ Always remember to `commit changes` after every coding session!
-3. When your project is complete, **submit the link to your repository** in the `CS1 Project 2.3` assignment on Blackbaud.
+3. When your project is complete, **submit the link to your repository** in the `CS1 Unit 2 Project` assignment on Blackbaud.
 
 </div>
+
+</details>
+</html>
 
 --- 
 
