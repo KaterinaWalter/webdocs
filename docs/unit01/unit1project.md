@@ -12,13 +12,14 @@ nav_order: 6
 <html>
 <details>
 <summary>📥<strong>PROGRAM SETUP & SUBMISSION INSTRUCTIONS</strong></summary>
-
+  
 <div class="setup" markdown="block">
 
-1. Find your `CS1 Project 1.1` repository with your **Recipe Blog HTML code**.
+1. Go to the `CS1 Unit 1 Project` assignment on **Blackbaud** and follow the provided **GitHub Classroom** link.
+  > 📁 Clicking the link generates a **private repository** for your project with the appropriate starter code. Note that **projects** are stored within the [BWL-CS Organization](https://github.com/BWL-CS), so you _cannot_ access it from the "Your Repositories" page!
 2. Open the repository in a **Codespace** whenever you spend time working on the program, in class or at home. 
   > ⚠️ Always remember to `commit changes` after every coding session!
-3. When your project is complete, you **do not need to submit anything** this time because I _already have the links to your Recipe Blog repositories_.
+3. When your project is complete, **submit the link to your repository** in the `CS1 Unit 1 Project` assignment on Blackbaud.
 
 </div>
 
