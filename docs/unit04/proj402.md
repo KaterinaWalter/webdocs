@@ -1,7 +1,7 @@
 ---
 layout: project
-title: "💻PROJECT #4.2"
-projectname: "Simulation"
+title: "💻Unit 4 Project"
+projectname: "Interactive Simulation"
 parent: "4️⃣ JavaScript"
 nav_order: 6
 ---
@@ -18,11 +18,11 @@ Create a fun and interactive **simulation of a real-life process** using JavaScr
   
 <div class="setup" markdown="block">
 
-1. Go to the `CS1 Project 4.2` assignment on **Blackbaud** and follow the provided **GitHub Classroom** link.
+1. Go to the `CS1 Unit 4 Project` assignment on **Blackbaud** and follow the provided **GitHub Classroom** link.
   > 📁 Clicking the link generates a **private repository** for your project with the appropriate starter code. Note that **projects** are stored within the [BWL-CS Organization](https://github.com/BWL-CS), so you _cannot_ access it from the "Your Repositories" page!
 2. Open the repository in a **Codespace** whenever you spend time working on the program, in class or at home. 
   > ⚠️ Always remember to `commit changes` after every coding session!
-3. When your project is complete, **submit the link to your repository** in the `CS1 Project 4.2` assignment on Blackbaud.
+3. When your project is complete, **submit the link to your repository** in the `CS1 Unit 4 Project` assignment on Blackbaud.
 
 </div>
  
