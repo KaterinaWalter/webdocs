@@ -1,7 +1,7 @@
 ---
 layout: project
-title: "💻Unit 3 Project"
-projectname: "Responsive Personal Website"
+title: "💻 Unit 3 Project"
+projectname: "Personal Website"
 parent: "3️⃣ Bootstrap"
 nav_order: 5
 ---
