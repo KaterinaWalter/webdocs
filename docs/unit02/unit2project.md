@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "💻Unit 2 Project"
+title: "💻 Unit 2 Project"
 projectname: "Animated Movie Scene"
 parent: "2️⃣ Advanced HTML & CSS"
 nav_order: 7
