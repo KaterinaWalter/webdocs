@@ -8,7 +8,7 @@ nav_order: 4
 # 🧱 HTML Cheatsheet
 {:.no_toc}
 
-### Syntax Structure of an Element
+### Syntax Structure of an HTML Element
 
 ![image](html-element.png)
 
