@@ -2,7 +2,7 @@
 layout: notes
 title: "🎯 Unit 3 Activities" 
 parent: "4️⃣ JavaScript"
-nav_order: 4
+nav_order: 5
 ---
 
 ## Table of Contents
