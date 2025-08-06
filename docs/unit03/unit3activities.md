@@ -53,8 +53,32 @@ _There are multiple steps to saving in GitHub Codespaces:_
 
 ---
 
+## 🖼️ ACTIVITY #1: Art Gallery
+
+We will build a webpage for a fictional **art gallery** to demonstrate using Bootstrap classes for all of the styling and layout. 
+
+### PART A: Hero Section
+
+<div class="task" markdown="block">
+
+1. Decide on a **theme**! Your gallery can be focused on an _art history period_ (Renaissance, impressionist, postmodern, etc.), an _artistic medium_ (photography, sculpture, etc.), or specific _subject_.  
+
+1. In your HTML's `<body>` section, add two `<div>` elements with Bootstrap container classes. One should be a **fluid container**, the other a **fixed container**.
+
+1. In the **fluid** container div, include an `<h1>` element with a title for your gallery, and a `<p>` element with a description of your gallery. 
+
+1. Download an **image** that represents the storefront of your gallery and upload it to your repository's File Explorer tab.
+
+1. In the **fixed** container div, include an `<img>` element with the `src` set to your storefront image.
+
+</div>
+
+### PART B: Apply Styling Classes
+
+### PART C: Set up a Grid Structure
+
+### PART D: Populate the Grid with Images
+
 
 ---
 
-
-{: .fs-2 }
