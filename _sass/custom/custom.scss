@@ -175,8 +175,9 @@ a.nav-list-link {
 
 @media (min-width: 66.5rem) {
     .side-bar {
+	min-width: 14rem !important;
         width: calc((100% - 66.5rem) / 2 + 13rem) !important;
-	min-width: 13rem !important;
+
     }
     .side-bar + .main {
 	margin-left: max((100% - 66.5rem) / 2 + 13rem) !important;
