@@ -1,7 +1,7 @@
 ---
 layout: notes
 title: "📓3.1: Using Bootstrap Classes" 
-parent: "3️⃣ Bootstrap"
+parent: "3️⃣ Responsive Design with Bootstrap"
 nav_order: 1
 ---
 
