@@ -176,6 +176,9 @@ a.nav-list-link {
     .side-bar {
         width: calc((100% - 66.5rem) / 2 + 13rem) !important;
     }
+    .side-bar + .main {
+	margin-left: calc((100% - 66.5rem) / 2 + 13rem) !important;
+    }
 }
 
 
