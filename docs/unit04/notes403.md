@@ -1,7 +1,7 @@
 ---
 layout: notes
-title: "📓4.3: Conditionals & Loops" 
-parent: "4️⃣ JavaScript"
+title: "📓4.3: JS Conditionals & Loops" 
+parent: "4️⃣ Interactivity with JavaScript"
 nav_order: 3
 ---
 
@@ -14,7 +14,7 @@ nav_order: 3
 
 ---
 
-## Program Control Flow
+## Program Control Flow: Conditionals & Loops
 
 ![image-small](river-flow.webp)
 
