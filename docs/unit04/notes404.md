@@ -14,9 +14,9 @@ nav_order: 4
 
 ---
 
-## JavaScript DOM (Document Object Model) for Webpage Interaction
+## JavaScript's HTML DOM (Document Object Model)
 
-The DOM is an API (Application Programming Interface) that allows you to use JavaScript to **make changes to an HTML document**. It’s the key to building _dynamic_ websites by linking JavaScript with HTML on the front-end.
+The **DOM** is an `API` (Application Programming Interface) that allows you to write **JavaScript** instructions to **make changes to an HTML document**. It’s the key to building _dynamic_ websites by linking JavaScript with HTML on the front-end.
 
 🌳 You might have heard the DOM referred to as the _DOM tree_. That analogy hints at the **hierarchical structure** of an HTML document, but it can be a bit limiting when you’re learning how to navigate and manipulate it. 
 
