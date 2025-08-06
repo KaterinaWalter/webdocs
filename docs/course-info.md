@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Course Info"
+title: "⭐️ Course Info"
 nav_order: 0
 ---
 
@@ -15,10 +15,20 @@ nav_order: 0
 {:toc}
 
 ---
+
+<html>
+<details>
+ <summary><strong>COURSE DESCRIPTION</strong></summary>
+ 
+> The _Pre-AP Computer Science_ course introduces students to programming with a special emphasis on **Website Development**. By engaging with current technologies, students enhance their creativity, critical thinking abilities, and problem-solving skills in a context that is highly relevant and applicable. The first semester is dedicated to static website creation, where students learn to build the structure of pages using `HTML`, style them with `CSS`, and enhance functionality by leveraging popular toolkits like `Bootstrap`. Each student designs and codes their own multi-page personal website that is mobile-responsive, user-friendly, and has a cohesive aesthetic. In the second semester, students enhance their HTML pages by integrating `JavaScript` (JS), a powerful programming language that enables dynamic behavior, user interaction, and data processing. Time permitting, industry-standard JS libraries like `React` and `Node.js` are explored. Throughout the year, the class engages in meaningful discussions about the legal, social, and ethical issues surrounding internet-based technology in modern society. Students emerge from the Pre-AP course equipped with an understanding of their potential impact within the field of technology, proficiency in three complementary coding languages, and the ability to code fully-functional, interactive websites.
+ 
+</details>
+</html>
+
 ## Assignments & Grading
 
-### Projects (40% of overall grade)
-* 💻 **Projects** serve as the bulk of our coursework. There will be one major project assigned per unit that we will work on in class over several weeks.
+### PROJECTS (40% of overall grade)
+* 💻 **Projects** serve as the bulk of our coursework. There will be one major coding project assigned per unit that we will work on in class over several weeks.
   * These projects have minimum requirements to test your technical skills, but are largely graded on your 🎨 **creative effort**!   
 * _Projects follow this workflow:_
 > 1. A link to a **GitHub template repository** will be provided as starter code. A `repository`, or "repo," is like a 📂 _project folder_ 📂 that contains several code files.
@@ -90,13 +100,13 @@ nav_order: 0
 {: .warning .fs-3 }
 📧 You must **SEND ME AN EMAIL** whenever you update or resubmit a project, especially after the assignment has been graded on Blackbaud! _Otherwise I will not be notified._
 
-### Homework (30% of overall grade)
+### HOMEWORK (30% of overall grade)
 * 💬 **Homework** is assigned in the form of a `CodeCollab`: like posting on a discussion board, but instead of talking about a book or article, the class has a shared goal of figuring out how some 🔍 mystery code 🔍 works.
 
 * _Homework assignments follow this workflow:_
 > 1. At the beginning of each week, I will **post a DISCUSSION assignment on Blackbaud** that includes a **GitHub repository link** to a working program that you will **analyze collaboratively**.
 > 2. You will "fork the repository" (_make your own copy of the program_) to run it, experiment with it, and figure out how it works. 
-> 3. To earn full credit, you must post **at least two (2) comments**: one main post, and one response to a classmate. See our course website's [CodeCollab Instructions](https://coderina.dev/webdocs/docs/ref/codecollab.html) page for detailed guidelines.
+> 3. To earn full credit, you must post **at least two (2) comments**: one main post, and one response to a classmate. See our course website's [CodeCollab Instructions](https://coderina.dev/javadocs/docs/ref/codecollab.html) page for detailed guidelines.
 
 {: .highlight .fs-3 }
 CodeCollabs are always **due on `Fridays @ 11:59PM`**❗
@@ -106,7 +116,7 @@ CodeCollabs are always **due on `Fridays @ 11:59PM`**❗
 {: .warning .fs-3 }
 📧 You must **SEND ME AN EMAIL** whenever you submit homework late, especially after the assignment has been graded on Blackbaud! _Otherwise I will not be notified._
 
-### Classwork (30% of overall grade)
+### CLASSWORK (30% of overall grade)
 * 📝 **Classwork** involves a mix of note-taking lessons and interactive coding activities.
   * 📓 **Notes:** Each unit begins with a series of tutorial-style lessons where you will write code alongside the instructor, learning new concepts through practical demonstrations while building your own working program to use as a reference.
   * 🎯 **Activities:** Between note-taking sessions, you will also be tasked with coding exercises that provide you opportunities to check your understanding, play around with new skills, think creatively, practice debugging, solve challenges, and collaborate with peers. _Think of these activities as mini-projects._
