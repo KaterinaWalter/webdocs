@@ -1,7 +1,7 @@
 ---
 layout: notes
-title: "📓4.4: HTML DOM" 
-parent: "4️⃣ JavaScript"
+title: "📓4.4: HTML DOM Operations" 
+parent: "4️⃣ Interactivity with JavaScript"
 nav_order: 4
 ---
 
@@ -14,7 +14,7 @@ nav_order: 4
 
 ---
 
-## JavaScript's HTML DOM (Document Object Model)
+## JavaScript's HTML DOM (Document Object Model) Operations
 
 The **DOM** is an `API` (Application Programming Interface) that allows you to write **JavaScript** instructions to **make changes to an HTML document**. It’s the key to building _dynamic_ websites by linking JavaScript with HTML on the front-end.
 
