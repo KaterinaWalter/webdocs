@@ -190,7 +190,7 @@ To demonstrate how **JavaScript** can be implemented in HTML/CSS webpages, we wi
 Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM Operations](https://coderina.dev/webdocs/docs/unit04/notes404.html)
 
 
-### PART D: Extension Tasks
+### PART D: Add Creative Features
 
 {:.important}
 You are required to attempt _at least TWO_ of the **creative features** suggested below to earn full credit on this project! 
