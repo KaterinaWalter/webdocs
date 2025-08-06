@@ -1,7 +1,7 @@
 ---
 layout: notes
 title: "🎯 Unit 3 Activities" 
-parent: "3️⃣ Bootstrap"
+parent: "3️⃣ Responsive Design with Bootstrap"
 nav_order: 4
 ---
 
