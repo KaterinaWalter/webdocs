@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "🎨 CSS Cheatsheet" 
-parent: References
+parent: "📚 References"
 nav_order: 5
 ---
 
