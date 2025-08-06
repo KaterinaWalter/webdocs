@@ -2,7 +2,7 @@
 layout: project
 title: "💻 Unit 3 Project"
 projectname: "Personal Website"
-parent: "3️⃣ Responsive Design with Bootstrap"
+parent: "3️⃣ Bootstrap"
 nav_order: 5
 ---
 
