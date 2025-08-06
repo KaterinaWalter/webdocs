@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "🔤 Custom Fonts Tutorial" 
-parent: "📚 References"
+parent: "📖 References"
 nav_order: 7
 ---
 
