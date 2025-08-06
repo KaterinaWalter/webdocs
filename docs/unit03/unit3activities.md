@@ -55,9 +55,9 @@ _There are multiple steps to saving in GitHub Codespaces:_
 
 ## 🖼️ ACTIVITY #1: Art Gallery
 
-We will build a webpage for a fictional **art gallery** to demonstrate using Bootstrap classes for all of the styling and layout. 
+We will build a professional-looking webpage for a fictional **art gallery** using ONLY Bootstrap classes for all of the styling and layout. 
 
-### PART A: Hero Section
+### PART A: Design a Hero Section
 
 <div class="task" markdown="block">
 
@@ -67,17 +67,66 @@ We will build a webpage for a fictional **art gallery** to demonstrate using Boo
 
 1. In the **fluid** container div, include an `<h1>` element with a title for your gallery, and a `<p>` element with a description of your gallery. 
 
-1. Download an **image** that represents the storefront of your gallery and upload it to your repository's File Explorer tab.
+1. Download an **image** that represents the "storefront" of your gallery and upload it to your repository's File Explorer tab.
 
-1. In the **fixed** container div, include an `<img>` element with the `src` set to your storefront image.
+1. In the **fixed** container div, include an `<img>` element with the `src` set to your storefront image. Give the image a class of `class="img-thumbnail"`.
 
 </div>
 
-### PART B: Apply Styling Classes
+### PART B: Apply Styles with Typography & Color Classes
 
-### PART C: Set up a Grid Structure
+Now that your page has some opening content, let’s enhance the appearance using Bootstrap’s built-in **typography** and **color utility classes**.
+
+<div class="task" markdown="block">
+
+1. Use **text classes** to change the appearance of your gallery’s title and description. Try adding emphasis with classes like `fw-bold`, `fst-italic`, or `text-uppercase`.
+   👉 *Optional challenge*: Use `display-*` classes for oversized titles (e.g., `display-1`, `display-2`...).
+
+2. Choose a **color scheme** for your hero section. Use **text color**, **background color**, and **border** utility classes from Bootstrap. Make sure your colors complement each other!
+   👉 Examples: `bg-dark text-light`, `border border-primary`, `bg-warning text-dark`, etc.
+
+3. Try adjusting **spacing** with Bootstrap’s margin (`m-*`) and padding (`p-*`) utility classes to better position your elements on the page.
+
+4. Optional: Use `text-center`, `text-end`, or `text-start` to align your text.
+
+</div>
+
+---
+
+### PART C: Set up a Responsive Grid Structure
+
+Let’s create a layout for your artwork using Bootstrap’s **grid system**.
+
+<div class="task" markdown="block">
+
+1. Inside a `<div class="container">`, add a `<div class="row">` to begin your grid.
+
+2. Create **at least 3 columns** (`<div class="col">`) inside your row. These will hold the featured artwork for your gallery.
+
+3. Explore **responsive column classes** like `col-sm-6`, `col-md-4`, or `col-lg-3` to make your layout adjust on different screen sizes.
+   👉 Try mixing column sizes to experiment with how Bootstrap adapts your layout!
+
+4. Give each column a **unique border or background color class** so you can easily see the structure.
+
+</div>
+
+---
 
 ### PART D: Populate the Grid with Images
+
+Time to bring your gallery to life by adding some artwork!
+
+<div class="task" markdown="block">
+
+1. Inside each column from Part C, add an `<img>` element to showcase a piece of art. You can find royalty-free artwork online (e.g., [Unsplash](https://unsplash.com), [Pexels](https://www.pexels.com), or [WikiArt](https://www.wikiart.org)).
+
+2. Use the Bootstrap class `img-fluid` on your images so they scale correctly on all screen sizes.
+
+3. Add a **caption** below each image using a `<p>` or `<small>` tag. Style these captions using `text-muted`, `fw-light`, or alignment classes (`text-center`, etc.).
+
+4. Optional: Wrap each image and caption in a `<div class="card">` to give it a framed, elevated look. Try combining with `shadow`, `border`, or `rounded` classes for extra polish.
+
+</div>
 
 
 ---
