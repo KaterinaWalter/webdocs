@@ -1,7 +1,7 @@
 ---
 layout: notes
 title: "🎯 Unit 4 Activities" 
-parent: "4️⃣ JavaScript"
+parent: "4️⃣ Interactivity with JavaScript"
 nav_order: 5
 ---
 
