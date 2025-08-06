@@ -2,7 +2,7 @@
 layout: project
 title: "💻 Unit 4 Project"
 projectname: "Interactive Simulation"
-parent: "4️⃣ JavaScript"
+parent: "4️⃣ Interactivity with JavaScript"
 nav_order: 6
 ---
 
