@@ -1,7 +1,7 @@
 ---
 layout: notes
-title: "📓4.1: JavaScript Basics" 
-parent: "4️⃣ JavaScript"
+title: "📓4.1: JavaScript Programming" 
+parent: "4️⃣ Interactivity with JavaScript"
 nav_order: 1
 ---
 
