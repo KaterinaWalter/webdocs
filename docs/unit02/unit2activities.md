@@ -1,7 +1,7 @@
 ---
 layout: notes
 title: "🎯 Unit 2 Activities" 
-parent: "	2️⃣ Advanced HTML & CSS"
+parent: "2️⃣ Advanced HTML & CSS"
 nav_order: 6
 ---
 
