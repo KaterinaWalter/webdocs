@@ -163,8 +163,10 @@ a.nav-list-link {
 	font-size: 0.7rem !important;
 }
 
-div.side-bar {
- width: 80% !important;
+@media (min-width: 50rem) {
+    div.side-bar {
+        width: 10.5rem !important;
+    }
 }
 
 
