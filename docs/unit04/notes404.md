@@ -1,7 +1,7 @@
 ---
 layout: notes
 title: "📓4.4: HTML DOM Operations" 
-parent: "4️⃣ Interactivity with JavaScript"
+parent: "4️⃣ JavaScript"
 nav_order: 4
 ---
 
