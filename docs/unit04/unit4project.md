@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "💻Unit 4 Project"
+title: "💻 Unit 4 Project"
 projectname: "Interactive Simulation"
 parent: "4️⃣ JavaScript"
 nav_order: 6
