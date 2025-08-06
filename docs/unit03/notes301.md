@@ -140,22 +140,6 @@ A fixed container is a (responsive) **fixed width** container. As you resize you
 <div class="container"></div>
 ```
 
-<div class="task" markdown="block">
-
-We will build a webpage for a fictional **art gallery** to demonstrate using Bootstrap classes for all of the styling and layout. Let's get started: 
-
-1. Decide on a **theme**! Your gallery can be focused on an _art history period_ (Renaissance, impressionist, postmodern, etc.), an _artistic medium_ (photography, sculpture, etc.), or specific _subject_.  
-
-1. In your HTML's `<body>` section, add two `<div>` elements with Bootstrap container classes. One should be a **fluid container**, the other a **fixed container**.
-
-1. In the **fluid** container div, include an `<h1>` element with a title for your gallery, and a `<p>` element with a description of your gallery. 
-
-1. Download an **image** that represents the storefront of your gallery and upload it to your repository's File Explorer tab.
-
-1. In the **fixed** container div, include an `<img>` element with the `src` set to your storefront image.
-
-</div>
-
 ### 🖼️ Responsive Images
 
 Bootstrap provides classes that can be used when working with the `<img>` element. Most of these are utility classes that can be applied to any element (not just images). However, there is a class specifically for responsive images.
