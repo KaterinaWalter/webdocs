@@ -176,7 +176,7 @@ To demonstrate how **JavaScript** can be implemented in HTML/CSS webpages, we wi
 
 </div>
 
-#### 🆕 JavaScript Skills
+#### 🆕 JavaScript Skills To Use!
 
 | Concept                | Example                              | What It Does                                      |
 |------------------------|---------------------------------------|---------------------------------------------------|
