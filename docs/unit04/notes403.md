@@ -1,7 +1,7 @@
 ---
 layout: notes
-title: "📓4.3: JS Conditionals & Loops" 
-parent: "4️⃣ Interactivity with JavaScript"
+title: "📓4.3: Conditionals & Loops" 
+parent: "4️⃣ JavaScript"
 nav_order: 3
 ---
 
