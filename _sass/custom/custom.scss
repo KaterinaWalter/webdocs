@@ -171,6 +171,12 @@ a.nav-list-link {
     .side-bar + .main {
         margin-left: 13rem !important;
     }
+    .site-nav {
+        padding-top: 2rem !important;
+    }
+    .main-content-wrap {
+        padding-top: 0rem !important;
+    }
 }
 
 @media (min-width: 66.5rem) {
