@@ -57,7 +57,7 @@ Based on the attached notes covering foundational HTML concepts (boilerplate str
 
 ---
 
-## ACTIVITY #1: Design Your Own “About Me” Page
+## 📇 ACTIVITY #1: Design an “About Me” Page
 
 Build a creative personal homepage using only the HTML elements you've learned so far. Your page should introduce who you are, highlight your interests, and include some fun or unique touches using links, images, and lists.
 
@@ -231,8 +231,7 @@ Practice:
 
 1. Add `margin` between each train section to create space.
 2. Add `padding` inside the `.line-name` headings.
-3. Give one section a border to help it stand out.
+3. Give one section a `border` to help it stand out.
 
 </div>
 
----
