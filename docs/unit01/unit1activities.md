@@ -53,15 +53,11 @@ _There are multiple steps to saving in GitHub Codespaces:_
 
 ---
 
-Based on the attached notes covering foundational HTML concepts (boilerplate structure, text formatting, links, images, and lists), here’s a creative and structured practice activity designed to reinforce key concepts through exploration and personal expression.
-
----
-
 ## 📇 ACTIVITY #1: Design an “About Me” Page
 
-Build a creative personal homepage using only the HTML elements you've learned so far. Your page should introduce who you are, highlight your interests, and include some fun or unique touches using links, images, and lists.
+In this activity, you'll build a short personal biography using only the HTML elements you've learned so far. Your page should introduce who you are, highlight your interests, and include some fun or unique touches using links, images, and lists.
 
-This activity will give you a chance to:
+_This activity will give you a chance to:_
 
 * Use semantic tags like **headings**, **paragraphs**, and **lists**
 * Embed **links** and **images**
@@ -142,7 +138,7 @@ This activity will give you a chance to:
 
 In this activity, you’ll build a subway schedule page and style it with **CSS selectors, colors, fonts, and the box model**.
 
-Practice:
+_We will practice the following skills:_
 
 * External CSS with `<link>`
 * Type, class, and ID selectors
