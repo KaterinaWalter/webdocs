@@ -74,6 +74,8 @@ To demonstrate how **JavaScript** can be implemented in HTML/CSS webpages, we wi
   > - There’s a `<button>` element with an `id` called `toggle` so we can _target_ it in **JavaScript**.
   > - Note that the other elements have their own `id` values as well...
 
+</div>
+
 ### PART B: Add Basic Styles in CSS
 
 1. In `styles.css` apply the following styling rules to the whole page:
@@ -195,8 +197,6 @@ Refer to the notes page for detailed explanations: [📓 Notes 4.4: HTML DOM Ope
 {:.important}
 You are required to attempt _at least TWO_ of the **creative features** suggested below to earn full credit on this project! 
 
-<div class="task" markdown="block">
-
 1. **Change Images Based on the Mode**
   - 🖼️ Add an image of a sunny landscape to the HTML:
     ```html
@@ -257,7 +257,6 @@ You are required to attempt _at least TWO_ of the **creative features** suggeste
     }
     ```
     
-</div>
-
 ---
+
 
