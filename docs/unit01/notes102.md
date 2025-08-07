@@ -77,6 +77,9 @@ To demonstrate an HTML boilerplate, we first need an HTML file to work with.
 #### Using a GitHub Template for class notes
 {:.no_toc}
 
+**Click on the toggle heading** below to reveal the instructions for setting up a program to "take notes" in. 📝
+> _We will do this at the beginning of every unit!_
+
 <html>
   <details>
     <summary>📓 <strong class="text-green-200">NOTES PROGRAM SETUP INSTRUCTIONS</strong></summary>
