@@ -16,7 +16,7 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 
 <html>
 <details>
-<summary>📥<strong>PROGRAM SETUP & SUBMISSION INSTRUCTIONS</strong></summary>
+<summary>📥 <strong class="text-green-200">PROJECT SETUP & SUBMISSION INSTRUCTIONS</strong></summary>
   
 <div class="setup" markdown="block">
 
