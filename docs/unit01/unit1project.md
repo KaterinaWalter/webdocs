@@ -17,7 +17,7 @@ It's important to keep in mind that this project is just to build your HTML chop
 
 <html>
 <details>
-<summary>📥<strong>PROGRAM SETUP & SUBMISSION INSTRUCTIONS</strong></summary>
+<summary>📥 <strong class="text-green-200">PROJECT SETUP & SUBMISSION INSTRUCTIONS</strong></summary>
   
 <div class="setup" markdown="block">
 
