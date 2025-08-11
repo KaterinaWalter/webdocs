@@ -14,7 +14,7 @@ Create a fun and interactive **simulation of a real-life process** using JavaScr
 
 <html>
 <details>
-<summary>📥<strong>PROGRAM SETUP & SUBMISSION INSTRUCTIONS</strong></summary>
+<summary>📥 <strong class="text-green-200">PROJECT SETUP & SUBMISSION INSTRUCTIONS</strong></summary>
   
 <div class="setup" markdown="block">
 
