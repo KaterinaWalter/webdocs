@@ -143,7 +143,7 @@ The web development industry has a long history of successful developers with va
 2. Enter your `@gbwl.org` **school email**
 3. Create a **password** that you'll remember 
 4. Enter a **username** that follows this pattern: `FirstName` `LastInitial` `GradYear`
-    > _For example:_ `KaterinaN2014`
+    > _For example:_ `KaterinaW2014`
     > 
     > DO NOT include your entire last name (_privacy reasons_)
 5. After verifying your account, **let me know** so I can add you to the GitHub Classroom group!
