@@ -13,6 +13,54 @@ nav_order: 2
 {:toc}
 
 ---
+
+<div style="text-align: center;">
+<span class="highlighter-green"> 
+<strong>✴✴✴ NEW UNIT/SECTION! ✴✴✴</strong><br>Create a blank website program to take your class notes in for the next few lessons.<br><em>Click on the collapsed heading below for GitHub instructions</em> ⤵  
+</span>
+</div>
+
+<html>
+  <details>
+    <summary>📓 <strong class="text-green-200">NOTES PROGRAM SETUP INSTRUCTIONS</strong></summary>
+
+<div class="setup" markdown="block">
+
+1. Go to the public template **repository** for our class: [BWL-CS HTML/CSS/JS Template](https://github.com/BWL-CS/html-css-js-template)
+2. Click the <button type="button" name="button" class="btn btn-green">Use this template</button> button above the list of files then select `Create a new repository`
+3. Specify the **repository name**: `CS1-Unit1-Notes`
+4. For the **description**, write: `Static web pages with HTML (structure) and CSS (style)`
+5. Click <button type="button" name="button" class="btn btn-green">Create repository</button>
+    > Now you have **your own personal copy** of this starter code that you can always access under the `Your repositories` section of GitHub! 📂
+6. Now on your repository, click <button type="button" name="button" class="btn btn-green"> < > Code </button> and select the `Codespaces` tab
+7. Click `Create Codespace on main` and wait for the environment to load, _then you're ready to code_!
+8. 📝 Take notes in this Codespace during class, writing **code** & **comments** along with the instructor.
+
+</div>
+
+<br>
+
+<div class="warn" markdown="block">
+
+🛑 When class ends, don't forget to **SAVE YOUR WORK**! **Codespaces** are TEMPORARY editing environments, so you need to COMMIT changes properly in order to update the main **repository** for your program. 
+
+_There are multiple steps to saving in GitHub Codespaces:_
+
+1. Navigate to the `Source Control` menu on the _LEFT_ sidebar
+2. Click the <button type="button" name="button" class="btn btn-green">commit changes</button> button on the _LEFT_ menu
+3. Type a brief **commit message** at the top of the file that opens, for example: `updated index.html`
+4. Click the small `✔️` **checkmark** in the _TOP RIGHT_ corner
+5. Click the <button type="button" name="button" class="btn btn-green">sync changes</button> button on the _LEFT_ menu
+6. _Finally you can close your Codespace!_
+
+</div>
+
+</details>
+
+</html>
+
+---
+
 ## Introduction to HTML
 
 **HTML (HyperText Markup Language)** defines the structure and content of webpages. We use **HTML elements** to create all of the paragraphs, headings, lists, images, and links that make up a typical webpage. 
@@ -72,52 +120,7 @@ Some HTML elements do not have a closing tag. These elements just have a single 
 
 All HTML documents have the same **basic structure** or **boilerplate** that needs to be in place before anything useful can be done. In this lesson, we will explore the different parts of this boilerplate and see how it all fits together.
 
-To demonstrate an HTML boilerplate, we first need an HTML file to work with.
-
-#### Using a GitHub Template for class notes
-{:.no_toc}
-
-**Click on the toggle heading** below to reveal the instructions for setting up a program to "take notes" in. 📝
-> _We will do this at the beginning of every unit!_
-
-<html>
-  <details>
-    <summary>📓 <strong class="text-green-200">NOTES PROGRAM SETUP INSTRUCTIONS</strong></summary>
-    
-<div class="setup" markdown="block">
-
-1. Go to the public template **repository** for our class: [BWL-CS HTML/CSS/JS Template](https://github.com/BWL-CS/html-css-js-template)
-2. Click the <button type="button" name="button" class="btn btn-green">Use this template</button> button above the list of files then select `Create a new repository`
-3. Specify the **repository name**: `CS1-Unit1-Notes`
-4. Click <button type="button" name="button" class="btn btn-green">Create repository</button>
-    > Now you have **your own personal copy** of this starter code that you can always access under the `Your repositories` section of GitHub! 📂
-5. Now on your repository, click <button type="button" name="button" class="btn btn-green"> < > Code </button> and select the `Codespaces` tab
-6. Click `Create Codespace on main` and wait for the environment to load, _then you're ready to code_!
-7. 📝 Take notes in this Codespace during class, writing **code** & **comments** along with the instructor.
-
-</div>
-
-<br>
-
-<div class="warn" markdown="block">
-
-🛑 When class ends, don't forget to **SAVE YOUR WORK**! **Codespaces** are TEMPORARY editing environments, so you need to COMMIT changes properly in order to update the main **repository** for your program. 
-
-_There are multiple steps to saving in GitHub Codespaces:_
-
-1. Navigate to the `Source Control` menu on the _LEFT_ sidebar
-2. Click the <button type="button" name="button" class="btn btn-green">commit changes</button> button on the _LEFT_ menu
-3. Type a brief **commit message** at the top of the file that opens, for example: `updated main.py`
-4. Click the small `✔️` **checkmark** in the _TOP RIGHT_ corner
-5. Click the <button type="button" name="button" class="btn btn-green">sync changes</button> button on the _LEFT_ menu
-6. _Finally you can close your Codespace!_
-
-</div>
-
-  </details>
-</html>
-
-Within the project you'll find a file named `index.html`.
+Within your project you'll find a file named `index.html`.
 
 You're probably already familiar with a lot of different types of files, for example doc, pdf, and image files. To let the computer know we want to create an HTML file, we need to append the filename with the `.html` extension, as we have done when creating the `index.html` file.
 
