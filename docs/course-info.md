@@ -143,7 +143,7 @@ Expect at least one classwork-type assignment to be **graded** each week: Either
 
 ### Community Values
 
-> Our classroom culture relies on embracing these _3 key values_: **PREPAREDNESS**, **ENGAGEMENT**, and **RESPECT**.
+> Our classroom culture relies on embracing these 3 key values: **PREPAREDNESS**, **ENGAGEMENT**, and **RESPECT**.
 
 1. Being <span class="highlighter">prepared</span> for class means you have your laptop ready (follow the directions written on the board) within the first 5 minutes of class. It also means you arrive with a positive attitude and ready to learn!
 2. Show you are <span class="highlighter">engaged</span> by volunteering answers/comments and completing classwork as directed. You are expected to take your own notes while new material is being introduced, to contribute during group activities, and be open to collaborating with all classmates.
@@ -153,11 +153,11 @@ Expect at least one classwork-type assignment to be **graded** each week: Either
   * Respect others’ property. Avoid touching or writing on anything that does not belong to you.
   * Pick up after yourself and don’t expect other people (like your teacher) to clean up your messes.
   * Respect each others’ voices by allowing others to finish their comments before jumping in. BWL’s **Constructive Dialogue Principles** will serve as our framework for successful group discussions:
-    * Let go of winning.
-    * Ask questions to understand.
-    * Find what is shared.
-    * Share your story and invite others to do the same.
-    * Make yourself and others feel heard.
+  > * Let go of winning.
+  > * Ask questions to understand.
+  > * Find what is shared.
+  > * Share your story and invite others to do the same.
+  > * Make yourself and others feel heard.
 
 {: .warning .fs-3 }
 ⏰ **TARDINESS:** If you are **over 5 minutes late**, you must first get a LATE PASS from the Upper School Office and enter QUIETLY so as to not disrupt the lesson.
@@ -173,7 +173,7 @@ Expect at least one classwork-type assignment to be **graded** each week: Either
 * 🚫 **NO FOOD** in the Computer Lab → eat your lunch in the Commons instead.
   * Specifically, please do not bring _meals_ to eat in this classroom. Small **packaged snacks** are OK!
 * 📱 **NO-PHONE ZONE!** → as per the new BWL Upper School policy, phones must be locked up downstairs while you are in the building.
-  * If you are caught with a cell phone in class, it will be confiscated immediately and you will be sent to the Upper School office.
+  * If you are caught with a cell phone in class, it will be **confiscated** immediately and you will be sent to the Upper School office.
 * 🖥️ Using your personal **LAPTOP** is a _privilege_.
   * If you are caught using your laptop for things like iMessage, Discord, Snapchat, etc., you will be required to use the **DESKTOP COMPUTERS** in the classroom for a period of time.
 
