@@ -37,8 +37,8 @@ Assignments in this course include: **PROJECTS** (40% of overall grade), **HOMEW
 
 ### PROJECTS (40%)
 * 💻 **Projects** serve as the bulk of our coursework. Expect at least one major coding project assigned per unit, to which we will dedicate several weeks of class time.
- * Projects involve writing full programs that have rigorous requirements designed to test your technical skills, however, plenty of **support** is available during class time and office hours to ensure all targets are met. 
- * As such, the grades you earn on projects will depend heavily on your 🎨 **creative effort**.
+  * Projects involve writing full programs that have rigorous requirements designed to test your technical skills, however, plenty of **support** is available during class time and office hours to ensure all targets are met. 
+  * As such, the grades you earn on projects will depend heavily on your 🎨 **creative effort**.
   
 * _Projects follow this workflow:_
 > 1. A link to a **GitHub template repository** will be provided as starter code. A `repository`, or "repo," is like a 📂 _project folder_ that contains several code files.
@@ -143,21 +143,21 @@ Expect at least one classwork-type assignment to be **graded** each week: Either
 
 ### Community Values
 
-Our classroom culture relies on embracing these 3 key values: **PREPAREDNESS**, **ENGAGEMENT**, and **RESPECT**.
+> Our classroom culture relies on embracing these _3 key values_: **PREPAREDNESS**, **ENGAGEMENT**, and **RESPECT**.
 
-* Being <span class="highlighter">prepared</span> for class means you have your laptop ready (follow the directions written on the board) within the first 5 minutes of class. It also means you arrive with a positive attitude and ready to learn!
-* Show you are <span class="highlighter">engaged</span> by volunteering answers/comments and completing classwork as directed. You are expected to take your own notes while new material is being introduced, to contribute during group activities, and be open to collaborating with all classmates.
- * Student actions that interfere with learning will NOT be tolerated. Do not squander your time here on distracting apps, side conversations, or doing work for other classes.
-* Being <span class="highlighter">respectful</span> of your community means being mindful of and kind toward your environment and the people within.
- * Respect includes arriving **on-time** as it affects the entire class.
- * Respect others’ property. Avoid touching or writing on anything that does not belong to you.
- * Pick up after yourself and don’t expect other people (like your teacher) to clean up your messes.
- * Respect each others’ voices by allowing others to finish their comments before jumping in. BWL’s **Constructive Dialogue Principles** will serve as our framework for successful group discussions:
-  * Let go of winning.
-  * Ask questions to understand.
-  * Find what is shared.
-  * Share your story and invite others to do the same.
-  * Make yourself and others feel heard.
+1. Being <span class="highlighter">prepared</span> for class means you have your laptop ready (follow the directions written on the board) within the first 5 minutes of class. It also means you arrive with a positive attitude and ready to learn!
+2. Show you are <span class="highlighter">engaged</span> by volunteering answers/comments and completing classwork as directed. You are expected to take your own notes while new material is being introduced, to contribute during group activities, and be open to collaborating with all classmates.
+  * Student actions that interfere with learning will NOT be tolerated. Do not squander your time here on distracting apps, side conversations, or doing work for other classes.
+3. Being <span class="highlighter">respectful</span> of your community means being mindful of and kind toward your environment and the people within.
+  * Respect includes arriving **on-time** as it affects the entire class.
+  * Respect others’ property. Avoid touching or writing on anything that does not belong to you.
+  * Pick up after yourself and don’t expect other people (like your teacher) to clean up your messes.
+  * Respect each others’ voices by allowing others to finish their comments before jumping in. BWL’s **Constructive Dialogue Principles** will serve as our framework for successful group discussions:
+    * Let go of winning.
+    * Ask questions to understand.
+    * Find what is shared.
+    * Share your story and invite others to do the same.
+    * Make yourself and others feel heard.
 
 {: .warning .fs-3 }
 ⏰ **TARDINESS:** If you are **over 5 minutes late**, you must first get a LATE PASS from the Upper School Office and enter QUIETLY so as to not disrupt the lesson.
@@ -171,14 +171,14 @@ Our classroom culture relies on embracing these 3 key values: **PREPAREDNESS**, 
   * No need to ask, but please return pens/pencils after class! 
 * 🤞 **SILENTLY SIGNAL** that you need to leave for the bathroom or water by holding up crossed fingers.
 * 🚫 **NO FOOD** in the Computer Lab → eat your lunch in the Commons instead.
- * Specifically, please do not bring _meals_ to eat in this classroom. Small **packaged snacks** are OK!
+  * Specifically, please do not bring _meals_ to eat in this classroom. Small **packaged snacks** are OK!
 * 📱 **NO-PHONE ZONE!** → as per the new BWL Upper School policy, phones must be locked up downstairs while you are in the building.
   * If you are caught with a cell phone in class, it will be confiscated immediately and you will be sent to the Upper School office.
 * 🖥️ Using your personal **LAPTOP** is a _privilege_.
   * If you are caught using your laptop for things like iMessage, Discord, Snapchat, etc., you will be required to use the **DESKTOP COMPUTERS** in the classroom for a period of time.
 
 {: .important .fs-3 }
-🧠 Finally, some **mindset** tips: I strongly encourage you all to be **proactive** about your learning, embrace **creativity**, take **responsibility** for your work, and _never be afraid to ask for help_!!! There are no bad questions, and chances are if you are wondering about it, someone else in the class is too. If you feel most comfortable waiting until after class, that is okay, but do keep communication open between us.
+🧠 Some **mindset** tips: I strongly encourage you all to be **proactive** about your learning, embrace **creativity**, take **responsibility** for your work, and _never be afraid to ask for help_!!! There are no bad questions, and chances are if you are wondering about it, someone else in the class is too. If you feel most comfortable waiting until after class, that is okay, but do keep communication open between us.
 
 ### AI Usage Policies 
 * **Generative Artificial Intelligence (GenAI)** tools like ChatGPT are a significant technological advancement that has the potential to support your learning, especially in Computer Science. But with any new technology, there are significant limitations and risks associated with its use, misuse, and overuse. *[Source](https://www.aiforeducation.io/ai-resources/drafting-a-genai-academic-policy)*
