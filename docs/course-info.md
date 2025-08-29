@@ -116,7 +116,7 @@ nav_order: 0
 * _Homework assignments follow this workflow:_
 > 1. At the beginning of each week, I will **post a DISCUSSION assignment on Blackbaud** that includes a **GitHub repository link** to a working program that you will **analyze collaboratively**.
 > 2. You will "fork the repository" (_make your own copy of the program_) to run it, experiment with it, and figure out how it works. The goal is to practice describing and explaining code language in plain English.
-> 3. To earn full credit, you must post **at least two (2) comments**: one main post, and one response to a classmate. See our course website's [CodeCollab Instructions](https://coderina.dev/javadocs/docs/ref/codecollab.html) page for detailed guidelines.
+> 3. To earn full credit, you must post **at least two (2) comments**: one main post, and one response to a classmate. See our course website's [CodeCollab Instructions](https://coderina.dev/webdocs/docs/ref/codecollab.html) page for detailed guidelines.
 
 {: .highlight .fs-3 }
 CodeCollabs are always **due on `Fridays @ 11:59PM`**❗
