@@ -33,7 +33,7 @@ nav_order: 0
 
 ## Assignments & Grading
 
-Assignments in this course include: **PROJECTS** (40% of overall grade), **HOMEWORK** (30% of overall grade), and **CLASSWORK** (30% of overall grade). _See below for details, procedures, and grading policies_.
+> Assignments in this course include: **PROJECTS** (40% of overall grade), **HOMEWORK** (30% of overall grade), and **CLASSWORK** (30% of overall grade). _See below for details, procedures, and grading policies_.
 
 ### PROJECTS (40%)
 * 💻 **Projects** serve as the bulk of our coursework. Expect at least one major coding project assigned per unit, to which we will dedicate several weeks of class time.
