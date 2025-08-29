@@ -33,9 +33,14 @@ nav_order: 0
 
 ## Assignments & Grading
 
-### PROJECTS (40% of overall grade)
-* 💻 **Projects** serve as the bulk of our coursework. There will be one major coding project assigned per unit that we will work on in class over several weeks.
-  * These projects have minimum requirements to test your technical skills, but are largely graded on your 🎨 **creative effort**!   
+> Assignments in this course include: **PROJECTS** (40% of overall grade), **HOMEWORK** (30% of overall grade), and **CLASSWORK** (30% of overall grade). _See below for details, procedures, and grading policies_.
+
+
+### PROJECTS (40%)
+* 💻 **Projects** serve as the bulk of our coursework. Expect at least one major coding project assigned per unit, to which we will dedicate several weeks of class time.
+ * Projects involve writing full programs that have rigorous requirements designed to test your technical skills, however, plenty of support is available during class time and office hours to ensure all targets are met. 
+ * As such, the grades you earn on projects will depend heavily on your 🎨 **creative effort**.
+  
 * _Projects follow this workflow:_
 > 1. A link to a **GitHub template repository** will be provided as starter code. A `repository`, or "repo," is like a 📂 _project folder_ that contains several code files.
 > 2. You will write your code in the **GitHub Codespaces IDE**. An `IDE` is an "Integrated Development Environment," which means an application (or web-app) where you can _write and run code_.
@@ -48,7 +53,7 @@ nav_order: 0
 <details>
 <summary><strong class="text-purple-100">PROJECT GRADING RUBRIC</strong></summary>
 
-<p class="fs-3 highlight">Programming projects are evaluated via a <strong>qualitative system</strong> considering a program’s efficiency, legibility, correctness, completeness, comments, etc. The grading rubric employs a 5-point scale. The overall assignment score is then adjusted to be out of 10 points, such that students earn a baseline grade of 50% ("scaled zero"). Extra credit may be awarded for exceptional effort!</p>
+<p class="fs-3 highlight">Programming projects are evaluated via a qualitative system considering a program’s efficiency, legibility, correctness, completeness, documentation, and creativity. The grading rubric employs a 5-point scale. The overall assignment score is then adjusted to be out of 10 points, so that all grades start from a scaled zero (baseline grade of 50%). Extra credit may be awarded for exceptional effort!</p>
 
 <div>
 <table><thead>
@@ -106,7 +111,7 @@ nav_order: 0
 {: .warning .fs-3 }
 📧 You must **SEND ME AN EMAIL** whenever you update or resubmit a project, especially after the assignment has been graded on Blackbaud! _Otherwise I will not be notified._
 
-### HOMEWORK (30% of overall grade)
+### HOMEWORK (30%)
 * 💬 **Homework** is assigned in the form of a `CodeCollab`: like posting on a discussion board, but instead of talking about a book or article, the class has a shared goal of figuring out how some 🔍 mystery code 🔍 works.
 
 * _Homework assignments follow this workflow:_
@@ -122,7 +127,7 @@ CodeCollabs are always **due on `Fridays @ 11:59PM`**❗
 {: .warning .fs-3 }
 📧 You must **SEND ME AN EMAIL** whenever you submit homework late, especially after the assignment has been graded on Blackbaud! _Otherwise I will not be notified._
 
-### CLASSWORK (30% of overall grade)
+### CLASSWORK (30%)
 * 📝 **Classwork** involves a mix of note-taking lessons and interactive coding activities.
   * 📓 **Notes:** Each unit begins with a series of tutorial-style lessons where you will write code alongside the instructor, learning new concepts through practical demonstrations while building your own working program to use as a reference.
   * 🎯 **Activities:** Between note-taking sessions, you will also be tasked with coding exercises that provide you opportunities to check your understanding, play around with new skills, think creatively, practice debugging, solve challenges, and collaborate with peers. _Think of these activities as mini-projects._
