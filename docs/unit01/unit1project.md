@@ -9,11 +9,7 @@ nav_order: 6
 
 ### Overview
 
-It's time to practice all of the HTML knowledge you have acquired. In this project, you are going to build a basic recipe website. The website will consist of a main index page which will have links to a few recipes. 
-> The website won't look very _pretty_ by the time you've finished, unless you're into [brutalist web design](https://brutalistwebsites.com/), that is.
-
-{:.highlight}
-It's important to keep in mind that this project is just to build your HTML chops; we will revisit this project in the future to style it up with CSS.
+It's time to practice all of the HTML knowledge you have acquired. In this project, you are going to build a **basic recipe blog website**. The website will consist of a main index page which will have links to a few recipes. 
 
 <html>
 <details>
