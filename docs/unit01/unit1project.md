@@ -105,13 +105,13 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
 
 <div class="task" markdown="block">
 
-1. In `style.css`, write a **selector** for the whole page (`body` tag):
+1. In `style.css`, write a **selector** for the whole page. Remember that the `body` tag contains _all the content_ on your page:
    ```css
    body {
    
    }
    ```
-2. Inside the curly brackets for that selector, change the **background** to any color you like:
+2. Inside the curly brackets for that selector, change the `background` **property** to any color you like:
    ```css
      background: pink;
    ```
@@ -119,10 +119,11 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
    ```css
      color: purple;
    ```
-4. Pick a **font** for your page using a generic family (like Arial, Times, Courier, or Verdana):
+4. Pick a `font-family` for your page:
    ```css
      font-family: Arial;
    ```
+   > Use one of the [web-safe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.php) to start out, but implement a [custom Google Font](https://coderina.dev/webdocs/docs/ref/fonts.html) later.
 
 </div>
 
