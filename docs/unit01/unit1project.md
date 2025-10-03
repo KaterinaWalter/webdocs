@@ -21,11 +21,14 @@ It's important to keep in mind that this project is just to build your HTML chop
   
 <div class="setup" markdown="block">
 
-1. Go to the `CS1 Unit 1 Project` assignment on **Blackbaud** and follow the provided **GitHub Classroom** link.
-  > 📁 Clicking the link generates a **private repository** for your project with the appropriate starter code. Note that **projects** are stored within the [BWL-CS Organization](https://github.com/BWL-CS), so you _cannot_ access it from the "Your Repositories" page!
-2. Open the repository in a **Codespace** whenever you spend time working on the program, in class or at home. 
-  > ⚠️ Always remember to `commit changes` after every coding session!
-3. When your project is complete, **submit the link to your repository** in the `CS1 Unit 1 Project` assignment on Blackbaud.
+1. Go to the public template **repository** for our class: [BWL-CS HTML/CSS/JS Template](https://github.com/BWL-CS/html-css-js-template)
+2. Click the <button type="button" name="button" class="btn btn-green">Use this template</button> button above the list of files then select `Create a new repository`
+3. Specify the **repository name**: `CS1-Unit-1-Project`
+4. Click <button type="button" name="button" class="btn btn-green">Create repository</button>
+    > Now you have **your own personal copy** of this starter code that you can always access under the `Your repositories` section of GitHub! 
+5. Now on your repository, click <button type="button" name="button" class="btn btn-green"> < > Code </button> and select the `Codespaces` tab
+6. Click `Create Codespace on main` and wait for the environment to load, _then you're ready to code_!
+7. 📝 Write code in this Codespace during class.
 
 </div>
 
@@ -103,19 +106,252 @@ Your links won't be flashy, but for now, just focus on building them out.
 
 ### Part B: Style with CSS
 
+#### 1. Create and Link Your Stylesheet
 
-<!-- TODO: Improve the steps and checklist for this part 
+<div class="task" markdown="block">
 
-<div class="task" markdown="1">
+1. In your project folder, create a new file called **`styles.css`**.
+2. Open your `index.html` file. Inside the `<head>...</head>` section, add this line so the HTML knows to use your CSS:
 
-🎨 Remember the Recipe page you created to practice the HTML topics? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS styling to it!
+   ```html
+   <link rel="stylesheet" href="styles.css">
+   ```
+3. Test that the link works by adding this to `styles.css` and refreshing your page:
 
-- How you actually style it is completely open, but you should use the **external CSS method** (for this practice and moving forward).
-- You should also try to use several of the properties mentioned in the previous section (**color**, **background color**, **typography** properties, etc).
-  - Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look *good*. This is just to practice and get used to writing CSS, not to make something to show off on your resume.
-- We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
-- Apply what you learned about the box model to improve the appearance of your Recipe blog from Part A. Get creative with **layouts**, **colors**, and **styles** to make your page uniquely captivating!
+   ```css
+   body {
+     background-color: lightyellow;
+   }
+   ```
+
+   If the background changes, you’re good!
 
 </div>
 
--->
+#### 2. Style the Page Background and Text
+
+<div class="task" markdown="block">
+
+1. Change the **background color** of the whole page (`body`) to any color you like:
+
+   ```css
+   body {
+     background-color: #f0f8ff;
+   }
+   ```
+2. Change the **text color** for the whole page:
+
+   ```css
+   body {
+     color: #333333;
+   }
+   ```
+3. Pick a **font** for your page using a generic family (like Arial, Times, Courier, or Verdana):
+
+   ```css
+   body {
+     font-family: Arial, sans-serif;
+   }
+   ```
+
+</div>
+
+#### 3. Style Your Headings
+
+<div class="task" markdown="block">
+
+1. Make your main title (`h1`) stand out by changing its **color**, **text alignment**, and **font size**:
+
+   ```css
+   h1 {
+     color: darkgreen;
+     text-align: center;
+     font-size: 36px;
+   }
+   ```
+2. Style your recipe titles (`h2`) so they look different from the page title:
+
+   ```css
+   h2 {
+     color: darkred;
+     font-size: 28px;
+   }
+   ```
+3. Give smaller headings (`h3`) a bold look:
+
+   ```css
+   h3 {
+     font-weight: bold;
+     font-size: 20px;
+   }
+   ```
+
+</div>
+
+#### 4. Add Borders and Spacing with the Box Model
+
+<div class="task" markdown="block">
+
+1. Give each recipe section (the `<div>` that holds the recipe) a border, padding, and margin.
+   Example if your recipe `div`s use the class `recipe-card`:
+
+   ```css
+   .recipe-card {
+     border: 2px solid #cccccc;
+     padding: 15px;
+     margin: 20px 0;
+     background-color: #ffffff;
+   }
+   ```
+
+   * **Border** adds a line around the box.
+   * **Padding** adds space between the text and the border.
+   * **Margin** adds space outside the border.
+
+2. Change the border color and width to experiment with different looks.
+
+</div>
+
+#### 5. Style Links
+
+<div class="task" markdown="block">
+
+1. Make your navigation links look nicer by adding some simple styles:
+
+   ```css
+   a {
+     color: blue;
+     text-decoration: none;
+     font-weight: bold;
+   }
+   ```
+2. Add some padding and a border so links look like buttons:
+
+   ```css
+   a {
+     border: 1px solid gray;
+     padding: 5px;
+     margin: 5px;
+   }
+   ```
+
+</div>
+
+#### 6. Style Images
+
+<div class="task" markdown="block">
+
+1. Add a border to your recipe images:
+
+   ```css
+   img {
+     border: 3px solid black;
+   }
+   ```
+2. Add some space around them so they don’t touch the text:
+
+   ```css
+   img {
+     margin: 10px;
+   }
+   ```
+
+</div>
+
+---
+
+### ✅ CSS Checklist
+
+By the end of Part B, your CSS file should include:
+
+* [ ] A background color for the page
+* [ ] A custom text color and font for the body
+* [ ] Styled headings (`h1`, `h2`, `h3`) with different sizes and/or colors
+* [ ] Borders, padding, and margins on your recipe sections
+* [ ] Styles for links
+* [ ] At least one style for images
+
+---
+
+### 🌟 Extensions (Optional Challenges)
+
+If you finish the required checklist, try adding some of these extras to make your recipe site more creative:
+
+1. **Background Gradients**
+
+   * Instead of one solid background color, use a gradient. You can copy and paste a gradient from [SheCodes Gradients](https://www.shecodes.io/gradients).
+   * Example:
+
+     ```css
+     body {
+       background: linear-gradient(to right, #ffecd2, #fcb69f);
+     }
+     ```
+
+2. **Centering Images**
+
+   * Wrap your image in a `<div>` with a class, then use `text-align: center` on the container.
+   * Example in HTML:
+
+     ```html
+     <div class="image-container">
+       <img src="images/lasagna.jpg" alt="Lasagna">
+     </div>
+     ```
+
+     Example in CSS:
+
+     ```css
+     .image-container {
+       text-align: center;
+     }
+     ```
+
+3. **Different Fonts for Headings**
+
+   * You can set your `h1`, `h2`, or `h3` to use a different font-family than the body text.
+   * Example:
+
+     ```css
+     h1, h2 {
+       font-family: "Georgia", serif;
+     }
+     ```
+
+4. **Rounded Corners on Boxes and Images**
+
+   * Use `border-radius` to soften the look of recipe cards or images:
+
+     ```css
+     .recipe-card {
+       border-radius: 10px;
+     }
+
+     img {
+       border-radius: 15px;
+     }
+     ```
+
+5. **Add a Highlighted Title Bar**
+
+   * Give your page title a background color to make it stand out:
+
+     ```css
+     h1 {
+       background-color: lightblue;
+       padding: 10px;
+     }
+     ```
+
+6. **Create “Button-Like” Links**
+
+   * Add background colors and padding to your `<a>` tags so they look more like buttons:
+
+     ```css
+     a {
+       background-color: lightgray;
+       padding: 5px 10px;
+       border: 1px solid black;
+     }
+     ```
+
