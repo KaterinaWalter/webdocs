@@ -7,9 +7,9 @@ nav_order: 6
 ---
 
 
-### Overview
+### Project Setup & Overview
 
-It's time to practice all of the HTML knowledge you have acquired. In this project, you are going to build a **basic recipe blog website**. The website will consist of a main index page which will have links to a few recipes. 
+It's time to practice all of the `HTML` and `CSS` knowledge you have acquired! In this project, you are going to build a **basic recipe blog website**. The website will consist of one page which will have links to a few recipes. 
 
 <html>
 <details>
@@ -31,7 +31,7 @@ It's time to practice all of the HTML knowledge you have acquired. In this proje
 </details>
 </html>
 
-### Part A: Build the HTML Structure
+### PART A: Build the HTML Structure 🧱
 
 #### 1. Create Initial Structure
 <div class="task" markdown="block">
@@ -95,55 +95,27 @@ Your links won't be flashy, but for now, just focus on building them out.
 
 </div>
 
-#### Extensions
-* Add even more recipes!
-* Incorporate emojis to embellish your text content, if you like the way they look. 
-* Create a **header image** or **logo** for your recipe blog on [Canva](https://www.canva.com/) and add it to the top of your page before the `h1` heading.
+---
 
-### Part B: Style with CSS
+### PART B: Style with CSS 🎨
 
-#### 1. Create and Link Your Stylesheet
-
-<div class="task" markdown="block">
-
-1. In your project folder, create a new file called **`styles.css`**.
-2. Open your `index.html` file. Inside the `<head>...</head>` section, add this line so the HTML knows to use your CSS:
-
-   ```html
-   <link rel="stylesheet" href="styles.css">
-   ```
-3. Test that the link works by adding this to `styles.css` and refreshing your page:
-
-   ```css
-   body {
-     background-color: lightyellow;
-   }
-   ```
-
-   If the background changes, you’re good!
-
-</div>
-
-#### 2. Style the Page Background and Text
+#### 1. Style the Page Background and Text
 
 <div class="task" markdown="block">
 
 1. Change the **background color** of the whole page (`body`) to any color you like:
-
    ```css
    body {
      background-color: #f0f8ff;
    }
    ```
 2. Change the **text color** for the whole page:
-
    ```css
    body {
      color: #333333;
    }
    ```
 3. Pick a **font** for your page using a generic family (like Arial, Times, Courier, or Verdana):
-
    ```css
    body {
      font-family: Arial, sans-serif;
@@ -157,7 +129,6 @@ Your links won't be flashy, but for now, just focus on building them out.
 <div class="task" markdown="block">
 
 1. Make your main title (`h1`) stand out by changing its **color**, **text alignment**, and **font size**:
-
    ```css
    h1 {
      color: darkgreen;
@@ -166,7 +137,6 @@ Your links won't be flashy, but for now, just focus on building them out.
    }
    ```
 2. Style your recipe titles (`h2`) so they look different from the page title:
-
    ```css
    h2 {
      color: darkred;
@@ -174,14 +144,12 @@ Your links won't be flashy, but for now, just focus on building them out.
    }
    ```
 3. Give smaller headings (`h3`) a bold look:
-
    ```css
    h3 {
      font-weight: bold;
      font-size: 20px;
    }
    ```
-
 </div>
 
 #### 4. Add Borders and Spacing with the Box Model
@@ -190,7 +158,6 @@ Your links won't be flashy, but for now, just focus on building them out.
 
 1. Give each recipe section (the `<div>` that holds the recipe) a border, padding, and margin.
    Example if your recipe `div`s use the class `recipe-card`:
-
    ```css
    .recipe-card {
      border: 2px solid #cccccc;
@@ -199,12 +166,10 @@ Your links won't be flashy, but for now, just focus on building them out.
      background-color: #ffffff;
    }
    ```
-
-   * **Border** adds a line around the box.
-   * **Padding** adds space between the text and the border.
-   * **Margin** adds space outside the border.
-
-2. Change the border color and width to experiment with different looks.
+   > * **Border** adds a line around the box.
+   > * **Padding** adds space between the text and the border.
+   > * **Margin** adds space outside the border.
+2. Change the border `width`, `style`, and `color` to experiment with different looks.
 
 </div>
 
@@ -213,21 +178,11 @@ Your links won't be flashy, but for now, just focus on building them out.
 <div class="task" markdown="block">
 
 1. Make your navigation links look nicer by adding some simple styles:
-
    ```css
    a {
-     color: blue;
+     color: purple;
      text-decoration: none;
      font-weight: bold;
-   }
-   ```
-2. Add some padding and a border so links look like buttons:
-
-   ```css
-   a {
-     border: 1px solid gray;
-     padding: 5px;
-     margin: 5px;
    }
    ```
 
@@ -238,27 +193,27 @@ Your links won't be flashy, but for now, just focus on building them out.
 <div class="task" markdown="block">
 
 1. Add a border to your recipe images:
-
    ```css
    img {
      border: 3px solid black;
    }
    ```
 2. Add some space around them so they don’t touch the text:
-
    ```css
    img {
      margin: 10px;
    }
    ```
-
 </div>
 
 ---
 
-### ✅ CSS Checklist
+### Minimum Requirements Checklist
 
-By the end of Part B, your CSS file should include:
+By the end of **PART A**, your `index.html` file should include:
+* [ ] 
+
+By the end of **PART B**, your `style.css` file should include:
 
 * [ ] A background color for the page
 * [ ] A custom text color and font for the body
@@ -269,85 +224,52 @@ By the end of Part B, your CSS file should include:
 
 ---
 
-### 🌟 Extensions (Optional Challenges)
+### Extensions (Optional Challenges)
 
 If you finish the required checklist, try adding some of these extras to make your recipe site more creative:
 
-1. **Background Gradients**
-
+* Add even more recipes by repeating the `<div>` structure you used for the other recipes. 
+* Incorporate **emojis** to embellish your text content, if you like the way they look. 
+* Design a **header image** or **logo** for your recipe blog on [Canva](https://www.canva.com/), download it, and add it to the top of your page before the `h1` heading.
+* **Background Gradients:**
    * Instead of one solid background color, use a gradient. You can copy and paste a gradient from [SheCodes Gradients](https://www.shecodes.io/gradients).
-   * Example:
-
-     ```css
-     body {
-       background: linear-gradient(to right, #ffecd2, #fcb69f);
-     }
-     ```
-
-2. **Centering Images**
-
-   * Wrap your image in a `<div>` with a class, then use `text-align: center` on the container.
-   * Example in HTML:
-
-     ```html
-     <div class="image-container">
-       <img src="images/lasagna.jpg" alt="Lasagna">
-     </div>
-     ```
-
-     Example in CSS:
-
-     ```css
-     .image-container {
-       text-align: center;
-     }
-     ```
-
-3. **Different Fonts for Headings**
-
-   * You can set your `h1`, `h2`, or `h3` to use a different font-family than the body text.
-   * Example:
-
+   * _Example:_ `background: linear-gradient(to right, #ffecd2, #fcb69f);`
+* **Different Fonts for Headings:**
+   * You can set your `h1`, `h2`, or `h3` to use a different `font-family` than the body text.
+   * _Example:_
      ```css
      h1, h2 {
-       font-family: "Georgia", serif;
+       font-family: "Georgia";
      }
      ```
-
-4. **Rounded Corners on Boxes and Images**
-
-   * Use `border-radius` to soften the look of recipe cards or images:
-
+* **Create “Button-Like” Links:**
+   * Add background colors and padding to your `<a>` tags so they look more like buttons:
      ```css
-     .recipe-card {
-       border-radius: 10px;
+     a {
+       background: lightgray;
+       padding: 5px 10px;
+       border: 1px solid black;
      }
-
+     ```
+* **Rounded Corners on Boxes and Images:**
+   * Use `border-radius` to soften the look of divs or images:
+     ```css
      img {
        border-radius: 15px;
      }
      ```
-
-5. **Add a Highlighted Title Bar**
-
-   * Give your page title a background color to make it stand out:
-
-     ```css
-     h1 {
-       background-color: lightblue;
-       padding: 10px;
-     }
+* **Centering Images:**
+   * Wrap your image in a `<div>` with a class, then use `text-align: center` on the container.
+   * _Example in HTML:_
+     ```html
+     <div class="image-container">
+       <img src="lasagna.jpg" alt="Lasagna">
+     </div>
      ```
-
-6. **Create “Button-Like” Links**
-
-   * Add background colors and padding to your `<a>` tags so they look more like buttons:
-
+   * _Example in CSS:_
      ```css
-     a {
-       background-color: lightgray;
-       padding: 5px 10px;
-       border: 1px solid black;
+     .image-container {
+       text-align: center;
      }
      ```
 
