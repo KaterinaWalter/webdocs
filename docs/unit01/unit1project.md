@@ -49,13 +49,13 @@ It's time to practice all of the `HTML` and `CSS` knowledge you have acquired! I
 1. Create a **new `div` element** to _group together_ the information for your first recipe on the page.
 2. Specify a **unique identifier** within the `div` opening tag, like this: `<div id="recipe-name">`
   > You can use the name of your favorite dish or, if you need some inspiration, you can find a recipe to use at [Allrecipes](https://www.allrecipes.com/).
-3. Include a **class name** within the `div` opening tag, like this: `<div id="recipe-name" class="recipe-card">`
+3. Include a **class name** within the `div` opening tag, like this: `<div id="lasagna" class="recipe-section">`
   > This will help with styling all **recipe sections** later on! 
 5. For now, just include an `h2` **heading** inside the `div`, with the recipe's name as its content.
 
 </div>
 
-#### 3. Add Recipe Section Content
+#### 3. Fill in Recipe Content
 
 <div class="task" markdown="block">
  
@@ -78,7 +78,7 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
 1. Add **two more recipes** with identical structures to the recipe `div` section you've already created, but replace the inner **content**.
   > _HINT:_ You can **copy-paste** your own code! Select from the opening `<div>` tag until the closing `</div>` tag. 
 1. Don't forget to add a **link** to each of the new recipes at the top of the page. This will help with **navigation** around your page, so users can click to jump to the recipe they want to see.
-  > Each `div` section should have a unique `id`, but you can leave the `class` name the same. 
+  > Each `div` section should have a **unique** `id`, but you can leave their `class` names the same. 
 
 </div>
 
@@ -86,10 +86,11 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
 
 <div class="task" markdown="block">
   
-1. Back at the top of the `body` section, under the first `h1`, add a **anchor** to the recipe `div` section you just created.
+1. Back at the TOP of the `body` section, under the first `h1`, add an **anchor** link to jump to each recipe `div` section.
   > _Example:_ `<a href="#recipe-name"> Recipe Name </a>`. 
   > * The `href` attribute is directing the anchor to the `div` on the page that has `id="recipe-name"`. Replace `recipe-name` with your own identifier.
   > * The _text_ of the link should again be replaced with the actual recipe name.
+2. Repeat for the other two recipes, making sure to replace the `href` to match that recipe's `id`.
 
 </div>
 
