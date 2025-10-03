@@ -62,10 +62,10 @@ It's time to practice all of the `HTML` and `CSS` knowledge you have acquired! I
 Your new recipe `div` section must include the following content:
 1. An **image** of the finished dish under the `h2` heading that you added earlier.
   > You can find images of the dish on Google or [Allrecipes](https://www.allrecipes.com/).
-1. Under the image, it should have an appropriately sized (_HINT: smaller than the recipe title heading_) **heading** with the words "Description".
+1. Under the image, it should have an appropriately sized **heading** (_HINT: smaller than the recipe title heading_) with the words "Description".
 1. Following the heading, include a **paragraph** or two describing the recipe.
-1. Under the description, add an "Ingredients" **heading** followed by an **unordered list** of the ingredients needed for the recipe.
-1. Finally, under the ingredients list, add a "Steps" **heading** followed by an **ordered list** of the steps needed for making the dish.
+1. Under the description, add an "Ingredients" **heading**, followed by an **unordered list** of the ingredients needed for the recipe.
+1. Finally, under the ingredients list, add a "Steps" **heading**, followed by an **ordered list** of the steps needed for making the dish.
 
 </div>
 
