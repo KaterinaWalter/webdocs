@@ -60,8 +60,9 @@ It's time to practice all of the `HTML` and `CSS` knowledge you have acquired! I
 <div class="task" markdown="block">
  
 Your new recipe `div` section must include the following content:
-1. An **image** of the finished dish under the `h2` heading that you added earlier. You can find images of the dish on Google or [Allrecipes](https://www.allrecipes.com/).
-1. Under the image, it should have an appropriately sized (_smaller than the recipe title heading_) "Description" **heading** followed by a **paragraph** or two describing the recipe.
+1. An **image** of the finished dish under the `h2` heading that you added earlier.
+  > You can find images of the dish on Google or [Allrecipes](https://www.allrecipes.com/).
+1. Under the image, it should have an appropriately sized (_HINTLsmaller than the recipe title heading_) "Description" **heading** followed by a **paragraph** or two describing the recipe.
 1. Under the description, add an "Ingredients" **heading** followed by an **unordered list** of the ingredients needed for the recipe.
 1. Finally, under the ingredients list, add a "Steps" **heading** followed by an **ordered list** of the steps needed for making the dish.
 
@@ -88,9 +89,9 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
   
 1. Back at the TOP of the `body` section, under the first `h1`, add an **anchor** link to jump to each recipe `div` section.
   > _Example:_ `<a href="#recipe-name"> Recipe Name </a>`. 
-  > * The `href` attribute is directing the anchor to the `div` on the page that has `id="recipe-name"`. Replace `recipe-name` with your own identifier.
-  > * The _text_ of the link should again be replaced with the actual recipe name.
-2. Repeat for the other two recipes, making sure to replace the `href` to match that recipe's `id`.
+  > * The `href` **attribute** is _directing_ the anchor to the `div` on the page that has `id="recipe-name"`. Replace `recipe-name` with your own identifier for that recipe.
+  > * The _text_ of the link (between the `a` tags) should again be replaced with the actual recipe name.
+2. Repeat for the other two recipes. Make sure to replace the `href` to match that recipe's `id`, and replace the _text_ to match that recipe's name.
 
 </div>
 
