@@ -101,27 +101,27 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
 
 ### PART B: Style with CSS 🎨
 
-#### 1. Style the Page Background and Text
+#### 1. Apply general styles to the whole page
 
 <div class="task" markdown="block">
 
-1. Change the **background color** of the whole page (`body`) to any color you like:
+1. In `style.css`, write a **selector** for the whole page (`body` tag):
    ```css
    body {
-     background-color: #f0f8ff;
+   
    }
    ```
-2. Change the **text color** for the whole page:
+2. Inside the curly brackets for that selector, change the **background** to any color you like:
    ```css
-   body {
-     color: #333333;
-   }
+     background: pink;
    ```
-3. Pick a **font** for your page using a generic family (like Arial, Times, Courier, or Verdana):
+3. Change the **text color** for the whole page:
    ```css
-   body {
-     font-family: Arial, sans-serif;
-   }
+     color: purple;
+   ```
+4. Pick a **font** for your page using a generic family (like Arial, Times, Courier, or Verdana):
+   ```css
+     font-family: Arial;
    ```
 
 </div>
