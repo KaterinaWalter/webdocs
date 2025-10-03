@@ -72,14 +72,23 @@ Your new recipe `div` section must include the following content:
 
 </div>
 
+<div class="highlight" markdown="block">
+
+Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or **lists**? Refer to your `Unit-1-Notes` repository on GitHub or review the [📓 Notes 1.2: HTML Foundations](https://coderina.dev/webdocs/docs/unit01/notes102)!
+
+</div>
+
 #### 4. Add More Recipes
 
 <div class="task" markdown="block">
 
 1. Add **two more recipes** with identical structures to the recipe `div` section you've already created.
-1. Don't forget to **link** to the new recipes at the top of the page. This will help with **navigation** around your page, so users can click to jump to the recipe they want to see.
+   > _HINT:_ You can **copy-paste** your own code! Select from the opening `<div>` tag until the closing `</div>` tag. 
+1. Don't forget to add a **link** to each of the new recipes at the top of the page. This will help with **navigation** around your page, so users can click to jump to the recipe they want to see.
 
-Also, consider putting all the links in an unordered list so they aren't all on one line.
+</div>
+
+Also, consider **nesting** all the links inside an unordered list so they aren't all on one line.
 
 _Example:_
 
@@ -90,10 +99,6 @@ _Example:_
     <li><a href="#chicken-milanese">Chicken Milanese Recipe</a></li>
   </ul>
 ```
-  
-Your links won't be flashy, but for now, just focus on building them out.
-
-</div>
 
 ---
 
