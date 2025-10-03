@@ -78,7 +78,7 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
 <div class="task" markdown="block">
 
 1. Add **two more recipes** with identical structures to the recipe `div` section you've already created, but replace the inner **content**.
-  > _HINT:_ You can **copy-paste** your own code! Select from the opening `<div>` tag until the closing `</div>` tag. 
+  > _TIP:_ You can **copy-paste** your own code! Select from the opening `<div>` tag until the closing `</div>` tag. 
 1. Don't forget to add a **link** to each of the new recipes at the top of the page. This will help with **navigation** around your page, so users can click to jump to the recipe they want to see.
   > Each `div` section should have a **unique** `id`, but you can leave their `class` names the same. 
 
@@ -92,7 +92,8 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
   > _Example:_ `<a href="#recipe-name"> Recipe Name </a>`. 
   > * The `href` **attribute** is _directing_ the anchor to the `div` on the page that has `id="recipe-name"`. Replace `recipe-name` with your own identifier for that recipe.
   > * The _text_ of the link (between the `a` tags) should again be replaced with the actual recipe name.
-2. Repeat for the other two recipes. Make sure to replace the `href` to match that recipe's `id`, and replace the _text_ to match that recipe's name.
+2. **Repeat** to add links for the other two recipe sections.
+  > Make sure to replace the `href` to match that recipe's `id`, and replace the _text_ to match that recipe's name.
 
 </div>
 
