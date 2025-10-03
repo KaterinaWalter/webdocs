@@ -72,11 +72,9 @@ Your new recipe `div` section must include the following content:
 
 </div>
 
-<div class="highlight" markdown="block">
-
+{:.highlight}
 Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or **lists**? Refer to your `Unit-1-Notes` repository on GitHub or review the [📓 Notes 1.2: HTML Foundations](https://coderina.dev/webdocs/docs/unit01/notes102)!
 
-</div>
 
 #### 4. Add More Recipes
 
