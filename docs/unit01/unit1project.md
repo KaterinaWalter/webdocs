@@ -123,7 +123,7 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
    ```css
      font-family: sans-serif;
    ```
-   > Use one of the [web-safe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.php) to start out, but to _really_ make your page stand out, you can **import a custom font** by following my [Google Font Tutorial](https://coderina.dev/webdocs/docs/ref/fonts.html)!
+   > 🔡 Use one of the [web-safe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.php) to start out, but to _really_ make your page stand out, you can **import a custom font** by following my [Google Font Tutorial](https://coderina.dev/webdocs/docs/ref/fonts.html)!
 
 </div>
 
@@ -198,8 +198,16 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
 
 ### Minimum Requirements Checklist
 
-By the end of **PART A**, your `index.html` file should include:
-* [ ] 
+By the end of **PART A**, your `index.html` file should include, in this order:
+* [ ] A `h1` heading that describes the theme of the blog
+* [ ] 3 links (`a` tags) that anchor to different sections on the page (referencing `id` names)
+* [ ] 3 recipes, each contained in a `div` section with a **unique** `id` name and a **shared** `class` name
+  > _Each recipe section includes the following elements:_
+  > * `h2` with the recipe's name
+  > * `img` of the finished dish
+  > * "Description" `h3` followed by a `p` (paragraph)
+  > * "Ingredients" `h3` followed by a `ul` (unordered list) of ingredients
+  > * "Steps" `h3` followed by an `ol` (ordered list) of steps
 
 By the end of **PART B**, your `style.css` file should include:
 
@@ -212,16 +220,18 @@ By the end of **PART B**, your `style.css` file should include:
 
 ---
 
-### Extensions (Optional Challenges)
+### Extension Challenges
 
 If you finish the required checklist, try adding some of these extras to make your recipe site more creative:
 
 * Add even more recipes by repeating the `<div>` structure you used for the other recipes. 
 * Incorporate **emojis** to embellish your text content, if you like the way they look. 
 * Design a **header image** or **logo** for your recipe blog on [Canva](https://www.canva.com/), download it, and include it as an `img` element at the top of your page before the `h1` heading.
-* **Background Gradients:**
+* **Background Gradients or Images:**
    * Instead of one solid background color, use a **gradient**. You can copy and paste a gradient from [SheCodes Gradients](https://www.shecodes.io/gradients).
-   * _Example:_ `background: linear-gradient(to right, #ffecd2, #fcb69f);`
+   > _Example CSS Rule:_ `background: linear-gradient(to right, #ffecd2, #fcb69f);`
+   * Another option is to use an **image**. For best results, search _"Seamless Pattern"_ on [Google Images](https://images.google.com/).
+   > _Example CSS Rule:_ `background: url("image-name.png");`
 * **Different Fonts for Headings:**
    * You can set your `h1`, `h2`, or `h3` to use a different `font-family` than the body text.
    * _Example:_
@@ -230,6 +240,8 @@ If you finish the required checklist, try adding some of these extras to make yo
        font-family: "Georgia";
      }
      ```
+     > 🔡 Use one of the [web-safe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.php) to start out, but to _really_ make your page stand out, you can **import a custom font** by following my [Google Font Tutorial](https://coderina.dev/webdocs/docs/ref/fonts.html)!
+
 * **Rounded Corners on Boxes and Images:**
    * Use `border-radius` property to soften the look of divs or images.
 * **Create “Button-Like” Links:**
