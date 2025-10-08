@@ -111,7 +111,7 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
    
    }
    ```
-2. Inside the curly brackets for that selector, change the `background` **property** to any color you like:
+2. _Inside_ the curly brackets for that selector, change the `background` **property** to any color you like:
    ```css
      background: pink;
    ```
@@ -121,9 +121,9 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
    ```
 4. Pick a `font-family` for your page:
    ```css
-     font-family: Arial;
+     font-family: sans-serif;
    ```
-   > Use one of the [web-safe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.php) to start out, but implement a [custom Google Font](https://coderina.dev/webdocs/docs/ref/fonts.html) later.
+   > Use one of the [web-safe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.php) to start out, but to really make your page stand out, you can **import a custom font** by following my [Google Font Tutorial](https://coderina.dev/webdocs/docs/ref/fonts.html)!
 
 </div>
 
@@ -131,28 +131,18 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
 
 <div class="task" markdown="block">
 
-1. Make your main title (`h1`) stand out by changing its **color**, **text alignment**, and **font size**:
+1. **Select** your main title (the `h1` tag) and make it stand out by changing the following **properties**:
+   * `color`
+   * `text-align`
+   * `font-size`
    ```css
-   h1 {
-     color: darkgreen;
-     text-align: center;
-     font-size: 36px;
-   }
-   ```
-2. Style your recipe titles (`h2`) so they look different from the page title:
-   ```css
-   h2 {
-     color: darkred;
-     font-size: 28px;
-   }
-   ```
-3. Give smaller headings (`h3`) a bold look:
-   ```css
-   h3 {
-     font-weight: bold;
-     font-size: 20px;
-   }
-   ```
+3. **Select** & style your recipe names (`h2`) so they look different from the page title. Change the following **properties**:
+   * `color`
+   * `font-size`
+5. Give smaller headings (`h3`) a bold look. Change the following **properties**:
+   * `font-weight`
+   * `font-size`
+     
 </div>
 
 #### 4. Add Borders and Spacing with the Box Model
@@ -233,18 +223,20 @@ If you finish the required checklist, try adding some of these extras to make yo
 
 * Add even more recipes by repeating the `<div>` structure you used for the other recipes. 
 * Incorporate **emojis** to embellish your text content, if you like the way they look. 
-* Design a **header image** or **logo** for your recipe blog on [Canva](https://www.canva.com/), download it, and add it to the top of your page before the `h1` heading.
+* Design a **header image** or **logo** for your recipe blog on [Canva](https://www.canva.com/), download it, and include it as an `img` element at the top of your page before the `h1` heading.
 * **Background Gradients:**
-   * Instead of one solid background color, use a gradient. You can copy and paste a gradient from [SheCodes Gradients](https://www.shecodes.io/gradients).
+   * Instead of one solid background color, use a **gradient**. You can copy and paste a gradient from [SheCodes Gradients](https://www.shecodes.io/gradients).
    * _Example:_ `background: linear-gradient(to right, #ffecd2, #fcb69f);`
 * **Different Fonts for Headings:**
    * You can set your `h1`, `h2`, or `h3` to use a different `font-family` than the body text.
    * _Example:_
      ```css
-     h1, h2 {
+     h1, h2, h3 {
        font-family: "Georgia";
      }
      ```
+* **Rounded Corners on Boxes and Images:**
+   * Use `border-radius` property to soften the look of divs or images.
 * **Create “Button-Like” Links:**
    * Add background colors and padding to your `<a>` tags so they look more like buttons:
      ```css
@@ -254,24 +246,17 @@ If you finish the required checklist, try adding some of these extras to make yo
        border: 1px solid black;
      }
      ```
-* **Rounded Corners on Boxes and Images:**
-   * Use `border-radius` to soften the look of divs or images:
-     ```css
-     img {
-       border-radius: 15px;
-     }
-     ```
 * **Centering Images:**
    * Wrap your image in a `<div>` with a class, then use `text-align: center` on the container.
    * _Example in HTML:_
      ```html
-     <div class="image-container">
+     <div class="centered">
        <img src="lasagna.jpg" alt="Lasagna">
      </div>
      ```
    * _Example in CSS:_
      ```css
-     .image-container {
+     .centered {
        text-align: center;
      }
      ```
