@@ -159,7 +159,7 @@ _We will practice the following skills:_
   <p>Welcome to today’s schedule. Check your train line for the latest stops and updates.</p>
 
   <h2 class="line-name">A Train</h2>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/NYCS-bull-trans-A.svg" alt="A Train">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NYCS-bull-trans-A.svg/1024px-NYCS-bull-trans-A.svg.png" alt="A Train">
   <ul>
     <li>Inwood – 207 St</li>
     <li>59 St – Columbus Circle</li>
@@ -169,7 +169,7 @@ _We will practice the following skills:_
   </ul>
 
   <h2 class="line-name express">1 Train</h2>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/NYCS-bull-trans-1.svg" alt="1 Train">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/NYCS-bull-trans-1-Std.svg/250px-NYCS-bull-trans-1-Std.svg.png" alt="1 Train">
   <ul>
     <li>Van Cortlandt Park – 242 St</li>
     <li>96 St</li>
