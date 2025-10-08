@@ -185,23 +185,20 @@ _We will practice the following skills:_
 
 <div class="task" markdown="block">
 
-1. In `styles.css`, use the **universal selector** to reset the box model:
-
+1. In `styles.css`, use the **tag selector** for the `body`:
    ```css
-   * {
+   body {
      box-sizing: border-box;
    }
    ```
-2. Style the `body`:
-
+2. Continue to add styling rules to the `body`:
    * Set a background color.
    * Choose a font family (e.g. Arial, sans-serif).
+     > List of available [Web-Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.php)
    * Add some padding around the page.
 3. ID selector:
-
    * `#page-title` → large font size, centered text, bold color.
 4. Class selector:
-
    * `.line-name` → background color, white text, padding.
 5. Give `.express` a different background or text style.
 
@@ -217,7 +214,7 @@ _We will practice the following skills:_
    * A fixed width (e.g. 80px)
    * `height: auto`
    * A border-radius for rounded corners.
-3. Use a **descendant selector** so that only images inside `.express` get a colored border.
+3. _Challenge:_ Use a **descendant selector** so that only images _inside_ `.express` get a colored border.
 
 </div>
 
