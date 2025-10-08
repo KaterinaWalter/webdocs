@@ -135,11 +135,10 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
    * `color`
    * `text-align`
    * `font-size`
-   ```css
-3. **Select** & style your recipe names (`h2`) so they look different from the page title. Change the following **properties**:
+2. **Select** & style your recipe names (`h2`) so they look different from the page title. Change the following **properties**:
    * `color`
    * `font-size`
-5. Give smaller headings (`h3`) a bold look. Change the following **properties**:
+3. Give smaller headings (`h3`) a bold look. Change the following **properties**:
    * `font-weight`
    * `font-size`
      
