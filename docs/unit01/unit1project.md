@@ -38,7 +38,7 @@ It's time to practice all of the `HTML` and `CSS` knowledge you have acquired! I
 
 1. Within the project, navigate to the `index.html` file.
 1. Ensure that it is already filled out with the usual **boilerplate HTML**, with a `head` and `body` section inside the opening & closing `html` tags.
-2. Add an `h1` heading in the body section that describes the main title of the website (like _"My Favorite Recipes"_ or _"Sweet Treats for Fall"_).
+2. Add an `h1` heading inside the `body` section that describes the main title of the website (like _"My Favorite Recipes"_ or _"Sweet Treats for Fall"_).
 
 </div> 
 
@@ -50,7 +50,7 @@ It's time to practice all of the `HTML` and `CSS` knowledge you have acquired! I
 2. Specify a **unique identifier** within the `div` opening tag, like this: `<div id="recipe-name">`
   > You can use the name of your favorite dish or, if you need some inspiration, you can find a recipe to use at [Allrecipes](https://www.allrecipes.com/).
 3. Include a **class name** within the `div` opening tag, like this: `<div id="lasagna" class="recipe-section">`
-  > This will help with styling all **recipe sections** later on! 
+  > This will help with _styling_ all **recipe sections** later on! 
 4. For now, just include an `h2` **heading** inside the `div`, with the recipe's name as its content.
 
 </div>
@@ -105,7 +105,7 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
 
 <div class="task" markdown="block">
 
-1. In `style.css`, write a **selector** for the whole page. Remember that the `body` tag contains _all the content_ on your page:
+1. In `style.css`, write a **selector** for the whole page. Remember that the `body` tag contains _all the content_:
    ```css
    body {
    
@@ -115,7 +115,7 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
    ```css
      background: pink;
    ```
-3. Change the **text color** for the whole page:
+3. Set the **text color** for the whole page:
    ```css
      color: purple;
    ```
@@ -123,7 +123,7 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
    ```css
      font-family: sans-serif;
    ```
-   > Use one of the [web-safe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.php) to start out, but to really make your page stand out, you can **import a custom font** by following my [Google Font Tutorial](https://coderina.dev/webdocs/docs/ref/fonts.html)!
+   > Use one of the [web-safe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.php) to start out, but to _really_ make your page stand out, you can **import a custom font** by following my [Google Font Tutorial](https://coderina.dev/webdocs/docs/ref/fonts.html)!
 
 </div>
 
@@ -149,13 +149,12 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
 <div class="task" markdown="block">
 
 1. Give each recipe section (the `<div>` that holds the recipe) a border, padding, and margin.
-   Example if your recipe `div`s use the class `recipe-card`:
+   Example if your recipe `div`s use the `class` name `recipe-section`:
    ```css
-   .recipe-card {
-     border: 2px solid #cccccc;
+   .recipe-section {
+     border: 2px solid black;
      padding: 15px;
      margin: 20px 0;
-     background-color: #ffffff;
    }
    ```
    > * **Border** adds a line around the box.
@@ -169,7 +168,7 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
 
 <div class="task" markdown="block">
 
-1. Make your navigation links look nicer by adding some simple styles:
+1. Make your navigation links (`a` tags) look nicer by adding some simple styles:
    ```css
    a {
      color: purple;
@@ -184,18 +183,15 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
 
 <div class="task" markdown="block">
 
-1. Add a border to your recipe images:
+1. Add a border to your recipe images. _Example:_
    ```css
    img {
-     border: 3px solid black;
+     border: 2px solid black;
    }
    ```
-2. Add some space around them so they don’t touch the text:
-   ```css
-   img {
-     margin: 10px;
-   }
-   ```
+2. Add some space _around_ them so they don’t touch the text.
+   > Would this be `margin` or `padding`?
+   
 </div>
 
 ---
@@ -208,11 +204,11 @@ By the end of **PART A**, your `index.html` file should include:
 By the end of **PART B**, your `style.css` file should include:
 
 * [ ] A background color for the page
-* [ ] A custom text color and font for the body
+* [ ] A custom text color and font family for the `body`
 * [ ] Styled headings (`h1`, `h2`, `h3`) with different sizes and/or colors
 * [ ] Borders, padding, and margins on your recipe sections
 * [ ] Styles for links
-* [ ] At least one style for images
+* [ ] At least one set of styling rules for images
 
 ---
 
