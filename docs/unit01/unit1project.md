@@ -227,9 +227,9 @@ If you finish the required checklist, try adding some of these extras to make yo
 * Add **even more recipes** by repeating the `<div>` structure you used for the other recipes. 
 * Incorporate **emojis** 🍝 to embellish your text content, if you like the way they look. 
 * Design a **header image** or **logo** for your recipe blog on [Canva](https://www.canva.com/). After you've finished the design, follow these steps to include it on your page:
-   1. **Download** it from Canva as a `.png`, `.jpeg`, or `.jpg` file onto your computer.
-   2. Drag it from your computer into your `File Explorer` tab in the Codespace to **upload** it to your project.
-   3. In your `HTML` code, add an `img` element at the top of your page, before the `h1` heading. The `src` **attribute** should be set to the name of the image file. 
+   > 1. **Download** it from Canva as a `.png`, `.jpeg`, or `.jpg` file onto your computer.
+   > 2. Drag it from your computer into your `File Explorer` tab in the Codespace to **upload** it to your project.
+   > 3. In your `HTML` code, add an `img` element at the top of your page, before the `h1` heading. The `src` **attribute** should be set to the name of the image file. 
 * **Background Gradients or Images:**
    * Instead of one solid background color, use a **gradient**. You can copy and paste a gradient from [SheCodes Gradients](https://www.shecodes.io/gradients).
    > _Example CSS Rule:_ `background: linear-gradient(to right, #ffecd2, #fcb69f);`
