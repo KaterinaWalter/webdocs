@@ -188,19 +188,19 @@ _We will practice the following skills:_
 1. In `styles.css`, use the **tag selector** for the `body`:
    ```css
    body {
-     box-sizing: border-box;
+     background: lightgrey;
    }
    ```
 2. Continue to add styling rules to the `body`:
-   * Set a background color.
+   * Customize the background color.
    * Choose a font family (e.g. Arial, sans-serif).
-     > List of available [Web-Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.php)
+     > Pick from the suggestions or this list of available [Web-Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.php)
    * Add some padding around the page.
 3. ID selector:
    * `#page-title` → large font size, centered text, bold color.
 4. Class selector:
-   * `.line-name` → background color, white text, padding.
-5. Give `.express` a different background or text style.
+   * `.line-name` → dark background color, white text, padding.
+5. Give `.express` a unique background and/or font style and/or font weight.
 
 </div>
 
@@ -208,9 +208,8 @@ _We will practice the following skills:_
 
 <div class="task" markdown="block">
 
-1. Make all station lists (`ul li`) have extra padding and a border-bottom.
+1. Make all station list items (`li`) have extra padding and a border-bottom.
 2. Make images:
-
    * A fixed width (e.g. 80px)
    * `height: auto`
    * A border-radius for rounded corners.
