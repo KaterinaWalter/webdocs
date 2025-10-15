@@ -77,10 +77,10 @@ Forgot how to write `HTML` code for **images**, **headings**, **paragraphs**, or
 
 <div class="task" markdown="block">
 
-1. Add **two more recipes** with identical structures to the recipe `div` section you've already created, but replace the inner **content**.
+1. Add **two more recipes** with identical structures to the recipe `div` section you've already created, but replace the inner **text content**.
   > _TIP:_ You can **copy-paste** your own code! Select from the opening `<div>` tag until the closing `</div>` tag. 
-1. Don't forget to add a **link** to each of the new recipes at the top of the page. This will help with **navigation** around your page, so users can click to jump to the recipe they want to see.
-  > Each `div` section should have a **unique** `id`, but you can leave their `class` names the same. 
+1. Don't forget to change **attributes** for certain elements, such as the `id` of the `div` and the `src` of the `img`. 
+  > Each `div` section must have a **unique** `id`, but you can leave their `class` names the same.
 
 </div>
 
