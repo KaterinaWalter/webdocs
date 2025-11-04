@@ -27,8 +27,8 @@ nav_order: 1
 
 1. Go to the public template **repository** for our class: [BWL-CS HTML/CSS/JS Template](https://github.com/BWL-CS/html-css-js-template)
 2. Click the <button type="button" name="button" class="btn btn-green">Use this template</button> button above the list of files then select `Create a new repository`
-3. Specify the **repository name**: `CS1-Unit-2-Flexbox`
-4. For the **description**, write: `Notes for CSS Flexbox layouts`
+3. Specify the **repository name**: `CS1-Unit-2-Flex-Notes`
+4. For the **description**, write: `CSS Flexbox layouts`
 5. Click <button type="button" name="button" class="btn btn-green">Create repository</button>
     > Now you have **your own personal copy** of this starter code that you can always access under the `Your repositories` section of GitHub! 📂
 6. Now on your repository, click <button type="button" name="button" class="btn btn-green"> < > Code </button> and select the `Codespaces` tab
