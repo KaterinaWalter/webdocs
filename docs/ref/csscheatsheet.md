@@ -1,11 +1,13 @@
 ---
 layout: default
 title: "🎨 CSS Cheatsheet" 
-parent: References
+parent: "📖 References"
 nav_order: 5
 ---
 
 # 🎨 CSS Cheatsheet
 {:.no_toc}
 
-#### COMING SOON!
+### Syntax Structure of a CSS Rule
+
+![image](css-selector.png)

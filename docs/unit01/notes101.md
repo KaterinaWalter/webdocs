@@ -13,8 +13,11 @@ nav_order: 1
 {:toc}
 
 ---
+
 ## Introduction to Web Development
 What do web developers do? In short, they **build and maintain websites**.
+
+![image](figures/web-publishing.png)
 
 Web developers often work for clients who are trying to get their product or service onto the web. The work is typically project-focused and involves collaborating with a team to coordinate the client’s needs into the end product. The client could be a tech company, an organization, or a government. The work could involve `front-end`, `back-end`, or `full-stack` web development.
 
@@ -22,8 +25,6 @@ Web development could be a good profession for you if you like **solving logical
 
 ### Types of Web Developers
 Earlier, we mentioned that web development work could be in the front end, the back end, or the full stack. What exactly do these terms mean?
-
-![image](https://www.toptal.com/custom-software-development/wp-content/uploads/2016/08/front-end-vs-back-end-750x375.jpg)
 
 * The `front end` is the stuff you see on the website in your browser, including the presentation of content and user interface elements like the navigation bar. Front-end developers use HTML, CSS, JavaScript, and their relevant frameworks to ensure that content is presented effectively and that users have an excellent experience.
 
@@ -83,7 +84,7 @@ First, discuss the definition of "hacking": [What is Hacking?](https://wiki.mozi
 
 <div class="task" markdown="block">
 
-1. Navigate to one of the following **news websites**: [BBC](https://www.bbc.com/), [Gothamist](https://gothamist.com/), [Vogue](https://www.vogue.com/fashion), [Bleacher Report](https://bleacherreport.com/).
+1. Navigate to one of the following **websites**: [Science Blog](https://scienceblog.com/), [Google for Developers Blog](https://developers.googleblog.com/en/), [Sports Talk Blog](https://sportstalkblog.home.blog/), [Who What Wear](https://www.whowhatwear.com/), [Gothamist NYC News](https://gothamist.com/), [Ground News](https://ground.news/).
   > You can try another news site if you prefer, but I've confirmed that these options work well with X-Ray Goggles.
   > 
   > Don’t worry — you’re not actually hacking the site for others — just yourself. You’re changing a _local version_ of the site that only you can see.
@@ -142,7 +143,7 @@ The web development industry has a long history of successful developers with va
 2. Enter your `@gbwl.org` **school email**
 3. Create a **password** that you'll remember 
 4. Enter a **username** that follows this pattern: `FirstName` `LastInitial` `GradYear`
-    > _For example:_ `KaterinaN2014`
+    > _For example:_ `KaterinaW2014`
     > 
     > DO NOT include your entire last name (_privacy reasons_)
 5. After verifying your account, **let me know** so I can add you to the GitHub Classroom group!

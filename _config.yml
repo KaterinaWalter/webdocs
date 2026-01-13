@@ -2,7 +2,7 @@ title: Web Docs
 description: Course materials for Pre-AP Computer Science
 theme: just-the-docs
 
-url: https://katerinanavab.github.io/webdocs
+url: https://KaterinaWalter.github.io/webdocs
 
 logo: "assets/webdocs-logo.png"
 favicon_ico: "favicon.ico"
@@ -12,7 +12,7 @@ aux_links:
   "Blackbaud":
     - "https://bwl.myschoolapp.com/app#login"
   "GitHub":
-    - "https://classroom.github.com/classrooms/180414627-bwl-cs1-webdev"    
+    - "https://github.com/BWL-CS"    
   "DevDocs":
     - "https://devdocs.io/"
 
