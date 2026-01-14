@@ -9,7 +9,7 @@ nav_order: 8
 
 ### Overview
 
-CSS **animations** and **transforms** are powerful tools that bring life to web pages. With **animations**, we can create smooth transitions, moving objects, or even complex _sequences_ of changes, making websites more interactive and visually appealing. **Transforms** allow us to _manipulate elements_ by rotating, scaling, or repositioning them, enabling unique and dynamic designs.
+🎥 CSS **animations** and **transforms** are powerful tools that bring life to web pages. With **animations**, we can create smooth transitions, moving objects, or even complex _sequences_ of changes, making websites more interactive and visually appealing. **Transforms** allow us to _manipulate elements_ by rotating, scaling, or repositioning them, enabling unique and dynamic designs.
 
 In this project, you'll practice these techniques by building an **animated scene** inside a defined container. You’ll experiment with movement, resizing, and interactivity to make a creative and engaging display. 
 
@@ -21,11 +21,20 @@ In this project, you'll practice these techniques by building an **animated scen
   
 <div class="setup" markdown="block">
 
+1. Go to the public template **repository** for our class: [BWL-CS HTML/CSS/JS Template](https://github.com/BWL-CS/html-css-js-template)
+2. Click the <button type="button" name="button" class="btn btn-green">Use this template</button> button above the list of files then select `Create a new repository`
+3. Specify the **repository name**: `CS1-Animated-Scene`
+4. Click <button type="button" name="button" class="btn btn-green">Create repository</button>
+    > Now you have **your own personal copy** of this starter code that you can always access under the `Your repositories` section of GitHub! 
+5. Now on your repository, click <button type="button" name="button" class="btn btn-green"> < > Code </button> and select the `Codespaces` tab
+6. Click `Create Codespace on main` and wait for the environment to load, _then you're ready to code_!
+7. 📝 Write code in this Codespace during class.
 
 </div>
 
 </details>
 </html>
+
 
 --- 
 
