@@ -55,6 +55,7 @@ html, body {
     box-sizing: border-box;
 }
 ```
+> These rules basically "reset" the settings of the overall page. 
 2. **Set the Background**
     * Add a `body` style rule to include a background image:
 ```css
@@ -73,13 +74,13 @@ body {
     width: 600px;
     margin: 20px auto;
     text-align: center;
-    font-family: "Trebuchet MS", Sans-Serif;
+    font-family: "Trebuchet MS";
     font-size: 0.8em;
     color: white;
 }
 ```
 5. **Add the Scene Container Section**
-    * Below the `#scene-description` div in HTML, add another container for the main animation space: `<div id="scene-container"></div>`
+    * Below the `#scene-description` div in HTML, add another container for the main animation area: `<div id="scene-container"></div>`
 6. **Style the Scene Container**
     * In `style.css`:
 ```css
@@ -89,13 +90,13 @@ body {
     margin: auto;
     border: 5px solid black;
     background-color: white;
-    overflow: hidden;
+    overflow: hidden; /* contain objects "on-screen" */
 }
 ```
 
 </div>
 
-#### Part B: Adding Animations and Transforms
+#### Part B: Building & Animating the Scene
 
 <div class="task" markdown="block">
 
@@ -104,51 +105,53 @@ body {
     * Identify several possible animations to make your scene dynamic (_e.g., a bouncing ball, flying objects, spinning elements, people walking, etc._)
 2. **Add Elements to the Scene**
     * Inside the `#scene-container`, add HTML elements to represent props, actors, etc.
+      >
     * _For example:_
-        * `<div id="ground"></div>` for **blocks/shapes**
-        * `<span id="ball">🏈</span>` for **emojis/symbols**
-        * `<img id="actor" src=" ">` for **images/clipart**
+      * `<img id="actor" src=" ">` for **images/clipart**
+      * `<div id="ground"></div>` for **blocks/shapes**
+      * `<p id="ball">🏈</p>` for **emojis/symbols**
 3. **Style the Elements**
     * Define styles for the new elements to position and size them.
-    * Example styling for a `span`: 
-```css
-#ball {
-    font-size: 30px;
-    position: absolute;
-    top: 20%;
-    left: 15%;
-    z-index: 5;
-}
-```
+    * Example styling for a `p` tag that holds an emoji: 
+    ```css
+    #ball {
+        display: inline-block;
+        font-size: 30px;
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        z-index: 5;
+    }
+    ```
 4. **Define CSS Animations**
-    * Use the `@keyframes` rule to define the **sequence** of an animation.
-    * Incorporate `transform` functions like `rotate`, `scale`, and `translate` within your animation sequence.
-    * **Reference:** [📖 W3Schools - Transforms](https://www.w3schools.com/css/css3_2dtransforms.asp)
+    * Use the `@keyframes` rule to define the frames ("timepoints") of an animation **sequence**.
+    * Incorporate movement using `transform` functions like `rotate`, `scale`, `skew`, and `translate` within your sequence.
+      > *Reference:* [📖 W3Schools - Transforms](https://www.w3schools.com/css/css3_2dtransforms.asp)
     * _Example:_
-```css
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
+    ```css
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
     }
-    to {
-        transform: rotate(360deg);
-    }
-}
-```
+    ```
 5. **Attach Animations to Elements**
-    * In the selector for an object you want to animate, define the `animation` sub-properties.
-    * **Reference:** [📖 W3Schools - Animations](https://www.w3schools.com/css/css3_animations.asp)
+    * In the selector for an object you want to animate, configure the `animation` property.
+      > *Reference:* [📖 W3Schools - Animations](https://www.w3schools.com/css/css3_animations.asp)
     * _Example:_
-```css
-#ball {
-    animation-name: spin;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-```
-6. **Test and Adjust**
-    * Ensure the animations are smooth and work well together, adjusting **durations**, **delays**, and **timing functions** as needed.
-    * You may also need to adjust your `@keyframes` definitions to include more points (e.g. `0%`, `50%`, `100%` rather than just `from` and `to`)
+    ```css
+    #ball {
+        animation: spin 5s infinite linear;
+    }
+    ```
+    > Remember that this is **shorthand** for the 4 important _sub-properties_ that control the settings of an animation: `animation-name`, `animation-duration`, `animation-iteration-count`, `animation-timing-function`
+6. **Test, Edit, Repeat!**
+    * Ensure the animations are smooth and work well together, adjusting **durations**, **iteration counts**, and **timing functions** as needed.
+      > There are other helpful, but optional, sub-properties like `animation-delay` and `animation-direction` available. _Look them up!_
+    * You may also need to adjust your `@keyframes` definitions to include more points (e.g. `0%`, `25%`, `50%`, `75%`,`100%`).
 
 </div> 
 
@@ -162,7 +165,7 @@ body {
   - [ ] Style all elements to fit your **theme** (e.g., colors, sizes, positioning).
 - _CSS Animations:_
   - [ ] Define at least 2 distinct `@keyframes` **animation sequences**. One of these must have _more than 2 points_ in the animation sequence (e.g. `0%`, `50%`, `100%` rather than just `from` and `to`).
-  - [ ] In a selector for the **element** to be animated, specify the relevant **animation** **properties** (e.g., `animation-name`, `animation-duration`, `animation-iteration-count`, `animation-timing-function`, `animation-delay`).
+  - [ ] In a selector for the **element** to be animated, specify the relevant **animation** **properties** (e.g., `animation-name`, `animation-duration`, `animation-iteration-count`, `animation-timing-function`, along with any optional customizations like `animation-delay` or `animation-direction`).
 - _CSS Transforms:_
   - [ ] Apply at least 4 different `transform` functions (e.g., `rotate`, `scale`, `translate`).
 - _CSS Positioning:_
