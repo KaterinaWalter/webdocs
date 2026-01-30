@@ -122,79 +122,6 @@ The simplest way to load/use Bootstrap is by including its **CDN link** in your 
 
 ## Bootstrap Tutorial
 
-### 📦 Containers
-
-Containers are a fundamental building block of Bootstrap that **contain**, **pad**, and **align** your content within a given device or viewport. Bootstrap requires a *containing element* to wrap elements and contain its <a href='#grid'>Grid System</a> (more on this later on in the tutorial). Bootstrap's container **classes** were created specifically for this purpose.
-
-Bootstrap 5 includes three different container types:
-* Fluid (class `.container-fluid`)
-* Fixed (class `.container`)
-* Responsive (see [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/layout/containers/))
-
-#### Fluid Containers
-{:.no_toc}
-
-A fluid container spans the **full width of the viewport**. It will expand and contract fluidly as you _resize_ the browser. This is in contrast to the fixed width container which will appear to "jump" to the new size as you pass a given break point.
-
-```html
-<div class="container-fluid"></div>
-```
-
-#### Fixed Containers
-{:.no_toc}
-
-A fixed container is a (responsive) **fixed width** container. As you resize your browser, its width remains intact, until it passes a certain screen size _breakpoint_, at which time it will resize to the new width for that break point.
-
-```html
-<div class="container"></div>
-```
-
-### 🖼️ Responsive Images
-
-Bootstrap provides classes that can be used when working with the `<img>` element. Most of these are utility classes that can be applied to any element (not just images). However, there is a class specifically for responsive images.
-
-Bootstrap provides the `.img-fluid` class to make an image **scale** appropriately across devices. Behind the scenes, this class applies the `max-width: 100%` and `height: auto` **CSS properties** to the image. This ensures that the image scales to the parent element.
-
-To see an image scale, insert an image element of your choice into a container, then try resizing your browser window:
-```html
-<img src="" class="img-fluid">
-```
-
-#### Image Borders
-{:.no_toc}
-
-You can use Bootstrap to render images with rounded corners or as a circle. This is acheived with the `.rounded-*` utility classes.
-
-You can also use the `.img-thumbnail` class to give it a rounded 1 pixel border.
-
-```html
-<img src="" class="rounded">
-<img src="" class="rounded-circle">
-<img src="" class="rounded-pill">
-<img src="" class="img-thumbnail">
-```
-
-{:.highlight}
-The **border radius** utility classes like `.rounded` and `.rounded-circle` can be applied to _any element_ (not just images)!
-
-#### Centering Images
-{:.no_toc}
-
-If your `<img>` element is placed in a Bootstrap `container` or `container-fluid`, it will usually be **centered automatically**, especially if you include the class `.img-fluid`! 
-
-Whenever an image isn't centering as expected, here are two solutions: 
-
-1. You can include Bootstrap's `.text-center` class on the image's **parent** element to center an image.
-    ```html
-    <div class="text-center">
-        <img src="" class="">
-    </div>
-    ```
-2. Alternatively, you can force the image to "behave" like a block with Bootstrap's class `.d-block` class, which applies the CSS rule `display: block;`. Then, add Bootstrap's `.mx-auto` to center the block image, which sets `margin: auto;`.
-    ```html
-    <img src="" class="mx-auto d-block">
-    ```
-
 ### 🎨 Style Utilities
 
 A major feature of using Bootstrap is that you can apply sets of **pre-defined styling rules** to elements directly in the HTML document, essentially adding style to your page _without having to write any of your own CSS code_!
@@ -309,6 +236,79 @@ Check out some of Bootstrap's most useful **border** and **shadow** utility clas
     <div class="shadow-sm">Small shadow</div>
     <div class="shadow">Regular shadow</div>
     <div class="shadow-lg">Larger shadow</div>
+    ```
+
+### 📦 Containers
+
+Containers are a fundamental building block of Bootstrap that **contain**, **pad**, and **align** your content within a given device or viewport. Bootstrap requires a *containing element* to wrap elements and contain its <a href='#grid'>Grid System</a> (more on this later on in the tutorial). Bootstrap's container **classes** were created specifically for this purpose.
+
+Bootstrap 5 includes three different container types:
+* Fluid (class `.container-fluid`)
+* Fixed (class `.container`)
+* Responsive (see [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/layout/containers/))
+
+#### Fluid Containers
+{:.no_toc}
+
+A fluid container spans the **full width of the viewport**. It will expand and contract fluidly as you _resize_ the browser. This is in contrast to the fixed width container which will appear to "jump" to the new size as you pass a given break point.
+
+```html
+<div class="container-fluid"></div>
+```
+
+#### Fixed Containers
+{:.no_toc}
+
+A fixed container is a (responsive) **fixed width** container. As you resize your browser, its width remains intact, until it passes a certain screen size _breakpoint_, at which time it will resize to the new width for that break point.
+
+```html
+<div class="container"></div>
+```
+
+### 🖼️ Responsive Images
+
+Bootstrap provides classes that can be used when working with the `<img>` element. Most of these are utility classes that can be applied to any element (not just images). However, there is a class specifically for responsive images.
+
+Bootstrap provides the `.img-fluid` class to make an image **scale** appropriately across devices. Behind the scenes, this class applies the `max-width: 100%` and `height: auto` **CSS properties** to the image. This ensures that the image scales to the parent element.
+
+To see an image scale, insert an image element of your choice into a container, then try resizing your browser window:
+```html
+<img src="" class="img-fluid">
+```
+
+#### Image Borders
+{:.no_toc}
+
+You can use Bootstrap to render images with rounded corners or as a circle. This is acheived with the `.rounded-*` utility classes.
+
+You can also use the `.img-thumbnail` class to give it a rounded 1 pixel border.
+
+```html
+<img src="" class="rounded">
+<img src="" class="rounded-circle">
+<img src="" class="rounded-pill">
+<img src="" class="img-thumbnail">
+```
+
+{:.highlight}
+The **border radius** utility classes like `.rounded` and `.rounded-circle` can be applied to _any element_ (not just images)!
+
+#### Centering Images
+{:.no_toc}
+
+If your `<img>` element is placed in a Bootstrap `container` or `container-fluid`, it will usually be **centered automatically**, especially if you include the class `.img-fluid`! 
+
+Whenever an image isn't centering as expected, here are two solutions: 
+
+1. You can include Bootstrap's `.text-center` class on the image's **parent** element to center an image.
+    ```html
+    <div class="text-center">
+        <img src="" class="">
+    </div>
+    ```
+2. Alternatively, you can force the image to "behave" like a block with Bootstrap's class `.d-block` class, which applies the CSS rule `display: block;`. Then, add Bootstrap's `.mx-auto` to center the block image, which sets `margin: auto;`.
+    ```html
+    <img src="" class="mx-auto d-block">
     ```
 
 ### 🔲 Grid System Layouts
