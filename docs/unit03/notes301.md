@@ -138,6 +138,38 @@ Styling with Bootstrap is as simple as specifying a `class` name attribute in an
 
 </div>
 
+
+#### Colors 
+
+Bootstrap offers a subset of **default colors**, designed to _convey meaning_ on a standard webpage:
+
+![image](bootstrap_colors.png)
+
+Check out some of Bootstrap's most useful **text color** and **background color** utility classes below. This list does not contain all the possiblities, so please refer to Bootstrap's official documentation on 
+[📖 Colors](https://getbootstrap.com/docs/5.3/utilities/colors/) and [📖 Background](https://getbootstrap.com/docs/5.3/utilities/background/) for more class names.
+
+* Colorize text with `color` utilities:
+    ```html
+    <p class="text-primary">Primary color text</p>
+    <p class="text-secondary">Secondary color text</p>
+    <p class="text-light">Light color text</p>
+    <p class="text-dark">Dark color text</p>
+    ```
+    > There are also **emphasized** versions of each Bootstrap color, just add `-emphasis` to the class name.
+* Similar to the contextual text color classes, set the `background-color` of an element to any contextual class:
+    ```html
+    <div class="bg-primary">Primary background</div>
+    <div class="bg-secondary text-white">Secondary background with white text</div>
+    <div class="bg-light text-dark">Light background with dark text</div>
+    <div class="bg-dark text-light">Dark background with light text</div>
+    ```
+    > There are also **subtle** versions of each Bootstrap color, just add `-subtle` to the class name.
+* By adding a `.bg-gradient` class, a **linear gradient** is added as background image to the backgrounds:
+    ```html
+    <div class="bg-secondary bg-gradient"></div>
+    ```
+    > This gradient starts with a semi-transparent white which fades out to the bottom.
+    
 #### Typography
 
 Bootstrap includes many classes that define how **text elements** appear. Automatically, Bootstrap sets some basic 🌎 **global settings** for `display`, typography, and link styles that make HTML pages appear more modern overall. 
@@ -178,37 +210,33 @@ Often, more control over specific styles is needed. Check out some of the most u
     <p class="fst-italic">Italic text.</p>
     ```
 
-#### Colors 
+### 📦 Containers
 
-Bootstrap offers a subset of **default colors**, designed to _convey meaning_ on a standard webpage:
+Containers are a fundamental building block of Bootstrap that **contain**, **pad**, and **align** your content within a given device or viewport. Bootstrap requires a *containing element* to wrap elements and contain its <a href='#grid'>Grid System</a> (more on this later on in the tutorial). Bootstrap's container **classes** were created specifically for this purpose.
 
-![image](bootstrap_colors.png)
+Bootstrap 5 includes three different container types:
+* Fluid (class `.container-fluid`)
+* Fixed (class `.container`)
+* Responsive (see [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/layout/containers/))
 
-Check out some of Bootstrap's most useful **text color** and **background color** utility classes below. This list does not contain all the possiblities, so please refer to Bootstrap's official documentation on 
-[📖 Colors](https://getbootstrap.com/docs/5.3/utilities/colors/) and [📖 Background](https://getbootstrap.com/docs/5.3/utilities/background/) for more class names.
+#### Fluid Containers
+{:.no_toc}
 
-* Colorize text with `color` utilities:
-    ```html
-    <p class="text-primary">Primary color text</p>
-    <p class="text-secondary">Secondary color text</p>
-    <p class="text-light">Light color text</p>
-    <p class="text-dark">Dark color text</p>
-    ```
-    > There are also **emphasized** versions of each Bootstrap color, just add `-emphasis` to the class name.
-* Similar to the contextual text color classes, set the `background-color` of an element to any contextual class:
-    ```html
-    <div class="bg-primary">Primary background</div>
-    <div class="bg-secondary text-white">Secondary background with white text</div>
-    <div class="bg-light text-dark">Light background with dark text</div>
-    <div class="bg-dark text-light">Dark background with light text</div>
-    ```
-    > There are also **subtle** versions of each Bootstrap color, just add `-subtle` to the class name.
-* By adding a `.bg-gradient` class, a **linear gradient** is added as background image to the backgrounds:
-    ```html
-    <div class="bg-secondary bg-gradient"></div>
-    ```
-    > This gradient starts with a semi-transparent white which fades out to the bottom.
-    
+A fluid container spans the **full width of the viewport**. It will expand and contract fluidly as you _resize_ the browser. This is in contrast to the fixed width container which will appear to "jump" to the new size as you pass a given break point.
+
+```html
+<div class="container-fluid"></div>
+```
+
+#### Fixed Containers
+{:.no_toc}
+
+A fixed container is a (responsive) **fixed width** container. As you resize your browser, its width remains intact, until it passes a certain screen size _breakpoint_, at which time it will resize to the new width for that break point.
+
+```html
+<div class="container"></div>
+```
+
 #### Borders
 
 Check out some of Bootstrap's most useful **border** and **shadow** utility classes below. This list does not contain all the possiblities, so please refer to Bootstrap's official documentation on 
@@ -237,33 +265,6 @@ Check out some of Bootstrap's most useful **border** and **shadow** utility clas
     <div class="shadow">Regular shadow</div>
     <div class="shadow-lg">Larger shadow</div>
     ```
-
-### 📦 Containers
-
-Containers are a fundamental building block of Bootstrap that **contain**, **pad**, and **align** your content within a given device or viewport. Bootstrap requires a *containing element* to wrap elements and contain its <a href='#grid'>Grid System</a> (more on this later on in the tutorial). Bootstrap's container **classes** were created specifically for this purpose.
-
-Bootstrap 5 includes three different container types:
-* Fluid (class `.container-fluid`)
-* Fixed (class `.container`)
-* Responsive (see [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/layout/containers/))
-
-#### Fluid Containers
-{:.no_toc}
-
-A fluid container spans the **full width of the viewport**. It will expand and contract fluidly as you _resize_ the browser. This is in contrast to the fixed width container which will appear to "jump" to the new size as you pass a given break point.
-
-```html
-<div class="container-fluid"></div>
-```
-
-#### Fixed Containers
-{:.no_toc}
-
-A fixed container is a (responsive) **fixed width** container. As you resize your browser, its width remains intact, until it passes a certain screen size _breakpoint_, at which time it will resize to the new width for that break point.
-
-```html
-<div class="container"></div>
-```
 
 ### 🖼️ Responsive Images
 
