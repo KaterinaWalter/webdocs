@@ -53,7 +53,7 @@ _There are multiple steps to saving in GitHub Codespaces:_
 
 ---
 
-## 🖼️ ACTIVITY #1: Art Gallery
+## 🖼️ ACTIVITY #1: Grid Gallery
 
 We will build a professional-looking webpage for a fictional **art gallery** using ONLY Bootstrap classes for all of the styling and layout. 
 
@@ -62,6 +62,7 @@ We will build a professional-looking webpage for a fictional **art gallery** usi
 <div class="task" markdown="block">
 
 1. Decide on a **theme**! Your gallery can be focused on an _art history period_ (Renaissance, impressionist, postmodern, etc.), an _artistic medium_ (photography, sculpture, etc.), or specific _subject_.  
+  > ⬇️ **Download** (& rename) at least **12 images** that go with your gallery's theme. You can find royalty-free artwork online (e.g., [Unsplash](https://unsplash.com), [Pexels](https://www.pexels.com), or [WikiArt](https://www.wikiart.org)). _We'll use these later!_
 
 1. In your HTML's `<body>` section, add two `<div>` elements with Bootstrap container classes. One should be a **fluid container**, the other a **fixed container**.
 
@@ -118,7 +119,18 @@ Time to bring your gallery to life by adding some artwork!
 
 <div class="task" markdown="block">
 
-1. Inside each column from Part C, add an `<img>` element to showcase a piece of art. You can find royalty-free artwork online (e.g., [Unsplash](https://unsplash.com), [Pexels](https://www.pexels.com), or [WikiArt](https://www.wikiart.org)).
+1. Inside each column from Part C, add an `<img>` element to showcase a piece of art.
+
+Insert `<img>` elements into the grid structure we started above. Remember that _CONTENT_ goes in _COLUMNS_:
+```html
+    <div class="container">
+      <div class="row">
+        <div class="col">
+            <img src="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+```
 
 2. Use the Bootstrap class `img-fluid` on your images so they scale correctly on all screen sizes.
 
