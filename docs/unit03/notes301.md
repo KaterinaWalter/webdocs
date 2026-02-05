@@ -351,24 +351,7 @@ For grids that are the same from the smallest of devices to the largest, use the
 You can further customize how columns scale for different viewport sizes at different **breakpoints**. This is a complex topic, so please refer to Bootstrap's official documentation on 
 [📖 Grid Options](https://getbootstrap.com/docs/5.3/layout/grid/#stacked-to-horizontal).
 
-<div class="task" markdown="block">
 
-We'll make a grid of images for our fictional **art galleries**. 
-
-1. Gather at least **12 images** that go with your gallery's theme.  
-
-1. Insert `<img>` elements into the grid structure we started above. Remember that _CONTENT_ goes in _COLUMNS_:
-    ```html
-    <div class="container">
-      <div class="row">
-        <div class="col">
-            <img src="" class="img-fluid">
-        </div>
-      </div>
-    </div>
-    ```
-    
-</div>
 
 ---
 
