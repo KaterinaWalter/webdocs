@@ -168,8 +168,25 @@ Check out some of Bootstrap's most useful **text color** and **background color*
     ```html
     <div class="bg-secondary bg-gradient"></div>
     ```
-    > This gradient starts with a semi-transparent white which fades out to the bottom.
-    
+    > This gradient adds a semi-transparent white which _fades out_ to the bottom.
+
+<div class="imp" markdown="block">
+
+🎨 Don't love the Bootstrap color scheme? Here's how to **OVERRIDE** the colors with your own, while keeping the _same class names_: 
+
+```css
+/* CSS VARIABLES let us OVERRIDE the Bootstrap color palette:
+ * primary, secondary, success, danger, warning, info, light, dark
+ * (need to specify our color's RGB value in both formats below)
+*/
+:root {
+  --bs-primary: rgb(255, 0, 195) !important;
+  --bs-primary-rgb: 255, 0, 195 !important;
+}
+```
+  
+</div>
+
 #### Typography
 
 Bootstrap includes many classes that define how **text elements** appear. Automatically, Bootstrap sets some basic 🌎 **global settings** for `display`, typography, and link styles that make HTML pages appear more modern overall. 
@@ -237,35 +254,6 @@ A fixed container is a (responsive) **fixed width** container. As you resize you
 <div class="container"></div>
 ```
 
-#### Borders
-
-Check out some of Bootstrap's most useful **border** and **shadow** utility classes below. This list does not contain all the possiblities, so please refer to Bootstrap's official documentation on 
-[📖 Borders](https://getbootstrap.com/docs/5.3/utilities/borders/) and [📖 Shadows](https://getbootstrap.com/docs/5.3/utilities/shadows/) for more class names.
-
-* Use **border** utilities to apply a simple `border` around an element:
-    ```html
-    <span class="border"></span>
-    ```
-    > Great for images, buttons, or any other element.
-* Adjust the `border-width` property with Bootstrap's `.border-*` classes, where `*` can be replaced with a number between `1` and `5`: 
-    ```html
-    <span class="border border-1"></span>
-    <span class="border border-5"></span>
-    ```
-    > Note that you still need to include the simple `.border` class too. 
-* Adjust the `border-color` to use any of Bootstrap's **built-in colors**: 
-    ```html
-    <span class="border border-primary"></span>
-    <span class="border border-secondary"></span>
-    ```
-    > There are also options for the `subtle` variation of each color, like `border-primary-subtle`.
-* You can also quickly add or remove a **shadow** on an element with `box-shadow` utility classes:
-    ```html
-    <div class="shadow-sm">Small shadow</div>
-    <div class="shadow">Regular shadow</div>
-    <div class="shadow-lg">Larger shadow</div>
-    ```
-
 ### 🖼️ Responsive Images
 
 Bootstrap provides classes that can be used when working with the `<img>` element. Most of these are utility classes that can be applied to any element (not just images). However, there is a class specifically for responsive images.
@@ -312,6 +300,37 @@ Whenever an image isn't centering as expected, here are two solutions:
     <img src="" class="mx-auto d-block">
     ```
 
+#### Borders
+
+Check out some of Bootstrap's most useful **border** and **shadow** utility classes below. This list does not contain all the possiblities, so please refer to Bootstrap's official documentation on 
+[📖 Borders](https://getbootstrap.com/docs/5.3/utilities/borders/) and [📖 Shadows](https://getbootstrap.com/docs/5.3/utilities/shadows/) for more class names.
+
+* Use **border** utilities to apply a simple `border` around an element:
+    ```html
+    <span class="border"></span>
+    ```
+    > Great for images, buttons, or any other element.
+* Adjust the `border-width` property with Bootstrap's `.border-*` classes, where `*` can be replaced with a number between `1` and `5`: 
+    ```html
+    <span class="border border-1"></span>
+    <span class="border border-5"></span>
+    ```
+    > Note that you still need to include the simple `.border` class too. 
+* Adjust the `border-color` to use any of Bootstrap's **built-in colors**: 
+    ```html
+    <span class="border border-primary"></span>
+    <span class="border border-secondary"></span>
+    ```
+    > There are also options for the `subtle` variation of each color, like `border-primary-subtle`.
+* You can also quickly add or remove a **shadow** on an element with `box-shadow` utility classes:
+    ```html
+    <div class="shadow-sm">Small shadow</div>
+    <div class="shadow">Regular shadow</div>
+    <div class="shadow-lg">Larger shadow</div>
+    ```
+
+---
+
 ### 🔲 Grid System Layouts
 <span id='grid'></span>
 
@@ -322,9 +341,9 @@ The Bootstrap grid system separates a page's `width` into up to **12 columns**, 
 ![image](bootstrap_grid.png)
 
 {:.highlight}
-For grids that are the same from the smallest of devices to the largest, use the `.col` and `.col-*` classes. Replace the `*` in the class name with a number between `1` and `12`. 
+For **grids** that are the same from the smallest of devices to the largest, use the `.col` class for _equal-width_ columns, or the `.col-*` classes (replace the `*` in the class name with a _number_ between `1` and `12`). 
 
-* Specify a numbered class when you need a **particularly-sized** column:
+* Specify a numbered class when you need a **specific-sized** column:
     ```html
     <div class="container">
       <div class="row">
@@ -351,6 +370,11 @@ For grids that are the same from the smallest of devices to the largest, use the
 You can further customize how columns scale for different viewport sizes at different **breakpoints**. This is a complex topic, so please refer to Bootstrap's official documentation on 
 [📖 Grid Options](https://getbootstrap.com/docs/5.3/layout/grid/#stacked-to-horizontal).
 
+<div class="task" markdown="block">
+
+To demonstrate Bootstrap's **grid structure** classes, go to the "Grid Gallery" activity on our course website: [🎯 Unit 3 Activities](https://coderina.dev/webdocs/docs/unit03/unit3activities.html)
+
+</div>
 
 
 ---
