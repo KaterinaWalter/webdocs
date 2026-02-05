@@ -115,13 +115,9 @@ Let’s create a layout for your artwork using Bootstrap’s **grid system**.
 
 ### PART D: Populate the Grid with Images
 
-Time to bring your gallery to life by adding some artwork!
+Time to bring your gallery to life by adding some artwork! Here, we will insert `<img>` elements into the grid structure we started above. 
 
-<div class="task" markdown="block">
-
-1. Inside each column from Part C, add an `<img>` element to showcase a piece of art.
-
-Insert `<img>` elements into the grid structure we started above. Remember that _CONTENT_ goes in _COLUMNS_:
+Remember that _CONTENT_ goes in _COLUMNS_:
 ```html
     <div class="container">
       <div class="row">
@@ -132,11 +128,14 @@ Insert `<img>` elements into the grid structure we started above. Remember that 
     </div>
 ```
 
-2. Use the Bootstrap class `img-fluid` on your images so they scale correctly on all screen sizes.
+<div class="task" markdown="block">
 
-3. Add a **caption** below each image using a `<p>` or `<small>` tag. Style these captions using `text-muted`, `fw-light`, or alignment classes (`text-center`, etc.).
+1. Inside each column from Part C, add an `<img>` element to showcase a piece of art.
+  > Use the Bootstrap class `img-fluid` on your images so they scale correctly on all screen sizes.
 
-4. Optional: Wrap each image and caption in a `<div class="card">` to give it a framed, elevated look. Try combining with `shadow`, `border`, or `rounded` classes for extra polish.
+2. Add a **caption** below each image using a `<p>` or `<small>` tag. Style these captions using `text-muted`, `fw-light`, or alignment classes (`text-center`, etc.).
+
+3. Optional: Wrap each image and caption in a `<div class="card">` to give it a framed, elevated look. Try combining with `shadow`, `border`, or `rounded` classes for extra polish.
 
 </div>
 
