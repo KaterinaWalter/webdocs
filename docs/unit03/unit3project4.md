@@ -84,15 +84,16 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 1. Use [Bootstrap Formatting Classes](https://coderina.dev/webdocs/docs/unit03/notes301.html) to quickly add style to your page with `class` names.
 2. Write your own styling rules in a `style.css` file to make your website unique, such as changing the `font-family`, colors/gradients or adding special effects/animations. Apply **custom styles** (using _your own_ `class` and `id` names to select elements in CSS).
   > Review CSS here: [📓 Unit 1 Notes](https://coderina.dev/webdocs/unit01) & [📓 Unit 2 Notes](https://coderina.dev/webdocs/unit02)
-3. 🎨 **_ADVANCED:_** You can _override_ parts of the Bootstrap color scheme using **CSS Variables**. 
+3. 🎨 **_ADVANCED:_** You can _override_ parts of the Bootstrap color scheme using **CSS Variables**, following the syntax pattern below.
   ```css
   /* CSS VARIABLES let us OVERRIDE the Bootstrap color palette:
    * primary, secondary, success, danger, warning, info, light, dark
-   * (need to specify our color's RGB value in both formats below)
   */
   :root {
     --bs-primary: rgb(255, 90, 233) !important;
     --bs-primary-rgb: 255, 90, 233 !important;
+    --bs-primary-bg: rgb(255, 90, 233) !important;
+    --bs-primary-bg-subtle: rgb(255, 188, 246) !important;
   }
   ```
   > This strategy will allow you to keep using the Bootstrap class names like `text-primary` and `bg-primary`, just with your own custom colors. 
