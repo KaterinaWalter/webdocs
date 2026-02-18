@@ -65,15 +65,15 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 #### Create Your Layout
 1. Start with an eye-catching **Hero Section**:
    - Create a `<div class="container-fluid"></div>` at the top of your page. 
-   - Use a Bootstrap background color, or a full-width background image or custom gradient.
-   - Add a large heading with your name and a short tagline centered in the section.
+   - Give it a Bootstrap background color (any of the `.bg-*` classes) to start (_customize later_).
+   - Add a large **heading** with your name and a short **paragraph** tagline centered in the section.
 1. Build out a variety of **Grid-Based Layouts**:
    - Organize _every section_ of content in at least one outer `<div>`, and decide whether you want it to be a fixed `.container` or full-width `.container-fluid`.  
    - Within some sections, use Bootstrap's [grid system](https://getbootstrap.com/docs/5.3/layout/grid/) to create interesting layouts for your content.
      - Remember that grids must follow the pattern: `.container` → `.row` → `.col` → CONTENT
      - Experiment with different column sizes for each section (e.g., `.col-6`, `.col-md-4`).
 1. Include professional-looking **UI Components**:
-   - Use [Bootstrap UI Components](https://coderina.dev/webdocs/docs/unit03/notes302.html) like cards, buttons, badges, or carousels to make your site visually appealing.
+   - Use [Bootstrap UI Components](https://coderina.dev/webdocs/docs/unit03/notes302.html) like *cards*, *buttons*, *badges*, or *carousels* to make your site visually appealing.
 
 #### Fill in Content & Images
 1. Write meaningful **text** content for each section.
@@ -81,10 +81,11 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 3. Add **decorations** like icons, emojis, or clipart (_transparent background pictures_).
 
 #### Style with Bootstrap Classes & Custom CSS
-1. Use [Bootstrap Formatting Classes](https://coderina.dev/webdocs/docs/unit03/notes301.html) to quickly add style to your page with `class` names.
-2. Write your own styling rules in a `style.css` file to make your website unique, such as changing the `font-family`, colors/gradients or adding special effects/animations. Apply **custom styles** (using _your own_ `class` and `id` names to select elements in CSS).
+1. Use [Bootstrap Formatting Classes](https://coderina.dev/webdocs/docs/unit03/notes301.html) to quickly add style to your page. Attach their `class` names to your HTML elements.
+2. Apply **custom styles** (using _your own_ `class` and `id` names to select elements in CSS). Write your own styling rules in a `style.css` file to make your website unique, like changing the `font-family`, using background images or gradients, or adding special effects & animations.
   > Review CSS here: [📓 Unit 1 Notes](https://coderina.dev/webdocs/unit01) & [📓 Unit 2 Notes](https://coderina.dev/webdocs/unit02)
-3. 🎨 **_ADVANCED:_** You can _override_ parts of the Bootstrap color scheme using **CSS Variables**, following the syntax pattern below.
+4. 🎨 **_ADVANCED:_** You can _override_ parts of the Bootstrap color scheme using **CSS Variables**, copying the syntax pattern below.
+  > This strategy will allow you to keep using Bootstrap's color utility **class names** like `text-primary` or `bg-primary` or `bg-primary-subtle`, just with your own custom color values. 
 
 ```css
 /* CSS VARIABLES let us OVERRIDE the Bootstrap color palette:
@@ -97,7 +98,6 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
   --bs-primary-bg-subtle: rgb(255, 188, 246) !important;
 }
 ```
-> This strategy will allow you to keep using Bootstrap's color utility **class names** like `text-primary` or `bg-primary` or `bg-primary-subtle`, just with your own custom color values. 
 
 {:.warning}
 Overriding Bootstrap's **pre-defined class names** does NOT ALWAYS WORK! If you want to customize more than just the `background` color and font `color` properties, you should add your own `id` or `class` attribute to the HTML element and select for it in CSS as usual (_see Step 2_). 
