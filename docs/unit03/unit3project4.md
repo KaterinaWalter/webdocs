@@ -72,29 +72,33 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
    - Within some sections, use Bootstrap's [grid system](https://getbootstrap.com/docs/5.3/layout/grid/) to create interesting layouts for your content.
      - Remember that grids must follow the pattern: `.container` → `.row` → `.col` → CONTENT
      - Experiment with different column sizes for each section (e.g., `.col-6`, `.col-md-4`).
-1. Include **UI Components**:
+1. Include professional-looking **UI Components**:
    - Use [Bootstrap UI Components](https://coderina.dev/webdocs/docs/unit03/notes302.html) like cards, buttons, badges, or carousels to make your site visually appealing.
 
 #### Fill in Content & Images
 1. Write meaningful **text** content for each section.
 2. Use **images** that reflect your personality, work, or interests.
-3. Add **decorations** like icons, emojis, or clipart (transparent background pictures).
+3. Add **decorations** like icons, emojis, or clipart (_transparent background pictures_).
 
 #### Style with Bootstrap Classes & Custom CSS
-1. Use [Bootstrap Formatting Classes](https://coderina.dev/webdocs/docs/unit03/notes301.html) to quickly add style to your page.
-2. Write your own styling rules in a `style.css` file to personalize your website. Apply **custom styles** (using _your own_ `class` and `id` names to select elements in CSS) to make the website uniquely yours, such as changing fonts/colors or adding special effects/animations.
+1. Use [Bootstrap Formatting Classes](https://coderina.dev/webdocs/docs/unit03/notes301.html) to quickly add style to your page with `class` names.
+2. Write your own styling rules in a `style.css` file to make your website unique, such as changing the `font-family`, colors/gradients or adding special effects/animations. Apply **custom styles** (using _your own_ `class` and `id` names to select elements in CSS).
+  > Review CSS here: [📓 Unit 1 Notes](https://coderina.dev/webdocs/unit01) & [📓 Unit 2 Notes](https://coderina.dev/webdocs/unit02)
 3. 🎨 **_ADVANCED:_** You can _override_ parts of the Bootstrap color scheme using **CSS Variables**. 
   ```css
-  /* CSS VARIABLES to override Bootstrap color scheme */
+  /* CSS VARIABLES let us OVERRIDE the Bootstrap color palette:
+   * primary, secondary, success, danger, warning, info, light, dark
+   * (need to specify our color's RGB value in both formats below)
+  */
   :root {
-    --bs-primary: #ff5733 !important;
+    --bs-primary: rgb(255, 90, 233) !important;
+    --bs-primary-rgb: 255, 90, 233 !important;
   }
   ```
-  > * This strategy will allow you to keep using the Bootstrap class names like `text-primary` and `bg-primary`, just with your own custom colors.
-  > * Only works for **background** color and font **color**! 
+  > This strategy will allow you to keep using the Bootstrap class names like `text-primary` and `bg-primary`, just with your own custom colors. 
 
 {:.warning}
-Overriding Bootstrap's pre-defined class names DOES NOT ALWAYS work! In this case, just add your own `id` or `class` attribute to the HTML element and select for it in CSS as usual. 
+Overriding Bootstrap's _pre-defined class names_ DOES NOT ALWAYS WORK! If you want to customize more than just the `background` color and font `color` properties, you should add your own `id` or `class` attribute to the HTML element and select for it in CSS as usual (see Step 2). 
 
 --- 
 
@@ -123,11 +127,11 @@ Before submitting, ensure your website includes the following:
 
 #### Bonus Challenges
 - Add a **carousel** to showcase images or testimonials.
-- Add a responsive **navigation bar** at the top of your website using Bootstrap's navbar component. Ensure links scroll to the corresponding sections of the page.
+- Add a responsive **navigation bar** at the top of your website using Bootstrap's `navbar` component. Ensure links scroll to the corresponding sections of the page.
 - Use Bootstrap's **scrollspy** to highlight the current section in the navbar as users scroll.
-- Experiment with more interactive Bootstrap components like modals or alerts.
+- Experiment with more interactive Bootstrap components like **modals** or **alerts**.
 
 
 {:.highlight}
-**RESOURCES:** While working on this project or attempting the bonus features, you are encouraged to look up any Bootstrap `classes` or starter code! Refer to the [📖 Bootstrap Documentation](https://www.w3schools.com/css/), review our [📓 Unit 3 Notes](https://coderina.dev/webdocs/unit03). 
+**RESOURCES:** While working on this project or attempting the bonus features, you are encouraged to look up any Bootstrap `classes` or starter code! Refer to the [📖 Bootstrap Documentation](https://getbootstrap.com), review our [📓 Unit 3 Notes](https://coderina.dev/webdocs/unit03). 
 
