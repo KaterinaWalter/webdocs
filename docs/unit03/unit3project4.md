@@ -40,20 +40,21 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 
 ### Instructions
 
-#### Plan Your Personal Website
+#### PART A: Plan Your Personal Website
 
 <div class="task" markdown="block">
   
 🧠 **BRAINSTORMING CONTENT:**
 - **Hero Section**: A welcoming section with your name, a title, and a short tagline.
-  - Think about how you want to introduce yourself. Consider a tagline or quote that represents your values or aspirations.
+  > Think about how you want to introduce yourself. Consider a tagline or quote that represents your values or aspirations.
 - **About Me**: A section describing who you are, your interests, or your goals.
-  - What makes you unique? Share your hobbies, favorite activities, or personal story. Include a profile picture or avatar.
+  > What makes you unique? Share your hobbies, favorite activities, or personal story. Include a profile picture or avatar.
 - **Portfolio/Showcase**: If you have completed projects, hobbies, achievements, or any creative work, showcase them here. If not, create placeholders for future content.
 - _Other ideas for sections:_
   - **Skills**: Highlight your technical or personal skills. 
   - **Testimonials**: Add quotes from your peers, or feedback from others.
-  - **Photo Gallery**: Display your favorite photos in a grid layout. 
+  - **Photo Gallery**: Display images in a grid layout.
+  - **Favorites**: Rank your favorites of something (games, books, etc.)
 
 💡 **DESIGN INSPIRATION:** 
 - [Developer Portfolio Websites](https://github.com/emmabostian/developer-portfolios)
@@ -62,7 +63,7 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 
 </div>
 
-#### Create Your Layout
+#### PART B: Build your Layout
 1. Start with an eye-catching **Hero Section**:
    - Create a `<div class="container-fluid"></div>` at the top of your page. 
    - Give it a Bootstrap background color (any of the `.bg-*` classes) to start (_customize later_).
@@ -75,12 +76,12 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 1. Include professional-looking **UI Components**:
    - Use [Bootstrap UI Components](https://coderina.dev/webdocs/docs/unit03/notes302.html) like *cards*, *buttons*, *badges*, or *carousels* to make your site visually appealing.
 
-#### Fill in Content & Images
+#### PART C: Fill in Content & Images
 1. Write meaningful **text** content for each section.
 2. Use **images** that reflect your personality, work, or interests.
 3. Add **decorations** like icons, emojis, or clipart (_transparent background pictures_).
 
-#### Style with Bootstrap Classes & Custom CSS
+#### PART D: Style with Bootstrap Classes & Custom CSS
 1. Use [Bootstrap Formatting Classes](https://coderina.dev/webdocs/docs/unit03/notes301.html) to quickly add style to your page. Attach their `class` names to your HTML elements.
   > 📚 **RESOURCES:** While working on this project you are encouraged to look up any Bootstrap `class` names or starter code snippets! Refer to the [📖 Bootstrap Documentation](https://getbootstrap.com) website, review our [📓 Unit 3 Notes](https://coderina.dev/webdocs/unit03), and use your **Github demo programs** & my **CodeCollab examples**. 
 
