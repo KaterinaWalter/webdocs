@@ -85,21 +85,22 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 2. Write your own styling rules in a `style.css` file to make your website unique, such as changing the `font-family`, colors/gradients or adding special effects/animations. Apply **custom styles** (using _your own_ `class` and `id` names to select elements in CSS).
   > Review CSS here: [📓 Unit 1 Notes](https://coderina.dev/webdocs/unit01) & [📓 Unit 2 Notes](https://coderina.dev/webdocs/unit02)
 3. 🎨 **_ADVANCED:_** You can _override_ parts of the Bootstrap color scheme using **CSS Variables**, following the syntax pattern below.
-  ```css
-  /* CSS VARIABLES let us OVERRIDE the Bootstrap color palette:
-   * primary, secondary, success, danger, warning, info, light, dark
-  */
-  :root {
-    --bs-primary: rgb(255, 90, 233) !important;
-    --bs-primary-rgb: 255, 90, 233 !important;
-    --bs-primary-bg: rgb(255, 90, 233) !important;
-    --bs-primary-bg-subtle: rgb(255, 188, 246) !important;
-  }
-  ```
-  > This strategy will allow you to keep using the Bootstrap class names like `text-primary` and `bg-primary`, just with your own custom colors. 
+
+```css
+/* CSS VARIABLES let us OVERRIDE the Bootstrap color palette:
+* primary, secondary, success, danger, warning, info, light, dark
+*/
+:root {
+  --bs-primary: rgb(255, 90, 233) !important;
+  --bs-primary-rgb: 255, 90, 233 !important;
+  --bs-primary-bg: rgb(255, 90, 233) !important;
+  --bs-primary-bg-subtle: rgb(255, 188, 246) !important;
+}
+```
+> This strategy will allow you to keep using Bootstrap's color utility **class names** like `text-primary` or `bg-primary` or `bg-primary-subtle`, just with your own custom color values. 
 
 {:.warning}
-Overriding Bootstrap's _pre-defined class names_ DOES NOT ALWAYS WORK! If you want to customize more than just the `background` color and font `color` properties, you should add your own `id` or `class` attribute to the HTML element and select for it in CSS as usual (see Step 2). 
+Overriding Bootstrap's **pre-defined class names** does NOT ALWAYS WORK! If you want to customize more than just the `background` color and font `color` properties, you should add your own `id` or `class` attribute to the HTML element and select for it in CSS as usual (_see Step 2_). 
 
 --- 
 
