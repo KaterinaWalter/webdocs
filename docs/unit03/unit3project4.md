@@ -64,6 +64,9 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 </div>
 
 #### PART B: Build your Layout
+
+<div class="task" markdown="block">
+  
 1. Start with an eye-catching **Hero Section**:
    - Create a `<div class="container-fluid"></div>` at the top of your page. 
    - Give it a Bootstrap background color (any of the `.bg-*` classes) to start (_customize later_).
@@ -76,12 +79,22 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 1. Include professional-looking **UI Components**:
    - Use [Bootstrap UI Components](https://coderina.dev/webdocs/docs/unit03/notes302.html) like *cards*, *buttons*, *badges*, or *carousels* to make your site visually appealing.
 
+</div>
+
 #### PART C: Fill in Content & Images
+
+<div class="task" markdown="block">
+  
 1. Write meaningful **text** content for each section.
 2. Use **images** that reflect your personality, work, or interests.
 3. Add **decorations** like icons, emojis, or clipart (_transparent background pictures_).
 
+</div>
+
 #### PART D: Style with Bootstrap Classes & Custom CSS
+
+<div class="task" markdown="block">
+  
 1. Use [Bootstrap Formatting Classes](https://coderina.dev/webdocs/docs/unit03/notes301.html) to quickly add style to your page. Attach their `class` names to your HTML elements.
   > 📚 **RESOURCES:** While working on this project you are encouraged to look up any Bootstrap `class` names or starter code snippets! Refer to the [📖 Bootstrap Documentation](https://getbootstrap.com) website, review our [📓 Unit 3 Notes](https://coderina.dev/webdocs/unit03), and use your **Github demo programs** & my **CodeCollab examples**. 
 
@@ -90,6 +103,8 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 
 3. 🎨 **ADVANCED:** You can _override_ parts of the Bootstrap color scheme using **CSS Variables**, copying the syntax pattern below.
   > This strategy will allow you to keep using Bootstrap's color utility **class names** like `text-primary` or `bg-primary` or `bg-primary-subtle`, just with your own custom color values. 
+
+</div>
 
 ```css
 /* CSS VARIABLES let us OVERRIDE the Bootstrap color palette:
