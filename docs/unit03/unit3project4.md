@@ -14,18 +14,27 @@ In this project, you will create a **responsive personal website** that demonstr
 #### Project Goal
 Design and develop a **one-page personal website** using Bootstrap classes and UI components. Your website should reflect your _personality_, _interests_, or _goals_ and include well-organized sections with responsive layouts.
 
+
 <html>
 <details>
 <summary>📥 <strong class="text-green-200">PROJECT SETUP & SUBMISSION INSTRUCTIONS</strong></summary>
   
 <div class="setup" markdown="block">
 
-
+1. Go to the public template **repository** for our class: [BWL-CS HTML/CSS/JS Template](https://github.com/BWL-CS/html-css-js-template)
+2. Click the <button type="button" name="button" class="btn btn-green">Use this template</button> button above the list of files then select `Create a new repository`
+3. ⭐️ Specify the **repository name**: `YourUsername.github.io` 
+4. Click <button type="button" name="button" class="btn btn-green">Create repository</button>
+    > Now you have **your own personal copy** of this starter code that you can always access under the `Your repositories` section of GitHub! 
+5. Now on your repository, click <button type="button" name="button" class="btn btn-green"> < > Code </button> and select the `Codespaces` tab
+6. Click `Create Codespace on main` and wait for the environment to load, _then you're ready to code_!
+7. 📝 Write code in this Codespace during class.
 
 </div>
 
 </details>
 </html>
+
 
 --- 
 
@@ -73,14 +82,16 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 
 #### Style with Bootstrap Classes & Custom CSS
 1. Use [Bootstrap Formatting Classes](https://coderina.dev/webdocs/docs/unit03/notes301.html) to quickly add style to your page.
-2. Write your own styling rules in a `style.css` file to personalize your website. Apply custom styles to make the website uniquely yours, such as changing fonts/colors or adding special CSS effects/animations. 
-  > _Example:_
+2. Write your own styling rules in a `style.css` file to personalize your website. Apply **custom styles** (using _your own_ `class` and `id` names to select elements in CSS) to make the website uniquely yours, such as changing fonts/colors or adding special effects/animations.
+3. 🎨 **_ADVANCED:_** You can _override_ parts of the Bootstrap color scheme using **CSS Variables**. 
   ```css
-  /* Override a Bootstrap class */
-  .bg-primary {
-    background-color: #ff5733 !important;
+  /* CSS VARIABLES to override Bootstrap color scheme */
+  :root {
+    --bs-primary: #ff5733 !important;
   }
   ```
+  > * This strategy will allow you to keep using the Bootstrap class names like `text-primary` and `bg-primary`, just with your own custom colors.
+  > * Only works for **background** color and font **color**! 
 
 {:.warning}
 Overriding Bootstrap's pre-defined class names DOES NOT ALWAYS work! In this case, just add your own `id` or `class` attribute to the HTML element and select for it in CSS as usual. 
