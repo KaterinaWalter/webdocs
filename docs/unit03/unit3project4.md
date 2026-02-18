@@ -82,9 +82,7 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 
 #### Style with Bootstrap Classes & Custom CSS
 1. Use [Bootstrap Formatting Classes](https://coderina.dev/webdocs/docs/unit03/notes301.html) to quickly add style to your page. Attach their `class` names to your HTML elements.
-
-{:.highlight}
-📚 **RESOURCES:** While working on this project you are encouraged to look up any Bootstrap `class` names or starter code snippets! Refer to the [📖 Bootstrap Documentation](https://getbootstrap.com) website, review our [📓 Unit 3 Notes](https://coderina.dev/webdocs/unit03), and use your **Github demo programs** & my **CodeCollab examples**. 
+  > {:.highlight} 📚 **RESOURCES:** While working on this project you are encouraged to look up any Bootstrap `class` names or starter code snippets! Refer to the [📖 Bootstrap Documentation](https://getbootstrap.com) website, review our [📓 Unit 3 Notes](https://coderina.dev/webdocs/unit03), and use your **Github demo programs** & my **CodeCollab examples**. 
 
 2. Apply **custom styles** (using _your own_ `class` and `id` names to select elements in CSS). Write your own styling rules in a `style.css` file to make your website unique, like changing the `font-family`, using background images or gradients, or adding special effects & animations.
   > Review CSS here: [📓 Unit 1 Notes](https://coderina.dev/webdocs/unit01) & [📓 Unit 2 Notes](https://coderina.dev/webdocs/unit02)
