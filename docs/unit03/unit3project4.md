@@ -70,7 +70,7 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 1. Build out a variety of **Grid-Based Layouts**:
    - Organize _every section_ of content in at least one outer `<div>`, and decide whether you want it to be a fixed `.container` or full-width `.container-fluid`.  
    - Within some sections, use Bootstrap's [grid system](https://getbootstrap.com/docs/5.3/layout/grid/) to create interesting layouts for your content.
-     - Remember that grids must follow the pattern: `.container` → `.row` → `.col` → CONTENT
+     - Remember grids follow the pattern: `.container` → `.row` → `.col` → **CONTENT**
      - Experiment with different column sizes for each section (e.g., `.col-6`, `.col-md-4`).
 1. Include professional-looking **UI Components**:
    - Use [Bootstrap UI Components](https://coderina.dev/webdocs/docs/unit03/notes302.html) like *cards*, *buttons*, *badges*, or *carousels* to make your site visually appealing.
@@ -82,9 +82,14 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 
 #### Style with Bootstrap Classes & Custom CSS
 1. Use [Bootstrap Formatting Classes](https://coderina.dev/webdocs/docs/unit03/notes301.html) to quickly add style to your page. Attach their `class` names to your HTML elements.
+
+{:.highlight}
+📚 **RESOURCES:** While working on this project you are encouraged to look up any Bootstrap `class` names or starter code snippets! Refer to the [📖 Bootstrap Documentation](https://getbootstrap.com) website, review our [📓 Unit 3 Notes](https://coderina.dev/webdocs/unit03), and use your **Github demo programs** & my **CodeCollab examples**. 
+
 2. Apply **custom styles** (using _your own_ `class` and `id` names to select elements in CSS). Write your own styling rules in a `style.css` file to make your website unique, like changing the `font-family`, using background images or gradients, or adding special effects & animations.
   > Review CSS here: [📓 Unit 1 Notes](https://coderina.dev/webdocs/unit01) & [📓 Unit 2 Notes](https://coderina.dev/webdocs/unit02)
-4. 🎨 **_ADVANCED:_** You can _override_ parts of the Bootstrap color scheme using **CSS Variables**, copying the syntax pattern below.
+
+3. 🎨 **ADVANCED:** You can _override_ parts of the Bootstrap color scheme using **CSS Variables**, copying the syntax pattern below.
   > This strategy will allow you to keep using Bootstrap's color utility **class names** like `text-primary` or `bg-primary` or `bg-primary-subtle`, just with your own custom color values. 
 
 ```css
@@ -100,7 +105,7 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 ```
 
 {:.warning}
-Overriding Bootstrap's **pre-defined class names** does NOT ALWAYS WORK! If you want to customize more than just the `background` color and font `color` properties, you should add your own `id` or `class` attribute to the HTML element and select for it in CSS as usual (_see Step 2_). 
+⚠️ Overriding Bootstrap's **pre-defined class names** does NOT ALWAYS WORK! If you want to customize more than just the `background` color and font `color` properties, you should add your own `id` or `class` attribute to the HTML element and select for it in CSS as usual (_see Step 2_). 
 
 --- 
 
@@ -133,7 +138,4 @@ Before submitting, ensure your website includes the following:
 - Use Bootstrap's **scrollspy** to highlight the current section in the navbar as users scroll.
 - Experiment with more interactive Bootstrap components like **modals** or **alerts**.
 
-
-{:.highlight}
-**RESOURCES:** While working on this project or attempting the bonus features, you are encouraged to look up any Bootstrap `classes` or starter code! Refer to the [📖 Bootstrap Documentation](https://getbootstrap.com), review our [📓 Unit 3 Notes](https://coderina.dev/webdocs/unit03). 
 
