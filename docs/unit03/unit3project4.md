@@ -58,7 +58,7 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
 
 💡 **DESIGN INSPIRATION:** 
 - [Developer Portfolio Websites](https://github.com/emmabostian/developer-portfolios)
-  - Scroll down to the list of links, open random pages, and make notes of _design choices_ that resonate with you, such as interesting layouts or font styles
+  > Scroll down to the list of links, open random pages, and make notes of specific _design choices_ that resonate with you, such as interesting layouts or font styles.
 - Explore [Coolors - Trending Color Palettes](https://coolors.co/palettes/trending) and [SheCodes - Color Palette Ideas](https://www.shecodes.io/palettes)
 
 </div>
@@ -78,7 +78,8 @@ Design and develop a **one-page personal website** using Bootstrap classes and U
      - Experiment with different column sizes for each section (e.g., `.col-6`, `.col-md-4`).
 1. Include professional-looking **UI Components**:
    - Use [Bootstrap UI Components](https://coderina.dev/webdocs/docs/unit03/notes302.html) like *cards*, *buttons*, *badges*, or *carousels* to make your site visually appealing.
-
+   - Remember you can **copy & paste** code snippets directly from the Bootstrap [documentation website](https://getbootstrap.com/docs/5.3/components), then edit the **plain text** and/or **image sources**.
+ 
 </div>
 
 #### PART C: Fill in Content & Images
